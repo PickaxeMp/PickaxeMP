@@ -1,0 +1,8 @@
+# PickaxeMP varsayılan ayarları
+server-name: "PickaxeMP Server"
+motd: "PickaxeMP - Bedrock Server"
+port: 19132
+max-players: 20
+gamemode: survival
+difficulty: normal
+online-mode: false

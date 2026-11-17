@@ -1,0 +1,9 @@
+/vendor/
+/worlds/
+/players/
+/logs/
+/config.yml
+*.log
+.idea/
+.vscode/
+.DS_Store

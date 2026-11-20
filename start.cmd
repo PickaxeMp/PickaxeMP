@@ -41,6 +41,17 @@ if not exist "%VENDOR_AUTOLOAD%" (
 
 rem 3. Sunucu baslat
 echo [PickaxeMP] PHP calistiriliyor (php.ini: root, openssl.cnf: root)...
-php -c "%~dp0php.ini" "%START_PHP%" %*
+
+rem extension_dir'i mutlak yap (PHP'nin kurulu ext klasoru)
+set "PHP_EXT="
+for /f "usebackq tokens=*" %%i in (`powershell -Command "(Get-Command php).Source" 2^>nul`) do set "PHP_EXE=%%i"
+if "%PHP_EXE%"=="" (
+    echo [HATA] php.exe bulunamadi.
+    exit /b 1
+)
+set "PHP_DIR=%PHP_EXE:php.exe=%"
+set "PHP_EXT=%PHP_DIR%ext"
+
+php -c "%~dp0php.ini" -d extension_dir="%PHP_EXT%" "%START_PHP%" %*
 
 endlocal

@@ -1,0 +1,28 @@
+# PickaxeMP — minimal OpenSSL yapılandırması (proje düzeyi)
+#
+# NEDEN GEREKLİ:
+# Windows'taki bu PHP derlemesinde OpenSSL 3.x, `openssl.cnf` bulamadığı için
+# `openssl_pkey_new()` çağrıları şu hatayla başarısız oluyor:
+#   error:07000072:configuration file routines::no such file
+#
+# OpenSSL 3.x'te provider'lar bir config dosyasından etkinleştirilir. Bu dosya
+# yalnızca `default` ve `base` provider'larını etkinleştirir; başka bir şey
+# değiştirmez.
+#
+# Sistem geneline hiçbir şey kurulmaz; `tools/php.cmd` bu dosyayı
+# `OPENSSL_CONF` ortam değişkeniyle geçirir.
+
+openssl_conf = openssl_init
+
+[openssl_init]
+providers = provider_sect
+
+[provider_sect]
+default = default_sect
+base = base_sect
+
+[default_sect]
+activate = 1
+
+[base_sect]
+activate = 1

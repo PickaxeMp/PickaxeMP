@@ -151,8 +151,8 @@ Windows üzerinde hiçbir PHP testini veya sunucu başlatma işlemini doğrudan
 
 | İşlem | Yanlış | Doğru |
 |---|---|---|
-| Sunucu kontrolü | `php start.php --check` | `.\tools\php.cmd start.php --check` |
-| Sunucu başlatma | `php start.php` | `.\tools\php.cmd start.php` |
+| Sunucu kontrolü | `php start.php --check` | `.\tools\php.cmd start.php --check`  veya  `.\start.cmd --check` |
+| Sunucu başlatma | `php start.php` | `.\tools\php.cmd start.php`  veya  `.\start.cmd` |
 | PHPUnit | `php vendor\bin\phpunit` | `.\tools\php.cmd vendor\bin\phpunit` |
 | Composer lint | `composer lint` | `.\tools\composer.cmd lint` |
 | Composer test | `composer test` | `.\tools\composer.cmd test` |

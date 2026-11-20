@@ -3,7 +3,6 @@
 /players/
 /logs/
 /run/
-/config.yml
 *.log
 
 # Rust
@@ -16,15 +15,15 @@ identity.pem
 *.pem
 !docs/**/*.example.pem
 
-# Proje içi araçlar (sistem geneline kurulum yok)
-/tools/composer.phar
+# Proje içi araçlar (tüm islem root'tan start.cmd ile)
+/tools/
 
 # Test ve analiz çıktıları
 /.phpunit.cache/
 /.phpunit.result.cache
 /.phpstan.cache/
 
-# Graphify yerel önbelleği ve geçici yan dosyalar
+# Graphify yerel önbelleği ve geçici yan dosyaları
 /graphify-out/cache/
 /graphify-out/.graphify_*
 

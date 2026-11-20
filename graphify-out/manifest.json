@@ -18,11 +18,10 @@
     "semantic_hash": "98d2e03773b221a1d16db3fd0f2dc4f9"
   },
   "resources/config.yml": {
-    "mtime": 1794910354.0,
-    "seen": 1794962331.3553295,
-    "ast_hash": "64eb967c20eecc0d3b557dd928125c87",
-    "semantic_hash": "64eb967c20eecc0d3b557dd928125c87",
-    "ast_empty": true
+    "mtime": 1795181014.5393271,
+    "seen": 1795181152.586767,
+    "ast_hash": "98a3bc270c505b9960fb933b1acf9790",
+    "semantic_hash": ""
   },
   "src/PickaxeMP/Server.php": {
     "mtime": 1794932774.9452639,
@@ -2233,9 +2232,9 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1795180340.0460277,
-    "seen": 1795180432.9432478,
-    "ast_hash": "e52ca57d5eac7ebbd968222b12c9a9ac",
+    "mtime": 1795181047.990462,
+    "seen": 1795181152.5875146,
+    "ast_hash": "ae831e51d053764cc392469565e94140",
     "semantic_hash": ""
   },
   "CONTRIBUTING.md": {
@@ -2251,9 +2250,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795169013.7222679,
-    "seen": 1795179581.97458,
-    "ast_hash": "99ba40cfde357217a7095b15ac00d0f9",
+    "mtime": 1795181134.7091947,
+    "seen": 1795181152.58752,
+    "ast_hash": "b07f9dc7f58f70bd6bf10e04e01f9778",
     "semantic_hash": ""
   },
   "docs/DEVELOPMENT_STATE.md": {

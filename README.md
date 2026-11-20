@@ -60,38 +60,59 @@ test düzeyinde çalışıyor. Gerçek istemci kabulü **henüz sınanmadı**;
 - **PHP 8.2+** (`openssl`, `mbstring`, `fileinfo`, `curl`, `zip`, `zlib`)
 - Linux veya Windows
 
-## Kurulum
+## Kurulum (tek komut)
 
-Sistem geneli `php.ini` değiştirilmez; proje kendi araç zincirini kullanır.
-
-```powershell
-# Bağımlılıkları kur (yalnızca bir kez)
-.\tools\composer.cmd install     # Windows
-.\tools\composer.sh install      # Linux/macOS
-```
-
-> `vendor/autoload.php` yoksa sunucu başlayamaz.
-
-## Çalıştırma
+Sistem geneli `php.ini` **değiştirilmez**. Proje root'undaki `php.ini` ve
+`openssl.cnf` kullanılır.
 
 ```powershell
-# Sunucu bootunu doğrula (önce çalıştır, çıkış kodu 0)
-.\start.cmd --check
-
-# Sunucuyu sürekli çalıştır (CTRL+C ile durdur)
+# Tudo tek komutta: bagimliliklari kurar, config.yml olusturur, sunucuyu baslatir
 .\start.cmd
 ```
 
-> `start.cmd` proje içindeki `tools/php.ini` ve `tools/openssl.cnf`'yi kullanır.
-> Sistem `php.ini` değiştirilmez. Doğrudan `php start.php` çalıştırılmamalıdır
-> (`mbstring`, `openssl` eklentileri sistem `php.ini`'nde yoktur).
+İlk çalıştırmada `start.cmd` şunları otomatik yapar:
+- `vendor/` yoksa `composer install` çalıştırır
+- `config.yml` yoksa `resources/config.yml`'den kopyalar (root'ta düzenleyebilirsiniz)
+- Root `php.ini` + `openssl.cnf` ile PHP'yi başlatır
 
-PHPUnit ve lint için hala `tools/php.cmd` kullanılır:
+## Sunucu kontrolü
 
 ```powershell
-.\tools\php.cmd vendor\bin\phpunit
-.\tools\composer.cmd lint
+# Sunucu basilir mi denetle (cikar ve cikis kodu 0 dondurur)
+.\start.cmd --check
 ```
+
+## Sunucuyu calistir
+
+```powershell
+# 19132 portunda calistir (CTRL+C ile durdur)
+.\start.cmd
+```
+
+> Doğrudan `php start.php` çalıştırılmamalıdır — sistem `php.ini`'nde
+> `mbstring`, `openssl` yok ve sunucu çöker. Her zaman `.\start.cmd` kullanın.
+
+## Geliştirici araçları (isteğe bağlı)
+
+PHPUnit ve lint için root'taki `php.exe` ile root `php.ini` kullanın:
+
+```powershell
+php -c php.ini vendor\bin\phpunit
+php -c php.ini tools\lint.php
+```
+
+## Kök dizin dosyaları
+
+| Dosya | Amaç |
+|-------|------|
+| `start.cmd` | Tek giriş noktası (kurulum + başlatma) |
+| `config.yml` | Sunucu ayarları (root'ta, düzenlenebilir) |
+| `php.ini` | PHP yapılandırması (root'ta, sistem php.ini degistirmez) |
+| `openssl.cnf` | OpenSSL yapılandırması (root'ta) |
+| `composer.phar` | Composer (root'ta) |
+| `resources/config.yml` | Dağıtılan varsayılan config |
+| `vendor/` | Composer bağımlılıkları (otomatik kurulur) |
+
 
 ## Test
 

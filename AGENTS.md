@@ -151,14 +151,14 @@ Windows üzerinde hiçbir PHP testini veya sunucu başlatma işlemini doğrudan
 
 | İşlem | Yanlış | Doğru |
 |---|---|---|
-| Sunucu kontrolü | `php start.php --check` | `.\tools\php.cmd start.php --check`  veya  `.\start.cmd --check` |
-| Sunucu başlatma | `php start.php` | `.\tools\php.cmd start.php`  veya  `.\start.cmd` |
-| PHPUnit | `php vendor\bin\phpunit` | `.\tools\php.cmd vendor\bin\phpunit` |
-| Composer lint | `composer lint` | `.\tools\composer.cmd lint` |
-| Composer test | `composer test` | `.\tools\composer.cmd test` |
+| Sunucu kontrolü | `php start.php --check` | `.\start.cmd --check` |
+| Sunucu başlatma | `php start.php` | `.\start.cmd` |
+| PHPUnit | `php vendor\bin\phpunit` | `php -c php.ini vendor\bin\phpunit` |
+| Composer lint | `composer lint` | `php -c php.ini tools\lint.php` |
+| Composer test | `composer test` | `php -c php.ini vendor\bin\phpunit` |
 
 PHP eklentileri (`mbstring`, `openssl` vb.) ve OpenSSL yapılandırması
-proje içindeki `tools/php.ini` ve `tools/openssl.cnf` üzerinden yüklenir.
+proje kökündeki `php.ini` ve `openssl.cnf` üzerinden yüklenir.
 Sistem genelindeki `php.ini` **değiştirilmez**.
 
 ## 4. Temel Kurallar

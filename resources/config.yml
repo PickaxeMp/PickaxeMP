@@ -5,4 +5,4 @@ port: 19132
 max-players: 20
 gamemode: survival
 difficulty: normal
-online-mode: false
+online-mode: true

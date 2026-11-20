@@ -64,27 +64,34 @@ test düzeyinde çalışıyor. Gerçek istemci kabulü **henüz sınanmadı**;
 
 Sistem geneli `php.ini` değiştirilmez; proje kendi araç zincirini kullanır.
 
-```bash
-# Composer'ı proje içine kur (yalnızca bir kez)
-php -r "copy('https://getcomposer.org/installer','tools/composer-setup.php');"
-php tools/composer-setup.php --install-dir=tools --filename=composer.phar
-rm tools/composer-setup.php
-
-# Bağımlılıkları kur
-tools/composer.cmd install     # Windows
-tools/composer.sh install      # Linux/macOS
+```powershell
+# Bağımlılıkları kur (yalnızca bir kez)
+.\tools\composer.cmd install     # Windows
+.\tools\composer.sh install      # Linux/macOS
 ```
+
+> `vendor/autoload.php` yoksa sunucu başlayamaz.
 
 ## Çalıştırma
 
-```bash
-tools/php.cmd start.php --check    # başlat + hemen kapat (doğrulama)
-tools/php.cmd start.php --ticks=20 # 20 tick çalıştır ve dur
-tools/php.cmd start.php            # sürekli çalış (CTRL+C ile durur)
+```powershell
+# Sunucu bootunu doğrula (önce çalıştır, çıkış kodu 0)
+.\start.cmd --check
+
+# Sunucuyu sürekli çalıştır (CTRL+C ile durdur)
+.\start.cmd
 ```
 
-> `php start.php` yerine `tools/php.cmd` kullanın; aksi halde `openssl` gibi
-> eklentiler yüklenmez. Ayrıntı: [docs/adr/0002-php-version.md](docs/adr/0002-php-version.md)
+> `start.cmd` proje içindeki `tools/php.ini` ve `tools/openssl.cnf`'yi kullanır.
+> Sistem `php.ini` değiştirilmez. Doğrudan `php start.php` çalıştırılmamalıdır
+> (`mbstring`, `openssl` eklentileri sistem `php.ini`'nde yoktur).
+
+PHPUnit ve lint için hala `tools/php.cmd` kullanılır:
+
+```powershell
+.\tools\php.cmd vendor\bin\phpunit
+.\tools\composer.cmd lint
+```
 
 ## Test
 

@@ -1,0 +1,20 @@
+{
+  "model": "nvidia/meta/muse-glimmer-30b",
+  "ok": true,
+  "id": "8179fe69dff24658",
+  "created": 1795097766,
+  "usage": {
+    "prompt_tokens": 1644,
+    "completion_tokens": 2023,
+    "total_tokens": 3667,
+    "prompt_tokens_details": {
+      "cached_tokens": 48
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "finish": "stop",
+  "durationSec": 288.3,
+  "content": "**1. PlayerSurvival.php ::tick() – starvation/regen sayaçlarının durum değişiminde korunması**\nRisk: Oyuncu `Spawned` → `Dead` / `Joining` geçişinde `regenTicks`/`starvationTicks` sıfırlanıyor, ancak aynı `PlayerSurvival` örneği aynı `sessionId` ile yeniden `Spawned` olduğunda sayaçlar 0’dan başlıyor. Bu, ölüm/yeniden doğuş arasında sayaç devamlılığı bekleniyorsa tutarsızlık yaratır. Mevcut sözleşme “ölü oyuncu işlenmez” diyor, devamlılık doğrulanamadı.\nEn küçük düzeltme: Örnek yaşam döngüsünü `sessionId` yerine oyuncu yaşam döngüsüne bağla; `isDead()` veya `state() !== Spawned` durumunda örneği `$this->survival[$sessionId]`’den kaldır.\n\n**2. GameplayTicker.php – sağlık güncellemesi gönderimi ölü/uyumsuz durumda**\nRisk: `healthUpdates[$sessionId] = $player->health();` koşulsuz dolduruluyor. `PlayerSurvival::tick` içinde `isDead()` kontrolü var, fakat `damage()`/`heal()`’in ölü/etkileşimsiz oyuncuda 0 döndürdüğü varsayımına dayanıyor. `SetHealthPacket` yine de ölü bir oyuncuya gönderilebilir; istemci tarafı beklentisi doğrulanamadı.\nEn küçük düzeltme: `if ($healthDelta !== 0 && $player->state() === PlayerState::Spawned && !$player->isDead())` ile sağlık güncellemesini filtrele.\n\n**3. GameplayTicker.php – `canInteract()` ile `PlayerSurvival` durum kontrolü çakışması**\nRisk: `tickAttributes` sadece `canInteract()` true ise çalışıyor, `PlayerSurvival::tick` ise kendi içinde `state() !== Spawned || isDead()` kontrolü yapıyor. İki farklı durum filtresi bakım yükü yaratır ve `canInteract()` tanımı değişirse açlık/yenilenme ile öznitelik takibi farklı davranır.\nEn küçük düzeltme: Her iki kontrolü tek noktada topla; `PlayerSurvival::tick` çağrısını `if ($player->state() === PlayerState::Spawned && !$player->isDead())` bloğuna taşı.\n\n**4. ConnectionPipeline::tick – SetHealth paketi içeriği**\nRisk: `SetHealthPacket` sadece `$health` ile oluşturuluyor. Bedrock 1.26.65 `SetHealth` paketi sağlık dışında food/saturation alanları taşır. Sadece sağlık göndermek istemci senkronizasyonunu bozabilir. Gerçek paket şeması doğrulanamadı.\nEn küçük düzeltme: Mevcut sözleşme “yeni paket yok” diyor; eğer `SetHealthPacket` ctor’u sadece sağlık bekliyorsa dokümante et, aksi halde mevcut `attributeUpdates` akışıyla beslenecek şekilde paketi oluştur.\n\n**5. PlayerSurvival.php – açlık sıfır eşik ve negatif açlık**\nRisk: Starvation tetikleyicisi `hunger() <= 0`. Sözleşme “açlık 0 iken” diyor. Negatif açlık değerinde de starvation çalışır; bu istenmeyen hızlanma olabilir. Açlık alt sınırı doğrulanamadı.\nEn küçük düzeltme: Tetikleyiciyi `hunger() === 0` yap veya `max(0, hunger())` ile normalize et; sözleşme gereği `<=0` korunacaksa yorumla belgelendir."
+}

@@ -1,0 +1,125 @@
+PHPUnit Started (PHPUnit 11.5.58 using PHP 8.2.35 (cli) on WINNT)
+Test Runner Configured
+Bootstrap Finished (C:\Users\ali\Desktop\PickaxeMP\tests/bootstrap.php)
+Event Facade Sealed
+Test Suite Loaded (14 tests)
+Test Runner Started
+Test Suite Sorted
+Test Runner Execution Started (14 tests)
+Test Suite Started (C:\Users\ali\Desktop\PickaxeMP\phpunit.xml, 14 tests)
+Test Suite Started (integration, 14 tests)
+Test Suite Started (PickaxeMP\Tests\integration\ServerBootTest, 5 tests)
+Test Preparation Started (PickaxeMP\Tests\integration\ServerBootTest::testCheckModeExitsCleanly)
+Before Test Method Called (PickaxeMP\Tests\integration\ServerBootTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\ServerBootTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\ServerBootTest::testCheckModeExitsCleanly)
+Test Passed (PickaxeMP\Tests\integration\ServerBootTest::testCheckModeExitsCleanly)
+Test Finished (PickaxeMP\Tests\integration\ServerBootTest::testCheckModeExitsCleanly)
+Test Preparation Started (PickaxeMP\Tests\integration\ServerBootTest::testTickLoopStopsAfterRequestedTicks)
+Before Test Method Called (PickaxeMP\Tests\integration\ServerBootTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\ServerBootTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\ServerBootTest::testTickLoopStopsAfterRequestedTicks)
+Test Passed (PickaxeMP\Tests\integration\ServerBootTest::testTickLoopStopsAfterRequestedTicks)
+Test Finished (PickaxeMP\Tests\integration\ServerBootTest::testTickLoopStopsAfterRequestedTicks)
+Test Preparation Started (PickaxeMP\Tests\integration\ServerBootTest::testBootLoadsBundledConfig)
+Before Test Method Called (PickaxeMP\Tests\integration\ServerBootTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\ServerBootTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\ServerBootTest::testBootLoadsBundledConfig)
+Test Passed (PickaxeMP\Tests\integration\ServerBootTest::testBootLoadsBundledConfig)
+Test Finished (PickaxeMP\Tests\integration\ServerBootTest::testBootLoadsBundledConfig)
+Test Preparation Started (PickaxeMP\Tests\integration\ServerBootTest::testMissingConfigThrowsConfigException)
+Before Test Method Called (PickaxeMP\Tests\integration\ServerBootTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\ServerBootTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\ServerBootTest::testMissingConfigThrowsConfigException)
+Test Passed (PickaxeMP\Tests\integration\ServerBootTest::testMissingConfigThrowsConfigException)
+Test Finished (PickaxeMP\Tests\integration\ServerBootTest::testMissingConfigThrowsConfigException)
+Test Preparation Started (PickaxeMP\Tests\integration\ServerBootTest::testRuntimeConfigOverridesBundledConfig)
+Before Test Method Called (PickaxeMP\Tests\integration\ServerBootTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\ServerBootTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\ServerBootTest::testRuntimeConfigOverridesBundledConfig)
+Test Passed (PickaxeMP\Tests\integration\ServerBootTest::testRuntimeConfigOverridesBundledConfig)
+Test Finished (PickaxeMP\Tests\integration\ServerBootTest::testRuntimeConfigOverridesBundledConfig)
+Test Suite Finished (PickaxeMP\Tests\integration\ServerBootTest, 5 tests)
+Test Suite Started (PickaxeMP\Tests\integration\SidecarIntegrationTest, 9 tests)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testProcessStartsAndReportsHandshake)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testProcessStartsAndReportsHandshake)
+Test Passed (PickaxeMP\Tests\integration\SidecarIntegrationTest::testProcessStartsAndReportsHandshake)
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testProcessStartsAndReportsHandshake)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTransportCompletesIpcHandshake)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTransportCompletesIpcHandshake)
+Test Errored (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTransportCompletesIpcHandshake)
+Tasiyici zaten calisiyor.
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTransportCompletesIpcHandshake)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testSignalingAddressIsReported)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testSignalingAddressIsReported)
+Test Errored (PickaxeMP\Tests\integration\SidecarIntegrationTest::testSignalingAddressIsReported)
+Tasiyici zaten calisiyor.
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testSignalingAddressIsReported)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testJoinEndpointReturnsServerData)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testJoinEndpointReturnsServerData)
+Test Errored (PickaxeMP\Tests\integration\SidecarIntegrationTest::testJoinEndpointReturnsServerData)
+Tasiyici zaten calisiyor.
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testJoinEndpointReturnsServerData)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testUnknownJoinPathIsNotServerData)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testUnknownJoinPathIsNotServerData)
+Test Errored (PickaxeMP\Tests\integration\SidecarIntegrationTest::testUnknownJoinPathIsNotServerData)
+Tasiyici zaten calisiyor.
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testUnknownJoinPathIsNotServerData)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTickIsIdleSafe)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTickIsIdleSafe)
+Test Errored (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTickIsIdleSafe)
+Tasiyici zaten calisiyor.
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTickIsIdleSafe)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testStopIsIdempotent)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testStopIsIdempotent)
+Test Errored (PickaxeMP\Tests\integration\SidecarIntegrationTest::testStopIsIdempotent)
+Tasiyici zaten calisiyor.
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testStopIsIdempotent)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTransportRejectsSendToUnknownConnection)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTransportRejectsSendToUnknownConnection)
+Test Errored (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTransportRejectsSendToUnknownConnection)
+Tasiyici zaten calisiyor.
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testTransportRejectsSendToUnknownConnection)
+Test Preparation Started (PickaxeMP\Tests\integration\SidecarIntegrationTest::testListenerReceivesNoPhantomConnections)
+Before Test Method Called (PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp)
+Before Test Method Finished:
+- PickaxeMP\Tests\integration\SidecarIntegrationTest::setUp
+Test Prepared (PickaxeMP\Tests\integration\SidecarIntegrationTest::testListenerReceivesNoPhantomConnections)
+Test Errored (PickaxeMP\Tests\integration\SidecarIntegrationTest::testListenerReceivesNoPhantomConnections)
+Tasiyici zaten calisiyor.
+Test Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest::testListenerReceivesNoPhantomConnections)
+Test Suite Finished (PickaxeMP\Tests\integration\SidecarIntegrationTest, 9 tests)
+Test Suite Finished (integration, 14 tests)
+Test Suite Finished (C:\Users\ali\Desktop\PickaxeMP\phpunit.xml, 14 tests)
+Test Runner Execution Finished
+Test Runner Finished
+PHPUnit Finished (Shell Exit Code: 2)

@@ -1,0 +1,26 @@
+Project: PickaxeMP - a PHP Minecraft Bedrock server emulator (protocol 2225 / v1.26.65).
+Root: C:\Users\ali\Desktop\PickaxeMP
+
+You are reviewing REAL code. Key facts already established:
+- src/PickaxeMP/connection/ConnectionPipeline.php has a DUPLICATE method definition: decryptIfNeeded() is declared TWICE (lines 169-179 and 181-187). The file currently FAILS php -l with "Cannot redeclare". This is the top-priority blocker.
+- onPayload() (lines ~189-234) does: $batch->decode($payload) -> for each packetBytes -> decryptIfNeeded -> engine->decode -> dispatch().
+- The loop at lines 204-211 contains a dead/no-op if block referencing $packetBytes instanceof ClientToServerHandshakePacket on a STRING (always false) plus stale comments.
+- AES-CTR (src/PickaxeMP/auth/crypto/AesCtrCipher.php) is a STREAM cipher: encrypt() increments encryptCounter and advances encryptOffset; decrypt() uses decryptOffset/decryptCounter. CTR state is CONTINUOUS across packets - never reset per packet.
+- PacketBatch::decode() returns list<string> of RAW PACKET BYTES (each includes varuint32 packet-id header + body). Length prefix is OUTSIDE each packet string.
+- dispatch() handles ClientToServerHandshakePacket by setting $state->encryptionEstablished = true. But the ClientToServerHandshake arrives ENCRYPTED. So the decrypt decision must happen BEFORE decode, and the encrypted ClientToServerHandshake can only be decrypted if the cipher state is already correct.
+- sendPacket() currently: encrypt = encryptionEstablished && !(packet instanceof ServerToClientHandshakePacket); bytes=engine->encode(packet); if encrypt -> bytes=cipher->encrypt(bytes); then batch->encode([$bytes]).
+- CRITICAL ORDERING QUESTION: In real Bedrock, ServerToClientHandshake is sent UNENCRYPTED, then the client sends ClientToServerHandshake ENCRYPTED, and only AFTER that do all subsequent packets get encrypted. But this code sets encryptionEstablished=true only when the ClientToServerHandshake is RECEIVED - yet the receive path cannot decrypt it because encryptionEstablished is false at that time. This is a deadlock: the first encrypted packet cannot be decrypted.
+- initiateEncryption() generates ECDH keypair, salt, HandshakeToken JWT, computes shared secret, derives AES key, stores cipher on state, then sends ServerToClientHandshake via sendPacket (which correctly leaves it unencrypted since encryptionEstablished is still false).
+
+Analyze this precisely. Reference the real Bedrock protocol behavior and PocketMine/Cloudburst implementations if you know them.
+
+YOUR ROLE: Muse Glimmer 30B - IMPLEMENTATION PLANNING.
+Task: Produce a concrete, minimal-diff implementation plan for fixing the encryption handshake pipeline AND wiring StartGame + LevelChunk into the real session flow.
+Deliverables:
+1. Exact PHP code for the corrected ConnectionPipeline: the single decryptIfNeeded, the corrected onPayload loop, the encryption flags on PipelineConnection (propose exact property names + semantics), and the corrected dispatch() gating for ClientToServerHandshake and ResourcePackClientResponse.
+2. Exact PHP code showing how the FIRST encrypted packet (ClientToServerHandshake) gets decrypted and how encryptionEstablished flips AFTER it, and how the server's encryption offset/counter stays in sync (does the server send any encrypted packet before receiving the client's first encrypted packet? If not, the encrypt offset starts at 0 on the client's first received encrypted packet - but the CLIENT's ServerToClientHandshake was unencrypted so client decrypt offset is 0 too).
+3. Exact PHP code for wiring PlayerJoinService (which already builds StartGame + LevelChunk) into ConnectionPipeline::spawn so it only runs AFTER encryption is established, and a WorldStartupCoordinator-style class if needed (keep responsibilities narrow).
+4. Exact PHP code for a session state machine: Authenticated -> EncryptionPending -> Encrypted -> WorldStarting -> InWorld, mapped onto the EXISTING SessionState enum values (read src/PickaxeMP/session/SessionState.php yourself and map onto it - do not invent a new enum if the existing one fits).
+5. A list of PHPUnit test cases to add, with the test file paths under tests/unit/.
+IMPORTANT: Do NOT invent APIs. Verify each class/function you reference actually exists in the repo at C:\Users\ali\Desktop\PickaxeMP (you cannot run tools, but the listed files and the names given are accurate; if unsure about a method, say so explicitly rather than inventing it).
+Return concrete code blocks + plan.

@@ -4,11 +4,33 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.2",
+        "ext-json": "*",
+        "ext-zlib": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
     },
     "autoload": {
         "psr-4": {
             "PickaxeMP\\": "src/PickaxeMP/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PickaxeMP\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "@php -c tools/php.ini vendor/bin/phpunit --configuration phpunit.xml",
+        "lint": "@php -c tools/php.ini tools/lint.php",
+        "check": [
+            "@lint",
+            "@test"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": false
     }
 }

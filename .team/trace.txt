@@ -1,0 +1,87 @@
+== Info: Uses proxy env variable no_proxy == '127.0.0.1,localhost,::1'
+== Info:   Trying 127.0.0.1:20128...
+== Info: Connected to 127.0.0.1 (127.0.0.1) port 20128
+== Info: using HTTP/1.x
+=> Send header, 211 bytes (0xd3)
+0000: POST /v1/chat/completions HTTP/1.1
+0024: Host: 127.0.0.1:20128
+003b: User-Agent: curl/8.13.0
+0054: Accept: */*
+0061: Authorization: Bearer sk-4c836ebc5b968a4f-462586-dd493c09
+009c: Content-Type: application/json
+00bc: Content-Length: 126
+00d1: 
+=> Send data, 126 bytes (0x7e)
+0000: {"model":"nvidia/meta/muse-glimmer-30b","messages":[{"role":"use
+0040: r","content":"Reply with exactly: PING_OK"}],"max_tokens":20}.
+== Info: upload completely sent off: 126 bytes
+<= Recv header, 26 bytes (0x1a)
+0000: HTTP/1.1 400 Bad Request
+<= Recv header, 549 bytes (0x225)
+0000: Content-Security-Policy: default-src 'self'; base-uri 'self'; ob
+0040: ject-src 'none'; frame-ancestors 'none'; form-action 'self'; scr
+0080: ipt-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://stati
+00c0: c.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https
+0100: ://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.c
+0140: om data:; img-src 'self' data: blob: https:; media-src 'self' da
+0180: ta: blob:; connect-src 'self' http://localhost:* http://127.0.0.
+01c0: 1:* ws://localhost:* ws://127.0.0.1:* https: ws: wss:; worker-sr
+0200: c 'self' blob:; manifest-src 'self'
+<= Recv header, 23 bytes (0x17)
+0000: X-Frame-Options: DENY
+<= Recv header, 33 bytes (0x21)
+0000: X-Content-Type-Options: nosniff
+<= Recv header, 50 bytes (0x32)
+0000: Referrer-Policy: strict-origin-when-cross-origin
+<= Recv header, 93 bytes (0x5d)
+0000: Permissions-Policy: camera=(), microphone=(), geolocation=(), pa
+0040: yment=(), usb=(), serial=()
+<= Recv header, 73 bytes (0x49)
+0000: Strict-Transport-Security: max-age=63072000; includeSubDomains; 
+0040: preload
+<= Recv header, 193 bytes (0xc1)
+0000: access-control-allow-headers: Content-Type, Authorization, x-api
+0040: -key, anthropic-version, x-omniroute-connection, X-OmniRoute-Lea
+0080: se-Owner, X-OmniRoute-Lease-Generation, x-internal-test, accept
+<= Recv header, 70 bytes (0x46)
+0000: access-control-allow-methods: GET, POST, PUT, DELETE, PATCH, OPT
+0040: IONS
+<= Recv header, 32 bytes (0x20)
+0000: access-control-allow-origin: *
+<= Recv header, 31 bytes (0x1f)
+0000: vary: Origin, Accept-Encoding
+<= Recv header, 87 bytes (0x57)
+0000: vary: rsc, next-router-state-tree, next-router-prefetch, next-ro
+0040: uter-segment-prefetch
+<= Recv header, 37 bytes (0x25)
+0000: x-omniroute-route-class: CLIENT_API
+<= Recv header, 52 bytes (0x34)
+0000: x-request-id: fde05f48-77c9-4d1a-984e-8ad8c25c6370
+<= Recv header, 32 bytes (0x20)
+0000: content-type: application/json
+<= Recv header, 61 bytes (0x3d)
+0000: x-conversationid: conv_3ed57ec9-d563-4feb-bdb8-f496aab6f02b
+<= Recv header, 56 bytes (0x38)
+0000: x-correlation-id: 348cbd79-e194-4521-b986-435279381722
+<= Recv header, 42 bytes (0x2a)
+0000: x-omniroute-session-id: 7e926e07470de495
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 19 Nov 2026 00:05:58 GMT
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 24 bytes (0x18)
+0000: Keep-Alive: timeout=65
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 272 bytes (0x110)
+0000: 104
+0005: {"error":{"message":"Unable to determine provider for model 'uyg
+0045: unluga g..re model se..'. Use a provider/model prefix (e.g. open
+0085: ai/uygunluga g..re model se..) or ensure the model is added as a
+00c5:  combo entry.","type":"invalid_request_error","code":"bad_reques
+0105: t"}}
+010b: 0
+010e: 
+== Info: Connection #0 to host 127.0.0.1 left intact

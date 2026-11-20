@@ -1,0 +1,15 @@
+Project: PickaxeMP - a PHP Minecraft Bedrock server emulator (protocol 2225 / v1.26.65).
+Root: C:\Users\ali\Desktop\PickaxeMP
+
+You are reviewing REAL code. Key facts already established:
+- src/PickaxeMP/connection/ConnectionPipeline.php has a DUPLICATE method definition: decryptIfNeeded() is declared TWICE (lines 169-179 and 181-187). The file currently FAILS php -l with "Cannot redeclare". This is the top-priority blocker.
+- onPayload() (lines ~189-234) does: $batch->decode($payload) -> for each packetBytes -> decryptIfNeeded -> engine->decode -> dispatch().
+- The loop at lines 204-211 contains a dead/no-op if block referencing $packetBytes instanceof ClientToServerHandshakePacket on a STRING (always false) plus stale comments.
+- AES-CTR (src/PickaxeMP/auth/crypto/AesCtrCipher.php) is a STREAM cipher: encrypt() increments encryptCounter and advances encryptOffset; decrypt() uses decryptOffset/decryptCounter. CTR state is CONTINUOUS across packets - never reset per packet.
+- PacketBatch::decode() returns list<string> of RAW PACKET BYTES (each includes varuint32 packet-id header + body). Length prefix is OUTSIDE each packet string.
+- dispatch() handles ClientToServerHandshakePacket by setting $state->encryptionEstablished = true. But the ClientToServerHandshake arrives ENCRYPTED. So the decrypt decision must happen BEFORE decode, and the encrypted ClientToServerHandshake can only be decrypted if the cipher state is already correct.
+- sendPacket() currently: encrypt = encryptionEstablished && !(packet instanceof ServerToClientHandshakePacket); bytes=engine->encode(packet); if encrypt -> bytes=cipher->encrypt(bytes); then batch->encode([$bytes]).
+- CRITICAL ORDERING QUESTION: In real Bedrock, ServerToClientHandshake is sent UNENCRYPTED, then the client sends ClientToServerHandshake ENCRYPTED, and only AFTER that do all subsequent packets get encrypted. But this code sets encryptionEstablished=true only when the ClientToServerHandshake is RECEIVED - yet the receive path cannot decrypt it because encryptionEstablished is false at that time. This is a deadlock: the first encrypted packet cannot be decrypted.
+- initiateEncryption() generates ECDH keypair, salt, HandshakeToken JWT, computes shared secret, derives AES key, stores cipher on state, then sends ServerToClientHandshake via sendPacket (which correctly leaves it unencrypted since encryptionEstablished is still false).
+
+Analyze this precisely. Reference the real Bedrock protocol behavior and PocketMine/Cloudburst implementations if you know them.

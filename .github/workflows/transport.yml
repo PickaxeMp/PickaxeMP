@@ -1,0 +1,52 @@
+name: Transport
+
+on:
+  push:
+    paths:
+      - 'transport/**'
+      - '.github/workflows/transport.yml'
+  pull_request:
+    paths:
+      - 'transport/**'
+      - '.github/workflows/transport.yml'
+
+jobs:
+  rust:
+    name: Rust ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    defaults:
+      run:
+        working-directory: transport/pickaxe-transport
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        run: rustup toolchain install stable --profile minimal --no-self-update
+
+      - name: Cache cargo registry and build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            transport/pickaxe-transport/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('transport/pickaxe-transport/Cargo.lock') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      - name: Format check
+        run: cargo fmt --all --check
+
+      - name: Check
+        run: cargo check --all-targets
+
+      - name: Test
+        run: cargo test
+
+      - name: Release build
+        run: cargo build --release

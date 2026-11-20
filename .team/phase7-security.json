@@ -1,0 +1,20 @@
+{
+  "model": "nvidia/nvidia/nemotron-3.5-super-vl-120b-a12b",
+  "ok": true,
+  "id": "chatcmpl-ab6e2817-999a-4d2a-8742-50a3bd38106a",
+  "created": 1795062142,
+  "usage": {
+    "prompt_tokens": 522,
+    "completion_tokens": 668,
+    "total_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "finish": "stop",
+  "durationSec": 5.4,
+  "content": "1. `src/PickaxeMP/player/BlockActionManager.php` — `tick()` / mutasyon sınırı: Oyuncu başına saniyede 30 mutasyon kısıtı uygulanmadığı veya zorlanmadığı takdirde istemci tarafından tetiklenen tek paket akışıyla dünya üzerinde hızlıca çok sayıda blok kırma/yerleştirme yapılabilir (DoS / dünya bozulması). En küçük düzeltme: her oyuncu için saniyelik mutasyon sayacını zorla ve 30'u aşan işlemleri reddet.\n\n2. `src/PickaxeMP/connection/ConnectionPipeline.php` — `announceSpawn()` / çift yönlü `AddPlayer`: Katılım sonrası sadece yerel oyuncuya diğerlerinin `AddPlayer`'ı ve diğerlerine yerel oyuncunun `AddPlayer`'ı gönderilmiyorsa, istemciler diğer oyuncuları göremez veya görünmez kalır; protokol 2225'de bu eşzamansızlık istemci tarafında görünmez oyuncu veya çökme riski oluşturur. En küçük düzeltme: spawn anında hem mevcut oyunculara yeni oyuncuyu, hem yeni oyuncuyu mevcut tüm oyuncular olarak `AddPlayer` yayınla.\n\n3. `src/PickaxeMP/player/PlayerAuthInput.php` — `ItemUse` / hedef hava + kayıtlı blok: `serverAuthBlockBreaking=false` ve metadata boş olduğunda, `ItemUse` tipi 2 (yerleştirme) için hedefin gerçekten hava olduğu ve hedef bloğun kayıtlı/geçerli olduğu sunucu tarafında doğrulanmazsa, istemci geçersiz koordinatlarda veya mevcut bir bloğun içine blok yerleştirebilir. En küçük düzeltme: yerleştirmeden önce `World::getBlock` ile hecdefin hava olduğunu ve hedef bloğun kayıtlı olduğunu doğrula; değilse işlemi reddet.\n\n4. `src/PickaxeMP/player/Player.php` — `canInteract()` / `Dead` durumu: `Dead` olan oyuncunun `canInteract()` false dönmediği takdirde, ölü oyuncu blok kırma/yerleştirme veya eşya kullanımı yapmaya devam edebilir. En küçük düzeltme: `canInteract()` içinde `isDead()` kontrolü ekle ve true olduğunda false dön.\n\n5. `src/PickaxeMP/world/World.php` — `getBlock`/`setBlock` / chunk yükleme yok: Yüklü olmayan chunk'ta `getBlock` null, `setBlock` false döner; bu davranış sözleşmesine uygun ancak çağrıldığı yerlerde null/false kontrolü eksikse null pointer veya sessiz veri kaybı riski vardır (doğrulanamadı). En küçük düzeltme: tüm çağrıcılarda `getBlock` sonucu null ve `setBlock` sonucu false kontrolü ekle."
+}

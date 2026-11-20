@@ -2,8 +2,34 @@
 /worlds/
 /players/
 /logs/
+/run/
 /config.yml
 *.log
+
+# Rust
+/transport/pickaxe-transport/target/
+
+# Sunucu kimliği ve TLS anahtarları — ASLA commit edilmez
+server-identity.pem
+identity.pem
+*.key
+*.pem
+!docs/**/*.example.pem
+
+# Proje içi araçlar (sistem geneline kurulum yok)
+/tools/composer.phar
+
+# Test ve analiz çıktıları
+/.phpunit.cache/
+/.phpunit.result.cache
+/.phpstan.cache/
+
+# Graphify yerel önbelleği ve geçici yan dosyalar
+/graphify-out/cache/
+/graphify-out/.graphify_*
+
+# Editör / işletim sistemi
 .idea/
 .vscode/
 .DS_Store
+Thumbs.db

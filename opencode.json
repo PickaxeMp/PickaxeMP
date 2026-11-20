@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "omniroute/nvidia",
+  "providers": {
+    "omniroute": {
+      "name": "OmniRoute",
+      "env": ["evren_llm_-5ajU6HTMO9CjqfHqRPmP9GM05gyaxqK4rQHw4l0w4s"],
+      "package": "@opencode/ai/providers/openai-compatible",
+      "settings": {
+        "baseURL": "http://127.0.0.1:20128/v1",
+        "apiKey": "{env:OMNIROUTE_API_KEY}"
+      },
+      "models": {
+        "nvidia": {
+          "name": "NVIDIA Coding Combo",
+          "modelID": "nvidia",
+          "capabilities": {
+            "tools": true,
+            "input": ["text"],
+            "output": ["text"]
+          },
+          "limit": {
+            "context": 128000,
+            "output": 8192
+          }
+        },
+        "evren-auto": {
+          "name": "EVREN LLM Auto",
+          "modelID": "evrenllm/auto",
+          "capabilities": {
+            "tools": false,
+            "input": ["text"],
+            "output": ["text"]
+          }
+        }
+      }
+    }
+  }
+}

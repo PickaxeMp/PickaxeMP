@@ -1,0 +1,20 @@
+{
+  "model": "nvidia/meta/muse-glimmer-30b",
+  "ok": true,
+  "id": "beada71a11c0d8da",
+  "created": 1795062233,
+  "usage": {
+    "prompt_tokens": 507,
+    "completion_tokens": 939,
+    "total_tokens": 1446,
+    "prompt_tokens_details": {
+      "cached_tokens": 48
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "finish": "stop",
+  "durationSec": 91.8,
+  "content": "**1. `src/PickaxeMP/connection/ConnectionPipeline.php` – `announceSpawn()`**\n* Risk: Katılım sonrası iki yönlü `AddPlayer` gönderimi protokol 2225'te istemci tarafında çift spawn / ID çakışmasına yol açar. `PacketBroadcaster` üzerinden `sendTo`/`broadcastExcept` ile aynı aktörün kendi kendine eklenmesi.\n* En küçük düzeltme: `announceSpawn` içinde kendi oturumuna `AddPlayer` gönderimini kaldır, sadece diğer oyunculara `broadcastExcept($self)` yap.\n\n**2. `src/PickaxeMP/connection/ConnectionPipeline.php` – `UnsupportedPacketFieldException` yakalama**\n* Risk: İstisna yakalanıp yalnızca paket düşürülüyor, log/ metrik yok. Phase 7 oynanış döngüsünde sessiz paket kaybı teşhis edilemez.\n* En küçük düzeltme: catch bloğuna `Logger::debug` ile `packetId`, `playerId`, `exception->getMessage()` kaydı ekle; paketi düşürmeye devam et.\n\n**3. `src/PickaxeMP/player/BlockActionManager.php` – kırma/yerleştirme doğrulaması**\n* Risk: `CrackBlock 18`, `PredictDestroyBlock 26`, `CreativeDestroyBlock 13` ve `ItemUse tip 2` işlemleri `World::getBlock` sonucunu kullanmadan uygulanıyor. `World` yüklü değilse `null` döner, `serverAuthBlockBreaking=false` olduğundan istemci tahmini sunucu tarafından doğrulanmaz.\n* En küçük düzeltme: Her mutasyon öncesi `World::getBlock` != `null` ve `Player::canInteract()` kontrolü yap; `null` ise mutasyonu reddet ve `BlockActionResult` ile istemciye geri bildirim gönder.\n\n**4. `src/PickaxeMP/player/PlayerAuthInput.php` – `BlockChange`/`BlockActionResult` yayını**\n* Risk: Blok aksiyonu uygulandıktan sonra yayın yapılıyor ancak `Player::Dead` durumu ve `canInteract()` kontrolü yapılmıyor. Ölü oyuncu kırma/yerleştirme tetikleyebilir.\n* En küçük düzeltme: `applyBlockAction` ve `applyItemUse` girişinde `if ($player->isDead() || !$player->canInteract()) return;` ekle.\n\n**5. `src/PickaxeMP/world/World.php` – `getBlock`/`setBlock` chunk yüklememe**\n* Risk: Yöntemler yüklü olmayan chunk için `null`/`false` döndürüyor. `BlockActionManager` saniyede 30 mutasyon limiti var fakat yüklenmemiş alana `setBlock` `false` döner, istemci ile sunucu arasında kalıcı desenkron oluşur.\n* En küçük düzeltme: `setBlock` `false` döndüğünde `PlayerAuthInput` üzerinden istemciye `BlockActionResult` ile başarısızlık bildir; `getBlock` `null` ise mutasyonu kuyruğa alma. Doğrulanamadı: `PredictDestroyBlock` 26'nın zaman damgası ile `CrackBlock` 18 arasındaki ilişki."
+}

@@ -1,14 +1,47 @@
 name: PHP
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
+  lint-and-test:
+    name: PHP ${{ matrix.php }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        php: ['8.2']
+
     steps:
       - uses: actions/checkout@v4
-      - uses: shivammathur/setup-php@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
-      - run: composer validate
-      - run: find src -name '*.php' -print0 | xargs -0 -n1 php -l
+          php-version: ${{ matrix.php }}
+          extensions: openssl, mbstring, fileinfo, zlib, json
+          tools: composer:v2
+          coverage: none
+
+      - name: Validate composer.json
+        run: composer validate --strict
+
+      - name: Install dependencies
+        run: composer install --no-interaction --prefer-dist --no-progress
+
+      - name: Syntax lint (platform independent)
+        run: php tools/lint.php
+
+      # Sidecar integration tests run against the real binary, so build it
+      # first. Without it those tests are skipped, not silently passed.
+      - name: Build transport sidecar
+        run: cargo build --release --manifest-path transport/pickaxe-transport/Cargo.toml
+
+      # OpenSSL 3 needs a provider config; Linux runners usually ship one, but
+      # we point at the project copy so behaviour matches every platform.
+      - name: Unit and integration tests
+        env:
+          OPENSSL_CONF: ${{ github.workspace }}/tools/openssl.cnf
+        run: php vendor/bin/phpunit --configuration phpunit.xml

@@ -1,0 +1,4125 @@
+{
+  ".github/workflows/php.yml": {
+    "mtime": 1794952588.6907907,
+    "seen": 1794962331.354821,
+    "ast_hash": "ff11f766f6b309002a6b23602fbcf319",
+    "semantic_hash": "ff11f766f6b309002a6b23602fbcf319"
+  },
+  ".github/workflows/transport.yml": {
+    "mtime": 1794940836.2031248,
+    "seen": 1794962331.3550522,
+    "ast_hash": "3b1a7e9cbe21c80a01a8eee151995491",
+    "semantic_hash": "3b1a7e9cbe21c80a01a8eee151995491"
+  },
+  "composer.json": {
+    "mtime": 1794929459.7153697,
+    "seen": 1794962331.3551965,
+    "ast_hash": "98d2e03773b221a1d16db3fd0f2dc4f9",
+    "semantic_hash": "98d2e03773b221a1d16db3fd0f2dc4f9"
+  },
+  "resources/config.yml": {
+    "mtime": 1794910354.0,
+    "seen": 1794962331.3553295,
+    "ast_hash": "64eb967c20eecc0d3b557dd928125c87",
+    "semantic_hash": "64eb967c20eecc0d3b557dd928125c87",
+    "ast_empty": true
+  },
+  "src/PickaxeMP/Server.php": {
+    "mtime": 1794932774.9452639,
+    "seen": 1794962331.3553326,
+    "ast_hash": "0970c562a7bda45500e2925483f1e56d",
+    "semantic_hash": "0970c562a7bda45500e2925483f1e56d"
+  },
+  "src/PickaxeMP/auth/AuthException.php": {
+    "mtime": 1794948280.167257,
+    "seen": 1794962331.3554623,
+    "ast_hash": "4ec20acefc1e08a9eada4cbf0f6d14ed",
+    "semantic_hash": "4ec20acefc1e08a9eada4cbf0f6d14ed"
+  },
+  "src/PickaxeMP/auth/AuthenticationEngine.php": {
+    "mtime": 1795054570.2775924,
+    "seen": 1795054826.3564928,
+    "ast_hash": "239eecf7e2b6a418da53fc45578e2c96",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/AuthenticationMode.php": {
+    "mtime": 1794949933.3989024,
+    "seen": 1794962331.3557265,
+    "ast_hash": "8d263f47871338abb865eb78e669dd86",
+    "semantic_hash": "8d263f47871338abb865eb78e669dd86"
+  },
+  "src/PickaxeMP/auth/AuthenticationResult.php": {
+    "mtime": 1795054529.9014344,
+    "seen": 1795054826.356496,
+    "ast_hash": "ddc6f2e46456f8a2f97768d7018c67c1",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/IdentityType.php": {
+    "mtime": 1794949849.7209704,
+    "seen": 1794962331.355981,
+    "ast_hash": "a1e7e4541330c95833e9bbc5b57128af",
+    "semantic_hash": "a1e7e4541330c95833e9bbc5b57128af"
+  },
+  "src/PickaxeMP/auth/PlayerIdentity.php": {
+    "mtime": 1794949849.7199726,
+    "seen": 1794962331.3561077,
+    "ast_hash": "7d3b8b62a2c1db10e7e694e263ca19dd",
+    "semantic_hash": "7d3b8b62a2c1db10e7e694e263ca19dd"
+  },
+  "src/PickaxeMP/auth/PlayerIdentityFactory.php": {
+    "mtime": 1795178220.6069784,
+    "seen": 1795179581.9738073,
+    "ast_hash": "505e8fb87facfbeed4fdd1df3730bdb9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/certificate/CertificateChain.php": {
+    "mtime": 1794949649.2526345,
+    "seen": 1794962331.3563623,
+    "ast_hash": "6aabeb81aff97d660d215eff4ab647e2",
+    "semantic_hash": "6aabeb81aff97d660d215eff4ab647e2"
+  },
+  "src/PickaxeMP/auth/certificate/CertificateValidator.php": {
+    "mtime": 1794949721.9850056,
+    "seen": 1794962331.356493,
+    "ast_hash": "2400e87b19860c6fbc62303f3808d5fb",
+    "semantic_hash": "2400e87b19860c6fbc62303f3808d5fb"
+  },
+  "src/PickaxeMP/auth/certificate/TrustedKeyStore.php": {
+    "mtime": 1794949649.2526345,
+    "seen": 1794962331.3566215,
+    "ast_hash": "18b15ca8d2e8fb3faf3be4fc2d43e2b0",
+    "semantic_hash": "18b15ca8d2e8fb3faf3be4fc2d43e2b0"
+  },
+  "src/PickaxeMP/auth/crypto/AesCtrCipher.php": {
+    "mtime": 1794958651.8173845,
+    "seen": 1794962331.3567479,
+    "ast_hash": "6eb2062d7af2cc7f7ce512dacbf267b9",
+    "semantic_hash": "6eb2062d7af2cc7f7ce512dacbf267b9"
+  },
+  "src/PickaxeMP/auth/crypto/EcPublicKey.php": {
+    "mtime": 1794958079.027398,
+    "seen": 1794962331.356878,
+    "ast_hash": "de13de7b99dddbff3b80071135d9fd98",
+    "semantic_hash": "de13de7b99dddbff3b80071135d9fd98"
+  },
+  "src/PickaxeMP/auth/crypto/EcdhKeyExchange.php": {
+    "mtime": 1794959562.7083333,
+    "seen": 1794962331.3570044,
+    "ast_hash": "74b2bd688484f026bdb916deebfba7ae",
+    "semantic_hash": "74b2bd688484f026bdb916deebfba7ae"
+  },
+  "src/PickaxeMP/auth/crypto/HandshakeToken.php": {
+    "mtime": 1794958703.8802173,
+    "seen": 1794962331.357132,
+    "ast_hash": "e04682a4b804fc8f13e074d425cab061",
+    "semantic_hash": "e04682a4b804fc8f13e074d425cab061"
+  },
+  "src/PickaxeMP/auth/jwt/Base64Url.php": {
+    "mtime": 1794948280.1662593,
+    "seen": 1794962331.357259,
+    "ast_hash": "489bc072c2016d52cac80a4050510646",
+    "semantic_hash": "489bc072c2016d52cac80a4050510646"
+  },
+  "src/PickaxeMP/auth/jwt/EcdsaSignature.php": {
+    "mtime": 1794948485.3025982,
+    "seen": 1794962331.357387,
+    "ast_hash": "a83044325bc9fdd951069df03e526bc5",
+    "semantic_hash": "a83044325bc9fdd951069df03e526bc5"
+  },
+  "src/PickaxeMP/auth/jwt/JwtAlgorithm.php": {
+    "mtime": 1794948485.3025982,
+    "seen": 1794962331.3575141,
+    "ast_hash": "7619b0f2d8857439a5e47e62c7dc6cc5",
+    "semantic_hash": "7619b0f2d8857439a5e47e62c7dc6cc5"
+  },
+  "src/PickaxeMP/auth/jwt/JwtClaims.php": {
+    "mtime": 1794948552.9513938,
+    "seen": 1794962331.357641,
+    "ast_hash": "8fc80da763af8dd16aacffec1d8b6ce0",
+    "semantic_hash": "8fc80da763af8dd16aacffec1d8b6ce0"
+  },
+  "src/PickaxeMP/auth/jwt/JwtHeader.php": {
+    "mtime": 1794948552.9513938,
+    "seen": 1794962331.357767,
+    "ast_hash": "ce9d120963242dcc2c8407918f5a2427",
+    "semantic_hash": "ce9d120963242dcc2c8407918f5a2427"
+  },
+  "src/PickaxeMP/auth/jwt/JwtParser.php": {
+    "mtime": 1794948611.4160063,
+    "seen": 1794962331.3579042,
+    "ast_hash": "9891c9347d6ae9211dc7472317882853",
+    "semantic_hash": "9891c9347d6ae9211dc7472317882853"
+  },
+  "src/PickaxeMP/auth/jwt/JwtToken.php": {
+    "mtime": 1794948611.4160063,
+    "seen": 1794962331.3580294,
+    "ast_hash": "a549ebbb08583a1e9cdef29d3118d0eb",
+    "semantic_hash": "a549ebbb08583a1e9cdef29d3118d0eb"
+  },
+  "src/PickaxeMP/auth/jwt/JwtVerifier.php": {
+    "mtime": 1794948817.5374942,
+    "seen": 1794962331.358154,
+    "ast_hash": "7ede6371ca85fc3c7ee0295ea0b417ba",
+    "semantic_hash": "7ede6371ca85fc3c7ee0295ea0b417ba"
+  },
+  "src/PickaxeMP/auth/jwt/OpenSslJwtVerifier.php": {
+    "mtime": 1794948817.536497,
+    "seen": 1794962331.35828,
+    "ast_hash": "3e5a50c599b466d8fd1344a3850af79e",
+    "semantic_hash": "3e5a50c599b466d8fd1344a3850af79e"
+  },
+  "src/PickaxeMP/auth/jwt/SignatureVerifierInterface.php": {
+    "mtime": 1794948694.725326,
+    "seen": 1794962331.3584075,
+    "ast_hash": "64eccd1a12fea1677d3033ea694c8d34",
+    "semantic_hash": "64eccd1a12fea1677d3033ea694c8d34"
+  },
+  "src/PickaxeMP/auth/jwt/TrustedPublicKey.php": {
+    "mtime": 1794948694.724329,
+    "seen": 1794962331.3585346,
+    "ast_hash": "f0b4f4c17a1c711b4f7d273c3a5a7ab8",
+    "semantic_hash": "f0b4f4c17a1c711b4f7d273c3a5a7ab8"
+  },
+  "src/PickaxeMP/auth/jwt/VerificationResult.php": {
+    "mtime": 1794948694.725326,
+    "seen": 1794962331.3586595,
+    "ast_hash": "f7a20f2a4e73b76a4846629176bbae4a",
+    "semantic_hash": "f7a20f2a4e73b76a4846629176bbae4a"
+  },
+  "src/PickaxeMP/command/CommandMap.php": {
+    "mtime": 1794910354.0,
+    "seen": 1794962331.3587863,
+    "ast_hash": "6be4861d1b5faadb7425ad059a696a59",
+    "semantic_hash": "6be4861d1b5faadb7425ad059a696a59"
+  },
+  "src/PickaxeMP/event/EventDispatcher.php": {
+    "mtime": 1794910354.0,
+    "seen": 1794962331.3589134,
+    "ast_hash": "bdec99955d03c89461a905baa2eab450",
+    "semantic_hash": "bdec99955d03c89461a905baa2eab450"
+  },
+  "src/PickaxeMP/exception/ConfigException.php": {
+    "mtime": 1794929811.980291,
+    "seen": 1794962331.359041,
+    "ast_hash": "9c4943c63ba2327c2830322291493c50",
+    "semantic_hash": "9c4943c63ba2327c2830322291493c50"
+  },
+  "src/PickaxeMP/exception/DependencyException.php": {
+    "mtime": 1794929811.980291,
+    "seen": 1794962331.3591688,
+    "ast_hash": "cf52b519689ea06ff98851aacb2cc2b6",
+    "semantic_hash": "cf52b519689ea06ff98851aacb2cc2b6"
+  },
+  "src/PickaxeMP/exception/LifecycleException.php": {
+    "mtime": 1794929811.980291,
+    "seen": 1794962331.3592942,
+    "ast_hash": "2ba1626a0926e7d45231932655b63206",
+    "semantic_hash": "2ba1626a0926e7d45231932655b63206"
+  },
+  "src/PickaxeMP/exception/PickaxeException.php": {
+    "mtime": 1794929811.9768865,
+    "seen": 1794962331.3594193,
+    "ast_hash": "ba5b9a1901e4a8d1980b451732ef643e",
+    "semantic_hash": "ba5b9a1901e4a8d1980b451732ef643e"
+  },
+  "src/PickaxeMP/exception/SchedulerException.php": {
+    "mtime": 1794929811.980291,
+    "seen": 1794962331.3595445,
+    "ast_hash": "5171a3488e171513b3cae1ef21b84017",
+    "semantic_hash": "5171a3488e171513b3cae1ef21b84017"
+  },
+  "src/PickaxeMP/exception/TransportException.php": {
+    "mtime": 1794933231.3671362,
+    "seen": 1794962331.359669,
+    "ast_hash": "1c289600710d6892b289cd2fce5d16e7",
+    "semantic_hash": "1c289600710d6892b289cd2fce5d16e7"
+  },
+  "src/PickaxeMP/kernel/DependencyGraph.php": {
+    "mtime": 1794930826.8579736,
+    "seen": 1794962331.359794,
+    "ast_hash": "8ef00b5495a7365b50410c94a1561917",
+    "semantic_hash": "8ef00b5495a7365b50410c94a1561917"
+  },
+  "src/PickaxeMP/kernel/LifecyclePolicy.php": {
+    "mtime": 1794930679.6608317,
+    "seen": 1794962331.3599212,
+    "ast_hash": "74d3436addec7aecac24cecb76e8f618",
+    "semantic_hash": "74d3436addec7aecac24cecb76e8f618"
+  },
+  "src/PickaxeMP/kernel/ModuleInterface.php": {
+    "mtime": 1794930679.6608317,
+    "seen": 1794962331.360045,
+    "ast_hash": "a5ea22b82f3d73ef05567de3bbb8a9e6",
+    "semantic_hash": "a5ea22b82f3d73ef05567de3bbb8a9e6"
+  },
+  "src/PickaxeMP/kernel/ModuleRegistry.php": {
+    "mtime": 1794930826.8579736,
+    "seen": 1794962331.3601692,
+    "ast_hash": "edfa0eb91531fb0149aa8bd2ed539063",
+    "semantic_hash": "edfa0eb91531fb0149aa8bd2ed539063"
+  },
+  "src/PickaxeMP/kernel/ReloadManager.php": {
+    "mtime": 1794930955.1312675,
+    "seen": 1794962331.3602943,
+    "ast_hash": "718d5efa5ed692b0c3ec4fd1363852b4",
+    "semantic_hash": "718d5efa5ed692b0c3ec4fd1363852b4"
+  },
+  "src/PickaxeMP/kernel/ReloadPlan.php": {
+    "mtime": 1794930679.6765275,
+    "seen": 1794962331.3604193,
+    "ast_hash": "b70a4d067f69fb9a355412115a8e5881",
+    "semantic_hash": "b70a4d067f69fb9a355412115a8e5881"
+  },
+  "src/PickaxeMP/kernel/ReloadReport.php": {
+    "mtime": 1794931362.458568,
+    "seen": 1794962331.3605428,
+    "ast_hash": "f73e9401e7258139d5abde66aa525d93",
+    "semantic_hash": "f73e9401e7258139d5abde66aa525d93"
+  },
+  "src/PickaxeMP/kernel/ReloadRequest.php": {
+    "mtime": 1794930679.6765275,
+    "seen": 1794962331.3606672,
+    "ast_hash": "e1cf4aa8f2e75829e2b930f1f96b0448",
+    "semantic_hash": "e1cf4aa8f2e75829e2b930f1f96b0448"
+  },
+  "src/PickaxeMP/kernel/ReloadResult.php": {
+    "mtime": 1794930760.8298707,
+    "seen": 1794962331.3607922,
+    "ast_hash": "834b85997e63ddbdcdf408afa107425a",
+    "semantic_hash": "834b85997e63ddbdcdf408afa107425a"
+  },
+  "src/PickaxeMP/kernel/ReloadStatus.php": {
+    "mtime": 1794930760.8243656,
+    "seen": 1794962331.3609173,
+    "ast_hash": "cad6078a415f8472e88713b516d935e4",
+    "semantic_hash": "cad6078a415f8472e88713b516d935e4"
+  },
+  "src/PickaxeMP/kernel/ReloadableInterface.php": {
+    "mtime": 1794930760.821375,
+    "seen": 1794962331.3610408,
+    "ast_hash": "0c5078e6abb77a9a21bd17ef809059ce",
+    "semantic_hash": "0c5078e6abb77a9a21bd17ef809059ce"
+  },
+  "src/PickaxeMP/kernel/SaveableInterface.php": {
+    "mtime": 1794930679.6765275,
+    "seen": 1794962331.3611665,
+    "ast_hash": "c82ce6484ff93ee0ead9f3b3769f2e7b",
+    "semantic_hash": "c82ce6484ff93ee0ead9f3b3769f2e7b"
+  },
+  "src/PickaxeMP/kernel/ServerKernel.php": {
+    "mtime": 1794931152.73785,
+    "seen": 1794962331.3612921,
+    "ast_hash": "d93fd15cbbca3267f989b007b0e7c089",
+    "semantic_hash": "d93fd15cbbca3267f989b007b0e7c089"
+  },
+  "src/PickaxeMP/nbt/Fnv1a32.php": {
+    "mtime": 1794953488.3248973,
+    "seen": 1794962331.361416,
+    "ast_hash": "a955e959921bfbfb0bc40a6d21891a2f",
+    "semantic_hash": "a955e959921bfbfb0bc40a6d21891a2f"
+  },
+  "src/PickaxeMP/nbt/NbtWriter.php": {
+    "mtime": 1794953488.3248973,
+    "seen": 1794962331.3615434,
+    "ast_hash": "cba4929eb374a309718b4966b83638f2",
+    "semantic_hash": "cba4929eb374a309718b4966b83638f2"
+  },
+  "src/PickaxeMP/network/PacketHandler.php": {
+    "mtime": 1794910354.0,
+    "seen": 1794962331.3616672,
+    "ast_hash": "974cb44319614ee8e17b787d224c2502",
+    "semantic_hash": "974cb44319614ee8e17b787d224c2502"
+  },
+  "src/PickaxeMP/network/RakNetListener.php": {
+    "mtime": 1794910354.0,
+    "seen": 1794962331.3617954,
+    "ast_hash": "f9839afe03b278645ecc78dac5806070",
+    "semantic_hash": "f9839afe03b278645ecc78dac5806070"
+  },
+  "src/PickaxeMP/player/Player.php": {
+    "mtime": 1795167256.0631864,
+    "seen": 1795168611.4031186,
+    "ast_hash": "4615195725b716955692a641306225bc",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/plugin/PluginManager.php": {
+    "mtime": 1794910354.0,
+    "seen": 1794962331.3620439,
+    "ast_hash": "cb1f4d7b7e00feb8e2a87cf740cf2b15",
+    "semantic_hash": "cb1f4d7b7e00feb8e2a87cf740cf2b15"
+  },
+  "src/PickaxeMP/protocol/ConnectionState.php": {
+    "mtime": 1794945167.9015615,
+    "seen": 1794962331.3621683,
+    "ast_hash": "79427c7981c1f6f0f74fc7f3fbaa8e6e",
+    "semantic_hash": "79427c7981c1f6f0f74fc7f3fbaa8e6e"
+  },
+  "src/PickaxeMP/protocol/HandshakeException.php": {
+    "mtime": 1794945167.9235032,
+    "seen": 1794962331.3622963,
+    "ast_hash": "2a9fc4f52a318889887c424904b6f2ea",
+    "semantic_hash": "2a9fc4f52a318889887c424904b6f2ea"
+  },
+  "src/PickaxeMP/protocol/HandshakeResult.php": {
+    "mtime": 1794946604.862521,
+    "seen": 1794962331.362422,
+    "ast_hash": "2bd06f9301f97c389a80bc8615d1fede",
+    "semantic_hash": "2bd06f9301f97c389a80bc8615d1fede"
+  },
+  "src/PickaxeMP/protocol/PacketBatch.php": {
+    "mtime": 1794972119.0217476,
+    "seen": 1795054826.3566105,
+    "ast_hash": "6df58a6639b769f9c1d24a045e1d61ea",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/ProtocolEngine.php": {
+    "mtime": 1794945141.9922104,
+    "seen": 1794962331.3626702,
+    "ast_hash": "f7dcb72c09a94b24dc19ec436a9ad868",
+    "semantic_hash": "f7dcb72c09a94b24dc19ec436a9ad868"
+  },
+  "src/PickaxeMP/protocol/ProtocolException.php": {
+    "mtime": 1794943508.5355942,
+    "seen": 1794962331.3627954,
+    "ast_hash": "85e2ed4758de039f618434bec013c3dd",
+    "semantic_hash": "85e2ed4758de039f618434bec013c3dd"
+  },
+  "src/PickaxeMP/protocol/ProtocolHandshake.php": {
+    "mtime": 1794945228.5726094,
+    "seen": 1794962331.3629205,
+    "ast_hash": "6bcf4e474a1c2b16c3d0ecc3fa2baa44",
+    "semantic_hash": "6bcf4e474a1c2b16c3d0ecc3fa2baa44"
+  },
+  "src/PickaxeMP/protocol/ProtocolVersion.php": {
+    "mtime": 1794943508.5345974,
+    "seen": 1794962331.363045,
+    "ast_hash": "d51838675714881b97e711a4a148325f",
+    "semantic_hash": "d51838675714881b97e711a4a148325f"
+  },
+  "src/PickaxeMP/protocol/binary/BinaryReader.php": {
+    "mtime": 1794943842.6418414,
+    "seen": 1794962331.3631685,
+    "ast_hash": "8706985b27d93c4025b793670226e477",
+    "semantic_hash": "8706985b27d93c4025b793670226e477"
+  },
+  "src/PickaxeMP/protocol/binary/BinaryWriter.php": {
+    "mtime": 1794944015.8849928,
+    "seen": 1794962331.3632975,
+    "ast_hash": "fa4772f7084a578791696fd07e44392f",
+    "semantic_hash": "fa4772f7084a578791696fd07e44392f"
+  },
+  "src/PickaxeMP/protocol/binary/Uuid.php": {
+    "mtime": 1794944015.8849928,
+    "seen": 1794962331.3634229,
+    "ast_hash": "340a26d4f5192ba442d05abbfdd56878",
+    "semantic_hash": "340a26d4f5192ba442d05abbfdd56878"
+  },
+  "src/PickaxeMP/protocol/binary/VarInt.php": {
+    "mtime": 1794943685.9386106,
+    "seen": 1794962331.3635492,
+    "ast_hash": "81339caab33df6506093380386a9c1e7",
+    "semantic_hash": "81339caab33df6506093380386a9c1e7"
+  },
+  "src/PickaxeMP/protocol/compression/CompressionAlgorithm.php": {
+    "mtime": 1794944214.2858145,
+    "seen": 1794962331.3636749,
+    "ast_hash": "50c63b81ababf61e9510939e77d7c013",
+    "semantic_hash": "50c63b81ababf61e9510939e77d7c013"
+  },
+  "src/PickaxeMP/protocol/compression/CompressionManager.php": {
+    "mtime": 1794971972.6009808,
+    "seen": 1795054826.3566265,
+    "ast_hash": "b8981e3bafb16285fc0649211e7de4f6",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/compression/CompressionSettings.php": {
+    "mtime": 1794944214.2858145,
+    "seen": 1794962331.3639343,
+    "ast_hash": "3de40bcea45e0e75dcdbf84006405692",
+    "semantic_hash": "3de40bcea45e0e75dcdbf84006405692"
+  },
+  "src/PickaxeMP/protocol/compression/ZlibCompressor.php": {
+    "mtime": 1794971941.6622677,
+    "seen": 1795054826.3566298,
+    "ast_hash": "25ff7b59115acf4fdb82a71d70f6439c",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/PacketContext.php": {
+    "mtime": 1794944157.3202395,
+    "seen": 1794962331.3641887,
+    "ast_hash": "440a4543f64cbaade2b3b07f17b9007a",
+    "semantic_hash": "440a4543f64cbaade2b3b07f17b9007a"
+  },
+  "src/PickaxeMP/protocol/packet/PacketDirection.php": {
+    "mtime": 1794944121.5167906,
+    "seen": 1794962331.3643172,
+    "ast_hash": "93392bf6ff4937ce4f255c2db0d27bcd",
+    "semantic_hash": "93392bf6ff4937ce4f255c2db0d27bcd"
+  },
+  "src/PickaxeMP/protocol/packet/PacketId.php": {
+    "mtime": 1795177090.1672804,
+    "seen": 1795179581.9740267,
+    "ast_hash": "772bfeb770431e45e996b3ddd204c421",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/PacketInterface.php": {
+    "mtime": 1794944121.526764,
+    "seen": 1794962331.3645701,
+    "ast_hash": "ffc9cfbfc996b2ef6ff2019a01f7b22d",
+    "semantic_hash": "ffc9cfbfc996b2ef6ff2019a01f7b22d"
+  },
+  "src/PickaxeMP/protocol/packet/PacketRegistry.php": {
+    "mtime": 1795177776.6798322,
+    "seen": 1795179581.9740298,
+    "ast_hash": "5058f19d1e05a2c5ee69719548bcc82d",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/ClientToServerHandshakePacket.php": {
+    "mtime": 1794958703.8842075,
+    "seen": 1794962331.3648226,
+    "ast_hash": "7dca16b20f90e100e59a243f84d38839",
+    "semantic_hash": "7dca16b20f90e100e59a243f84d38839"
+  },
+  "src/PickaxeMP/protocol/packet/packets/LevelChunkPacket.php": {
+    "mtime": 1794955457.6123953,
+    "seen": 1794962331.3649566,
+    "ast_hash": "f92ef188acd3c5e500790e99eaa391a2",
+    "semantic_hash": "f92ef188acd3c5e500790e99eaa391a2"
+  },
+  "src/PickaxeMP/protocol/packet/packets/LoginPacket.php": {
+    "mtime": 1794951263.9102945,
+    "seen": 1794962331.3650851,
+    "ast_hash": "5cb58cf922ca40775fd21a549242f105",
+    "semantic_hash": "5cb58cf922ca40775fd21a549242f105"
+  },
+  "src/PickaxeMP/protocol/packet/packets/NetworkSettingsPacket.php": {
+    "mtime": 1794944818.1770427,
+    "seen": 1794962331.3652127,
+    "ast_hash": "abaa4bbe7c9f7dc3d83986e2806cbaac",
+    "semantic_hash": "abaa4bbe7c9f7dc3d83986e2806cbaac"
+  },
+  "src/PickaxeMP/protocol/packet/packets/PlayStatusPacket.php": {
+    "mtime": 1794944975.4556122,
+    "seen": 1794962331.3653417,
+    "ast_hash": "1a47ccb95ed5f81a7a6eb5ac221f55ca",
+    "semantic_hash": "1a47ccb95ed5f81a7a6eb5ac221f55ca"
+  },
+  "src/PickaxeMP/protocol/packet/packets/PlayerAuthInputPacket.php": {
+    "mtime": 1795112181.8828259,
+    "seen": 1795114210.1364405,
+    "ast_hash": "219aea3d34d4ab0fdae2f1e618e456c0",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/RequestNetworkSettingsPacket.php": {
+    "mtime": 1794944818.1770427,
+    "seen": 1794962331.3655965,
+    "ast_hash": "a40ea6de076a8b2d1321752e0e24e703",
+    "semantic_hash": "a40ea6de076a8b2d1321752e0e24e703"
+  },
+  "src/PickaxeMP/protocol/packet/packets/ResourcePackClientResponsePacket.php": {
+    "mtime": 1794945047.950927,
+    "seen": 1794962331.365729,
+    "ast_hash": "2a186a6f30b7db3e395e44e432624a32",
+    "semantic_hash": "2a186a6f30b7db3e395e44e432624a32"
+  },
+  "src/PickaxeMP/protocol/packet/packets/ResourcePackStackPacket.php": {
+    "mtime": 1794944975.4576063,
+    "seen": 1794962331.3658624,
+    "ast_hash": "83906baf6475b1e33f62c89e715a368e",
+    "semantic_hash": "83906baf6475b1e33f62c89e715a368e"
+  },
+  "src/PickaxeMP/protocol/packet/packets/ResourcePacksInfoPacket.php": {
+    "mtime": 1794944975.4556122,
+    "seen": 1794962331.3659935,
+    "ast_hash": "8795ac9960946a766e483469bbba00bc",
+    "semantic_hash": "8795ac9960946a766e483469bbba00bc"
+  },
+  "src/PickaxeMP/protocol/packet/packets/ServerToClientHandshakePacket.php": {
+    "mtime": 1794958703.8802173,
+    "seen": 1794962331.366122,
+    "ast_hash": "41871d7b10b98ed8c8938e2606bc6e90",
+    "semantic_hash": "41871d7b10b98ed8c8938e2606bc6e90"
+  },
+  "src/PickaxeMP/protocol/packet/packets/StartGamePacket.php": {
+    "mtime": 1794955387.1659632,
+    "seen": 1794962331.3662522,
+    "ast_hash": "2ec4ebf82e99d517b5ade1889f81e023",
+    "semantic_hash": "2ec4ebf82e99d517b5ade1889f81e023"
+  },
+  "src/PickaxeMP/protocol/packet/packets/SubChunkPacket.php": {
+    "mtime": 1794955513.4201314,
+    "seen": 1794962331.3663816,
+    "ast_hash": "4fc56145b8df17bcc284a0dcae92eabd",
+    "semantic_hash": "4fc56145b8df17bcc284a0dcae92eabd"
+  },
+  "src/PickaxeMP/protocol/packet/packets/SubChunkPacketData.php": {
+    "mtime": 1794955513.4201314,
+    "seen": 1794962331.3665097,
+    "ast_hash": "dae00d193baee016cf574682ba04cfb8",
+    "semantic_hash": "dae00d193baee016cf574682ba04cfb8"
+  },
+  "src/PickaxeMP/protocol/packet/types/ExperimentToggle.php": {
+    "mtime": 1794944603.7464943,
+    "seen": 1794962331.3666368,
+    "ast_hash": "f8eee07614fa36af8c2afcdb1f012d2b",
+    "semantic_hash": "f8eee07614fa36af8c2afcdb1f012d2b"
+  },
+  "src/PickaxeMP/protocol/packet/types/GameType.php": {
+    "mtime": 1794954898.5439682,
+    "seen": 1794962331.3667676,
+    "ast_hash": "f6a93f1386b79ff48023bb54ff37586e",
+    "semantic_hash": "f6a93f1386b79ff48023bb54ff37586e"
+  },
+  "src/PickaxeMP/protocol/packet/types/LevelSettings.php": {
+    "mtime": 1794955179.1795719,
+    "seen": 1794962331.3668966,
+    "ast_hash": "f47e20a35a806d03560e5286b02e567b",
+    "semantic_hash": "f47e20a35a806d03560e5286b02e567b"
+  },
+  "src/PickaxeMP/protocol/packet/types/PackIdVersion.php": {
+    "mtime": 1794944603.7101614,
+    "seen": 1794962331.3670242,
+    "ast_hash": "5eb69732ba89874a3145a574de7cf68c",
+    "semantic_hash": "5eb69732ba89874a3145a574de7cf68c"
+  },
+  "src/PickaxeMP/protocol/packet/types/PackInfoData.php": {
+    "mtime": 1794944603.728543,
+    "seen": 1794962331.3671513,
+    "ast_hash": "2e3ca985246ff764356c053880a59863",
+    "semantic_hash": "2e3ca985246ff764356c053880a59863"
+  },
+  "src/PickaxeMP/protocol/packet/types/PackInstanceId.php": {
+    "mtime": 1794944603.7474923,
+    "seen": 1794962331.367279,
+    "ast_hash": "157a18ac12760a6ee2f0c6296678065f",
+    "semantic_hash": "157a18ac12760a6ee2f0c6296678065f"
+  },
+  "src/PickaxeMP/protocol/packet/types/PlayStatus.php": {
+    "mtime": 1794944603.7464943,
+    "seen": 1794962331.3674066,
+    "ast_hash": "82388f72f998f2655e2142c5c207e0d0",
+    "semantic_hash": "82388f72f998f2655e2142c5c207e0d0"
+  },
+  "src/PickaxeMP/protocol/packet/types/PlayerAuthInputFlags.php": {
+    "mtime": 1794959026.9171906,
+    "seen": 1794962331.3675327,
+    "ast_hash": "7dbca367983555bd1b82b7bc5344abd8",
+    "semantic_hash": "7dbca367983555bd1b82b7bc5344abd8"
+  },
+  "src/PickaxeMP/protocol/packet/types/PlayerBlockAction.php": {
+    "mtime": 1795059137.5435426,
+    "seen": 1795061537.1553774,
+    "ast_hash": "e227647fa02950c4a87b17cffc137e04",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ResourcePackResponse.php": {
+    "mtime": 1794944818.1720552,
+    "seen": 1794962331.3677914,
+    "ast_hash": "fb38db3b73ec5d642bcf24489f1b6196",
+    "semantic_hash": "fb38db3b73ec5d642bcf24489f1b6196"
+  },
+  "src/PickaxeMP/protocol/packet/types/SpawnSettings.php": {
+    "mtime": 1794954898.5449648,
+    "seen": 1794962331.3679194,
+    "ast_hash": "f442ac5bd0e5b8fe8540e7dfd237c781",
+    "semantic_hash": "f442ac5bd0e5b8fe8540e7dfd237c781"
+  },
+  "src/PickaxeMP/protocol/packet/types/SubChunkRequestResult.php": {
+    "mtime": 1794955457.6123953,
+    "seen": 1794962331.3680468,
+    "ast_hash": "2117bbb3107bbd766dfb65a4e879b923",
+    "semantic_hash": "2117bbb3107bbd766dfb65a4e879b923"
+  },
+  "src/PickaxeMP/scheduler/Scheduler.php": {
+    "mtime": 1794930581.422783,
+    "seen": 1794962331.368175,
+    "ast_hash": "35e9085df4de7b2d04ecd4ef53a62fa8",
+    "semantic_hash": "35e9085df4de7b2d04ecd4ef53a62fa8"
+  },
+  "src/PickaxeMP/scheduler/Task.php": {
+    "mtime": 1794930468.759,
+    "seen": 1794962331.3683047,
+    "ast_hash": "15e75e18324588b2e141cdc1484ce50a",
+    "semantic_hash": "15e75e18324588b2e141cdc1484ce50a"
+  },
+  "src/PickaxeMP/session/Session.php": {
+    "mtime": 1795165839.9301736,
+    "seen": 1795168611.4034455,
+    "ast_hash": "0b7aa1aba21fd89a236761bb8a14f1ce",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/session/SessionAuthenticator.php": {
+    "mtime": 1795165839.9311693,
+    "seen": 1795168611.4034483,
+    "ast_hash": "9dba4773533e7e208714c02c77e74a6f",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/session/SessionException.php": {
+    "mtime": 1794950120.3219817,
+    "seen": 1794962331.3686857,
+    "ast_hash": "5b152c505acfeef17fdb5623608d1b75",
+    "semantic_hash": "5b152c505acfeef17fdb5623608d1b75"
+  },
+  "src/PickaxeMP/session/SessionManager.php": {
+    "mtime": 1795165925.3648937,
+    "seen": 1795168611.403454,
+    "ast_hash": "3cb4ee44a65bc6712552057d0e0f6cb4",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/session/SessionState.php": {
+    "mtime": 1794950120.3209841,
+    "seen": 1794962331.3689408,
+    "ast_hash": "e300e39b338e7f5c970d71cf6b7d2ee7",
+    "semantic_hash": "e300e39b338e7f5c970d71cf6b7d2ee7"
+  },
+  "src/PickaxeMP/transport/ConnectionInterface.php": {
+    "mtime": 1794933196.2280545,
+    "seen": 1794962331.3690667,
+    "ast_hash": "760bf54efa08dc74f46c057665e8f7e4",
+    "semantic_hash": "760bf54efa08dc74f46c057665e8f7e4"
+  },
+  "src/PickaxeMP/transport/TransportInterface.php": {
+    "mtime": 1794933231.3671362,
+    "seen": 1794962331.369197,
+    "ast_hash": "cf91ddfa20087083f031e926ecf75e28",
+    "semantic_hash": "cf91ddfa20087083f031e926ecf75e28"
+  },
+  "src/PickaxeMP/transport/TransportListenerInterface.php": {
+    "mtime": 1794933196.229053,
+    "seen": 1794962331.3693228,
+    "ast_hash": "95bf050880f9e6bf0f4257e106a6f800",
+    "semantic_hash": "95bf050880f9e6bf0f4257e106a6f800"
+  },
+  "src/PickaxeMP/transport/TransportStats.php": {
+    "mtime": 1794933196.2460747,
+    "seen": 1794962331.3694477,
+    "ast_hash": "f97e41ead0c01d889cc072fef6e1c3ea",
+    "semantic_hash": "f97e41ead0c01d889cc072fef6e1c3ea"
+  },
+  "src/PickaxeMP/transport/sidecar/IpcFrame.php": {
+    "mtime": 1794933372.1558502,
+    "seen": 1794962331.3695736,
+    "ast_hash": "80491f5b8ca8b3d7fda5f0e24c9052dc",
+    "semantic_hash": "80491f5b8ca8b3d7fda5f0e24c9052dc"
+  },
+  "src/PickaxeMP/transport/sidecar/IpcProtocolException.php": {
+    "mtime": 1794933282.4462504,
+    "seen": 1794962331.3697035,
+    "ast_hash": "572bc7d9a4c7529fc72b0b0ec38c0474",
+    "semantic_hash": "572bc7d9a4c7529fc72b0b0ec38c0474"
+  },
+  "src/PickaxeMP/transport/sidecar/SidecarConnection.php": {
+    "mtime": 1794938429.3140936,
+    "seen": 1794962331.3698554,
+    "ast_hash": "423b323e10764eeb37b562266dd1eb23",
+    "semantic_hash": "423b323e10764eeb37b562266dd1eb23"
+  },
+  "src/PickaxeMP/transport/sidecar/SidecarMessage.php": {
+    "mtime": 1794970892.4901414,
+    "seen": 1795054826.3567069,
+    "ast_hash": "3ff8646f0cb8add3547b570ab3397c14",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/transport/sidecar/SidecarProcess.php": {
+    "mtime": 1794980646.8406928,
+    "seen": 1795054826.356708,
+    "ast_hash": "a450f424791a8b732eba2121aea56091",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/transport/sidecar/SidecarTransport.php": {
+    "mtime": 1794981655.0153234,
+    "seen": 1795054826.356711,
+    "ast_hash": "717619a87ace3e521574d5a316ff53e3",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/utils/Config.php": {
+    "mtime": 1794930370.017632,
+    "seen": 1794962331.3705618,
+    "ast_hash": "ae2c5b4e3007fd8d8b85bb398e385f71",
+    "semantic_hash": "ae2c5b4e3007fd8d8b85bb398e385f71"
+  },
+  "src/PickaxeMP/utils/Logger.php": {
+    "mtime": 1794930468.759,
+    "seen": 1794962331.3707428,
+    "ast_hash": "fb3202c84e676afd461c66168cd84dc2",
+    "semantic_hash": "fb3202c84e676afd461c66168cd84dc2"
+  },
+  "src/PickaxeMP/utils/ServerConfig.php": {
+    "mtime": 1795178178.9308243,
+    "seen": 1795179581.9742696,
+    "ast_hash": "babe259a9fff4df911ed579b7fc86b82",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/world/BlockPosition.php": {
+    "mtime": 1794953625.3802528,
+    "seen": 1794962331.371086,
+    "ast_hash": "91fe9f95d940b235f1a3e849b0e5c654",
+    "semantic_hash": "91fe9f95d940b235f1a3e849b0e5c654"
+  },
+  "src/PickaxeMP/world/World.php": {
+    "mtime": 1795083509.267025,
+    "seen": 1795096442.2177203,
+    "ast_hash": "e12d4b9057af77e88ff0c5b02b1bd63a",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/world/WorldException.php": {
+    "mtime": 1795083509.230512,
+    "seen": 1795096442.217722,
+    "ast_hash": "a7c3f56f5aaaefd5d7f3b00e6b408b23",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/world/WorldManager.php": {
+    "mtime": 1794954679.0980568,
+    "seen": 1794962331.3716035,
+    "ast_hash": "c3006ef97a78fcef6b9c3e1211904abb",
+    "semantic_hash": "c3006ef97a78fcef6b9c3e1211904abb"
+  },
+  "src/PickaxeMP/world/WorldProperties.php": {
+    "mtime": 1795083472.334879,
+    "seen": 1795096442.2177253,
+    "ast_hash": "8224973074281f4edd06683c91b64e5b",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/world/block/BlockRegistry.php": {
+    "mtime": 1795059175.9801512,
+    "seen": 1795061537.155446,
+    "ast_hash": "17fe68bb618b5f5cc7768e65e3366cbf",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/world/block/BlockState.php": {
+    "mtime": 1794953534.2157142,
+    "seen": 1794962331.3721185,
+    "ast_hash": "1fa0c44fdc27b40ecb5c11f9c2ba5a40",
+    "semantic_hash": "1fa0c44fdc27b40ecb5c11f9c2ba5a40"
+  },
+  "src/PickaxeMP/world/block/BlockType.php": {
+    "mtime": 1794953534.2157142,
+    "seen": 1794962331.3722882,
+    "ast_hash": "b9615fc773efa214991828af30f46445",
+    "semantic_hash": "b9615fc773efa214991828af30f46445"
+  },
+  "src/PickaxeMP/world/chunk/Chunk.php": {
+    "mtime": 1794954139.8501024,
+    "seen": 1794962331.3724575,
+    "ast_hash": "0db4622277906ac374b70c927f4e4348",
+    "semantic_hash": "0db4622277906ac374b70c927f4e4348"
+  },
+  "src/PickaxeMP/world/chunk/ChunkPosition.php": {
+    "mtime": 1794953625.410285,
+    "seen": 1794962331.3726325,
+    "ast_hash": "a506e5ce2c5f90b8fee2ca2cff3f2041",
+    "semantic_hash": "a506e5ce2c5f90b8fee2ca2cff3f2041"
+  },
+  "src/PickaxeMP/world/chunk/SubChunk.php": {
+    "mtime": 1794953767.7303405,
+    "seen": 1794962331.3728096,
+    "ast_hash": "c1af8d148fd457ffb9267ae4ab53ad11",
+    "semantic_hash": "c1af8d148fd457ffb9267ae4ab53ad11"
+  },
+  "src/PickaxeMP/world/chunk/SubChunkSerializer.php": {
+    "mtime": 1794956169.1906934,
+    "seen": 1794962331.3729832,
+    "ast_hash": "eabce18781c72f4573b3d1dcab60788f",
+    "semantic_hash": "eabce18781c72f4573b3d1dcab60788f"
+  },
+  "src/PickaxeMP/world/generator/FlatGenerator.php": {
+    "mtime": 1794954411.5941322,
+    "seen": 1794962331.3731616,
+    "ast_hash": "c5787e5d4d87efecfe25fa1b0919fae8",
+    "semantic_hash": "c5787e5d4d87efecfe25fa1b0919fae8"
+  },
+  "src/PickaxeMP/world/storage/FileWorldStorage.php": {
+    "mtime": 1794954601.7764623,
+    "seen": 1794962331.3733425,
+    "ast_hash": "cf00ae020f7b14f23cd31f56e940c901",
+    "semantic_hash": "cf00ae020f7b14f23cd31f56e940c901"
+  },
+  "src/PickaxeMP/world/storage/WorldStorageInterface.php": {
+    "mtime": 1794954583.753139,
+    "seen": 1794962331.3735209,
+    "ast_hash": "7c54126449403aa81e50c36e56dcef39",
+    "semantic_hash": "7c54126449403aa81e50c36e56dcef39"
+  },
+  "start.php": {
+    "mtime": 1794931646.171813,
+    "seen": 1794962331.3736966,
+    "ast_hash": "6a0d15a150994fb1f0b62395ad5893e0",
+    "semantic_hash": "6a0d15a150994fb1f0b62395ad5893e0"
+  },
+  "start.sh": {
+    "mtime": 1794910354.0,
+    "seen": 1794962331.373869,
+    "ast_hash": "0e19afda5f5f1aec506c893b07948034",
+    "semantic_hash": "0e19afda5f5f1aec506c893b07948034"
+  },
+  "tests/bootstrap.php": {
+    "mtime": 1794951723.6213443,
+    "seen": 1794962331.374036,
+    "ast_hash": "bc2f194d70c3ef12b18bb65c67485aa9",
+    "semantic_hash": "bc2f194d70c3ef12b18bb65c67485aa9"
+  },
+  "tests/integration/ProtocolPipelineTest.php": {
+    "mtime": 1794951626.3002744,
+    "seen": 1794962331.3742087,
+    "ast_hash": "768d8b4a8a947509150414046734b585",
+    "semantic_hash": "768d8b4a8a947509150414046734b585"
+  },
+  "tests/integration/ServerBootTest.php": {
+    "mtime": 1794932814.2948508,
+    "seen": 1794962331.374386,
+    "ast_hash": "8619906c97fee6a2606f39075794bb4a",
+    "semantic_hash": "8619906c97fee6a2606f39075794bb4a"
+  },
+  "tests/integration/SessionAuthenticatorTest.php": {
+    "mtime": 1794978345.4642081,
+    "seen": 1795054826.356774,
+    "ast_hash": "3fa8a14aed60852ba7ac40945dd6f4dd",
+    "semantic_hash": ""
+  },
+  "tests/integration/SidecarIntegrationTest.php": {
+    "mtime": 1794940726.0323014,
+    "seen": 1794962331.3747313,
+    "ast_hash": "be5b1714c0213cf2521e69e3b6e3118c",
+    "semantic_hash": "be5b1714c0213cf2521e69e3b6e3118c"
+  },
+  "tests/support/CryptoFixture.php": {
+    "mtime": 1795052650.167602,
+    "seen": 1795054826.3567774,
+    "ast_hash": "dcad9ad17f67e89322c7e553f8985e81",
+    "semantic_hash": ""
+  },
+  "tests/support/FakeConnection.php": {
+    "mtime": 1794933460.5763886,
+    "seen": 1794962331.3750863,
+    "ast_hash": "bdad5abb8a734231ef444a091c6fe2c0",
+    "semantic_hash": "bdad5abb8a734231ef444a091c6fe2c0"
+  },
+  "tests/support/FakeModule.php": {
+    "mtime": 1794931974.3146505,
+    "seen": 1794962331.3752556,
+    "ast_hash": "23871b72b581169ae707d317e8a09626",
+    "semantic_hash": "23871b72b581169ae707d317e8a09626"
+  },
+  "tests/support/FakeTransport.php": {
+    "mtime": 1794983246.3647218,
+    "seen": 1795054826.3567848,
+    "ast_hash": "eaa02798a778933b8680da846a18c2b9",
+    "semantic_hash": ""
+  },
+  "tests/support/LoginRequestFixture.php": {
+    "mtime": 1794951533.3249624,
+    "seen": 1794962331.3755887,
+    "ast_hash": "9fa3cd37ee89392c21def34a0ba0a5d8",
+    "semantic_hash": "9fa3cd37ee89392c21def34a0ba0a5d8"
+  },
+  "tests/support/PlainModule.php": {
+    "mtime": 1794932729.8753903,
+    "seen": 1794962331.3757615,
+    "ast_hash": "5d09ce37c2137878b87709349cced706",
+    "semantic_hash": "5d09ce37c2137878b87709349cced706"
+  },
+  "tests/unit/AuthenticationEngineTest.php": {
+    "mtime": 1794950986.1223557,
+    "seen": 1794962331.375929,
+    "ast_hash": "d2b72368f5babdc3cbdcc03fe3ab8bce",
+    "semantic_hash": "d2b72368f5babdc3cbdcc03fe3ab8bce"
+  },
+  "tests/unit/ConfigTest.php": {
+    "mtime": 1794932729.8803773,
+    "seen": 1794962331.3760984,
+    "ast_hash": "fd96be652ebbb649355141bdd706b013",
+    "semantic_hash": "fd96be652ebbb649355141bdd706b013"
+  },
+  "tests/unit/DependencyGraphTest.php": {
+    "mtime": 1794932755.3145103,
+    "seen": 1794962331.3762643,
+    "ast_hash": "7aeb89fb5b93481a859dbb4358d5beb5",
+    "semantic_hash": "7aeb89fb5b93481a859dbb4358d5beb5"
+  },
+  "tests/unit/IpcFrameTest.php": {
+    "mtime": 1794933319.5882194,
+    "seen": 1794962331.37643,
+    "ast_hash": "55360d7c1730080b3acb5e399f655bbf",
+    "semantic_hash": "55360d7c1730080b3acb5e399f655bbf"
+  },
+  "tests/unit/LoggerTest.php": {
+    "mtime": 1794932570.543376,
+    "seen": 1794962331.376596,
+    "ast_hash": "d322171617ee34a516d591ef4eee2a48",
+    "semantic_hash": "d322171617ee34a516d591ef4eee2a48"
+  },
+  "tests/unit/ReloadManagerTest.php": {
+    "mtime": 1794932371.4077294,
+    "seen": 1794962331.3767595,
+    "ast_hash": "68fec95553f89467f341f611abc73455",
+    "semantic_hash": "68fec95553f89467f341f611abc73455"
+  },
+  "tests/unit/SchedulerTest.php": {
+    "mtime": 1794931909.408672,
+    "seen": 1794962331.3769274,
+    "ast_hash": "f99a12f6e112d860722fe81ab0963fa6",
+    "semantic_hash": "f99a12f6e112d860722fe81ab0963fa6"
+  },
+  "tests/unit/ServerConfigTest.php": {
+    "mtime": 1794932754.8735356,
+    "seen": 1794962331.3770921,
+    "ast_hash": "f56fd3e747d3be250df65d61a31a39c0",
+    "semantic_hash": "f56fd3e747d3be250df65d61a31a39c0"
+  },
+  "tests/unit/ServerKernelTest.php": {
+    "mtime": 1794932729.8803773,
+    "seen": 1794962331.3772564,
+    "ast_hash": "1d9969829727c231ea214be73973973d",
+    "semantic_hash": "1d9969829727c231ea214be73973973d"
+  },
+  "tests/unit/SessionManagerTest.php": {
+    "mtime": 1795166602.5858314,
+    "seen": 1795168611.4036348,
+    "ast_hash": "1857e01892a1fb93c69f186ca22c676e",
+    "semantic_hash": ""
+  },
+  "tests/unit/SidecarMessageTest.php": {
+    "mtime": 1794970796.1703234,
+    "seen": 1795054826.3568175,
+    "ast_hash": "cfe892f6a3ea6895d84844d1a22b61cb",
+    "semantic_hash": ""
+  },
+  "tests/unit/TransportContractTest.php": {
+    "mtime": 1794933488.6457849,
+    "seen": 1794962331.3777623,
+    "ast_hash": "401786f3754ac8969c31f6a800a6a2db",
+    "semantic_hash": "401786f3754ac8969c31f6a800a6a2db"
+  },
+  "tests/unit/auth/Base64UrlTest.php": {
+    "mtime": 1794950692.0868163,
+    "seen": 1794962331.3779392,
+    "ast_hash": "00a38868bdb111c877ac9a1f9979d7a4",
+    "semantic_hash": "00a38868bdb111c877ac9a1f9979d7a4"
+  },
+  "tests/unit/auth/CertificateValidatorTest.php": {
+    "mtime": 1794950861.9890063,
+    "seen": 1794962331.3781338,
+    "ast_hash": "d93fc28b6559ce5002ae7796675b5267",
+    "semantic_hash": "d93fc28b6559ce5002ae7796675b5267"
+  },
+  "tests/unit/auth/EcdsaSignatureTest.php": {
+    "mtime": 1794950692.0948005,
+    "seen": 1794962331.3783343,
+    "ast_hash": "b1eac6594dd03cd619b3dc6dc1153230",
+    "semantic_hash": "b1eac6594dd03cd619b3dc6dc1153230"
+  },
+  "tests/unit/auth/EncryptionTest.php": {
+    "mtime": 1795177889.0478773,
+    "seen": 1795179581.9743981,
+    "ast_hash": "2b0b2196956e9f0a955279ae866e4a2e",
+    "semantic_hash": ""
+  },
+  "tests/unit/auth/JwtParserTest.php": {
+    "mtime": 1794950483.3888092,
+    "seen": 1794962331.3787346,
+    "ast_hash": "dd400b7e3dd4bd6a37ede5972ba238b5",
+    "semantic_hash": "dd400b7e3dd4bd6a37ede5972ba238b5"
+  },
+  "tests/unit/auth/JwtVerifierTest.php": {
+    "mtime": 1794950780.255372,
+    "seen": 1794962331.378937,
+    "ast_hash": "a735c5c6d13f1661a1507692f12e284b",
+    "semantic_hash": "a735c5c6d13f1661a1507692f12e284b"
+  },
+  "tests/unit/protocol/BinaryFuzzTest.php": {
+    "mtime": 1794946630.0031679,
+    "seen": 1794962331.3791447,
+    "ast_hash": "8e9ef3f66b01f27b38ea6a2906a04aea",
+    "semantic_hash": "8e9ef3f66b01f27b38ea6a2906a04aea"
+  },
+  "tests/unit/protocol/BinaryRoundTripTest.php": {
+    "mtime": 1794945402.6180792,
+    "seen": 1794962331.3793457,
+    "ast_hash": "f60c0de73a504a15c468e07601b2403c",
+    "semantic_hash": "f60c0de73a504a15c468e07601b2403c"
+  },
+  "tests/unit/protocol/CompressionTest.php": {
+    "mtime": 1794971755.7436173,
+    "seen": 1795054826.356839,
+    "ast_hash": "6607b6f1534acb2a23e23aff2801fab2",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/HandshakeTest.php": {
+    "mtime": 1794951506.0275657,
+    "seen": 1794962331.3797462,
+    "ast_hash": "64773bde3485553fad32cf524e1215f5",
+    "semantic_hash": "64773bde3485553fad32cf524e1215f5"
+  },
+  "tests/unit/protocol/PacketBatchTest.php": {
+    "mtime": 1794972178.1881995,
+    "seen": 1795054826.3568444,
+    "ast_hash": "48a1f4295f65defdc42e2a9ccf6ebc14",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/PacketCodecTest.php": {
+    "mtime": 1795177638.2403975,
+    "seen": 1795179581.9744601,
+    "ast_hash": "97272c85777205bbe7012218ab566fa9",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/VarIntTest.php": {
+    "mtime": 1794945347.5641801,
+    "seen": 1794962331.3802068,
+    "ast_hash": "0de69f6429c072c56c9d5dbf8de2af28",
+    "semantic_hash": "0de69f6429c072c56c9d5dbf8de2af28"
+  },
+  "tests/unit/world/BlockStateTest.php": {
+    "mtime": 1794955867.4078698,
+    "seen": 1794962331.3803835,
+    "ast_hash": "4251ba0cc06da711cd672f52032c4279",
+    "semantic_hash": "4251ba0cc06da711cd672f52032c4279"
+  },
+  "tests/unit/world/ChunkTest.php": {
+    "mtime": 1794956169.1537669,
+    "seen": 1794962331.3805215,
+    "ast_hash": "c44774c22597f68f370ba2f8a917418e",
+    "semantic_hash": "c44774c22597f68f370ba2f8a917418e"
+  },
+  "tests/unit/world/FlatGeneratorTest.php": {
+    "mtime": 1794956344.1779332,
+    "seen": 1794962331.3806486,
+    "ast_hash": "cc3d892003c288b1af12fe38a8dd7fc1",
+    "semantic_hash": "cc3d892003c288b1af12fe38a8dd7fc1"
+  },
+  "tests/unit/world/WorldPacketTest.php": {
+    "mtime": 1795177645.5536854,
+    "seen": 1795179581.974478,
+    "ast_hash": "4d7b71823643f5f45075eddd067d4326",
+    "semantic_hash": ""
+  },
+  "tests/unit/world/WorldPropertiesTest.php": {
+    "mtime": 1794956344.180924,
+    "seen": 1794962331.3809075,
+    "ast_hash": "25f7423a0186a5401f12e5b32c3e82da",
+    "semantic_hash": "25f7423a0186a5401f12e5b32c3e82da"
+  },
+  "tests/unit/world/WorldStorageTest.php": {
+    "mtime": 1794956484.8119862,
+    "seen": 1794962331.381034,
+    "ast_hash": "8ba3933cbbe49bdbcd136529f8c851db",
+    "semantic_hash": "8ba3933cbbe49bdbcd136529f8c851db"
+  },
+  "tools/composer.sh": {
+    "mtime": 1794966311.6610856,
+    "seen": 1795054826.356858,
+    "ast_hash": "a16aefb51db1b5f47cfc04de11aa162c",
+    "semantic_hash": ""
+  },
+  "tools/lint.php": {
+    "mtime": 1794929459.6899226,
+    "seen": 1794962331.3812873,
+    "ast_hash": "c51cd1a4b6649ef785003fda088e0214",
+    "semantic_hash": "c51cd1a4b6649ef785003fda088e0214"
+  },
+  "tools/php.sh": {
+    "mtime": 1794949148.9428737,
+    "seen": 1794962331.38141,
+    "ast_hash": "14c13e3ff4f39b97465bab80fa8e0a78",
+    "semantic_hash": "14c13e3ff4f39b97465bab80fa8e0a78"
+  },
+  "tools/verify-encryption.php": {
+    "mtime": 1794958615.7035031,
+    "seen": 1794962331.3815322,
+    "ast_hash": "d6691bc1fd8f1e478d07d5b91df65fe9",
+    "semantic_hash": "d6691bc1fd8f1e478d07d5b91df65fe9"
+  },
+  "transport/pickaxe-transport/Cargo.toml": {
+    "mtime": 1794970713.638478,
+    "seen": 1795054826.3568664,
+    "ast_hash": "c231d519a8a1fa13bac12ec074504bb9",
+    "semantic_hash": ""
+  },
+  "transport/pickaxe-transport/src/config.rs": {
+    "mtime": 1794937310.9886744,
+    "seen": 1794962331.3817883,
+    "ast_hash": "c44a59698d3f7271aaead2eb0cc28e7f",
+    "semantic_hash": "c44a59698d3f7271aaead2eb0cc28e7f"
+  },
+  "transport/pickaxe-transport/src/ipc/frame.rs": {
+    "mtime": 1794937310.9926362,
+    "seen": 1794962331.3819165,
+    "ast_hash": "7eb049df0ce6d1df0356831b48ab08ad",
+    "semantic_hash": "7eb049df0ce6d1df0356831b48ab08ad"
+  },
+  "transport/pickaxe-transport/src/ipc/message.rs": {
+    "mtime": 1794971796.38775,
+    "seen": 1795054826.3568711,
+    "ast_hash": "b37966308f7b1e8afccd650b455c8b0f",
+    "semantic_hash": ""
+  },
+  "transport/pickaxe-transport/src/ipc/mod.rs": {
+    "mtime": 1794971786.7224848,
+    "seen": 1795054826.3568728,
+    "ast_hash": "b8e3f9ff3a68ac473c31b875c4c4c3a3",
+    "semantic_hash": ""
+  },
+  "transport/pickaxe-transport/src/ipc/server.rs": {
+    "mtime": 1794975382.444434,
+    "seen": 1795054826.3568745,
+    "ast_hash": "533d7079ed154da39ad7506bd842ef74",
+    "semantic_hash": ""
+  },
+  "transport/pickaxe-transport/src/lib.rs": {
+    "mtime": 1794936977.6847992,
+    "seen": 1794962331.3824306,
+    "ast_hash": "fdfcc7a5bfeeeb8abbd431587f14f9e5",
+    "semantic_hash": "fdfcc7a5bfeeeb8abbd431587f14f9e5"
+  },
+  "transport/pickaxe-transport/src/main.rs": {
+    "mtime": 1794975515.6450562,
+    "seen": 1795054826.3568776,
+    "ast_hash": "79f77bb7cb4126a215fcab2590c79986",
+    "semantic_hash": ""
+  },
+  "transport/pickaxe-transport/src/nether/mod.rs": {
+    "mtime": 1794941794.923121,
+    "seen": 1794962331.3826816,
+    "ast_hash": "3e8f14dd11baa8f4a6c8862914c8cfd7",
+    "semantic_hash": "3e8f14dd11baa8f4a6c8862914c8cfd7"
+  },
+  "transport/pickaxe-transport/tests/signaling.rs": {
+    "mtime": 1794941784.9071639,
+    "seen": 1794962331.3828156,
+    "ast_hash": "ef2bcb3cdd4691fb2d8e55b6b7b5668b",
+    "semantic_hash": "ef2bcb3cdd4691fb2d8e55b6b7b5668b"
+  },
+  ".team/lightning.json": {
+    "mtime": 1795048863.1469197,
+    "seen": 1795054826.3563225,
+    "ast_hash": "3a966d313baaed1a4a77b3af61012700",
+    "semantic_hash": ""
+  },
+  ".team/minimax.json": {
+    "mtime": 1795049699.9882996,
+    "seen": 1795054826.3563254,
+    "ast_hash": "f4dd0c8dd8611def5e0c0ecc71a9057d",
+    "semantic_hash": ""
+  },
+  ".team/muse.json": {
+    "mtime": 1795049106.5013192,
+    "seen": 1795054826.356327,
+    "ast_hash": "6b12c69eb9b84d1eb22a32e4945a3df2",
+    "semantic_hash": ""
+  },
+  ".team/ref-EncryptionContext.php": {
+    "mtime": 1795050549.3213494,
+    "seen": 1795054826.3563285,
+    "ast_hash": "eb97e8d7b856002ff40bb106a704119b",
+    "semantic_hash": ""
+  },
+  ".team/ref-HandshakePacketHandler.php": {
+    "mtime": 1795050770.5473619,
+    "seen": 1795054826.3563302,
+    "ast_hash": "73a1acdba25fc6cdf798c3a81c4e7cec",
+    "semantic_hash": ""
+  },
+  ".team/ref-NetworkSession.php": {
+    "mtime": 1795050238.3278153,
+    "seen": 1795054826.3563318,
+    "ast_hash": "df21c35db6b29be436d4cf56ff9d8f56",
+    "semantic_hash": ""
+  },
+  ".team/security.json": {
+    "mtime": 1795048853.2150087,
+    "seen": 1795054826.3563333,
+    "ast_hash": "ce0cf5e5fcc5e8dcc6b91d601b26d9f4",
+    "semantic_hash": ""
+  },
+  "cert_loc.php": {
+    "mtime": 1794991002.7946444,
+    "seen": 1795054826.3563347,
+    "ast_hash": "470a116bed4eca64e5e63a0845dc0156",
+    "semantic_hash": ""
+  },
+  "check_ext.php": {
+    "mtime": 1794990190.2268016,
+    "seen": 1795054826.3563364,
+    "ast_hash": "5a6bfca9f2fd6c39e63b02d4d801fe3c",
+    "semantic_hash": ""
+  },
+  "check_ext2.php": {
+    "mtime": 1794990874.6892674,
+    "seen": 1795054826.3563383,
+    "ast_hash": "1fbbd1a17b2162818b86b050a506a9aa",
+    "semantic_hash": ""
+  },
+  "check_openssl_ini.php": {
+    "mtime": 1794990341.7278259,
+    "seen": 1795054826.3563397,
+    "ast_hash": "224e9d3fbf7c7322782e720ff08603cb",
+    "semantic_hash": ""
+  },
+  "ciphers.php": {
+    "mtime": 1794991227.0571835,
+    "seen": 1795054826.3563414,
+    "ast_hash": "dfb8313116bc6193c2b50fd720c86fb5",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ActorLink.json": {
+    "mtime": 1795053948.941647,
+    "seen": 1795054826.3563454,
+    "ast_hash": "31c050f0c054beb01355db046588b711",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ActorLinkType.json": {
+    "mtime": 1795053949.2501307,
+    "seen": 1795054826.3563468,
+    "ast_hash": "38c0eb1b7e37d8f42e4f2d35323093b9",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ActorRuntimeID.json": {
+    "mtime": 1795053950.1013837,
+    "seen": 1795054826.3563483,
+    "ast_hash": "547a900954f1c2d974db544183fdad1e",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ActorUniqueID.json": {
+    "mtime": 1795053949.8092773,
+    "seen": 1795054826.3563497,
+    "ast_hash": "1aa5ba4e47c143e013eb5c29d0150158",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AddActorPacket.json": {
+    "mtime": 1795050077.0980554,
+    "seen": 1795054826.3563511,
+    "ast_hash": "3f628f0daa5d1bc5d473048e6776567f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AddActorPacketPayload.json": {
+    "mtime": 1795049990.77501,
+    "seen": 1795054826.3563526,
+    "ast_hash": "c989e11e4af3da6dffca6ea33f37af41",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AddPlayerPacket.json": {
+    "mtime": 1795050077.2157247,
+    "seen": 1795054826.356354,
+    "ast_hash": "e9e7ec7921c457ba55bbd279bdbdcfc3",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AddPlayerPacketPayload.json": {
+    "mtime": 1795049991.401747,
+    "seen": 1795054826.3563554,
+    "ast_hash": "18716c90802ced24e47ff54af208d27b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/BlockPos.json": {
+    "mtime": 1795053945.8619978,
+    "seen": 1795054826.3563566,
+    "ast_hash": "0e9e083fa60e111024363add05170533",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/BuildPlatform.json": {
+    "mtime": 1795053950.5301075,
+    "seen": 1795054826.3563578,
+    "ast_hash": "8365eac0d69970796290090579e25279",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/CommandPermissionLevel.json": {
+    "mtime": 1795053985.7707322,
+    "seen": 1795054826.3563592,
+    "ast_hash": "adc0481e18d69bee80270050c12db46b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ContainerClosePacket.json": {
+    "mtime": 1795050076.3407686,
+    "seen": 1795054826.3563604,
+    "ast_hash": "a4e192bfa646dc02ba67e7f851f834f9",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ContainerClosePacketPayload.json": {
+    "mtime": 1795049985.7211304,
+    "seen": 1795054826.3563619,
+    "ast_hash": "ee563cafbf5ab7d5200e9c8fbb828943",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ContainerEnumName.json": {
+    "mtime": 1795053952.4787295,
+    "seen": 1795054826.3563635,
+    "ast_hash": "4d445f596341d7eff7dccfcd43300dbd",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ContainerID.json": {
+    "mtime": 1795050075.0690331,
+    "seen": 1795054826.3563647,
+    "ast_hash": "e2ba28fa3a3b4bfaebb1a223a41f0ce5",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ContainerOpenPacket.json": {
+    "mtime": 1795050076.208884,
+    "seen": 1795054826.3563662,
+    "ast_hash": "6f5d805d8f4af109be66f6be06acfc97",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ContainerOpenPacketPayload.json": {
+    "mtime": 1795049985.1088557,
+    "seen": 1795054826.3563676,
+    "ast_hash": "db24ffe631b39d3101798d7c992767f0",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ContainerType.json": {
+    "mtime": 1795050074.9410222,
+    "seen": 1795054826.3563693,
+    "ast_hash": "1053d120d0cb4b41c95bc39ba4fde47a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/CraftingDataPacket.json": {
+    "mtime": 1795050077.9847913,
+    "seen": 1795054826.3563707,
+    "ast_hash": "d990333b835d0ef75b9a9aa6123dc94b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemEntry.json": {
+    "mtime": 1795081482.405722,
+    "seen": 1795096442.2170887,
+    "ast_hash": "b27b869b795e2038ea6fcef23c8e1859",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/FullContainerName.json": {
+    "mtime": 1795050074.8148575,
+    "seen": 1795054826.3563733,
+    "ast_hash": "9cbd0d12fecacda2df9568db0c8974f7",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/GameType.json": {
+    "mtime": 1795053952.3395667,
+    "seen": 1795054826.3563747,
+    "ast_hash": "fe189f53792398ebfb73cc676b368d35",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InteractPacket.json": {
+    "mtime": 1795050076.8490188,
+    "seen": 1795054826.3563762,
+    "ast_hash": "2ecbae452867b99b09e9790c3bd087a1",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InteractPacketPayload.json": {
+    "mtime": 1795049993.913434,
+    "seen": 1795054826.3563776,
+    "ast_hash": "3b194ce26ae65577fa10b43f210f590e",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventoryAction.json": {
+    "mtime": 1795053946.3693748,
+    "seen": 1795054826.3563788,
+    "ast_hash": "de6705386560c48402155584931c3da9",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventoryContentPacket.json": {
+    "mtime": 1795049982.7124631,
+    "seen": 1795054826.3563805,
+    "ast_hash": "d59c8cd3714e25e138f181e98cbebee9",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventoryContentPacketPayload.json": {
+    "mtime": 1795049983.016963,
+    "seen": 1795054826.3563817,
+    "ast_hash": "1f747ea1d2eed42ebf76c3ab1c79086c",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventorySlotPacket.json": {
+    "mtime": 1795050076.0782967,
+    "seen": 1795054826.3563833,
+    "ast_hash": "7ceb8acea6d757425c7f7e510275ebc8",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventorySlotPacketPayload.json": {
+    "mtime": 1795049983.6746292,
+    "seen": 1795054826.3563845,
+    "ast_hash": "491936ebfccabfb47ddce05b34ab751a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventorySource.json": {
+    "mtime": 1795050075.3174474,
+    "seen": 1795054826.3563857,
+    "ast_hash": "b6ce9b71b6b39a495a3142a25a7c8bbc",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventorySourceFlags.json": {
+    "mtime": 1795053952.601936,
+    "seen": 1795054826.3563871,
+    "ast_hash": "a8776bf741322d953ce0e9ff40060512",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventorySourceType.json": {
+    "mtime": 1795050075.1936674,
+    "seen": 1795054826.3563886,
+    "ast_hash": "bb3dd373c83eeef56046bd7b9e70ba4e",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventoryTransaction.json": {
+    "mtime": 1795050078.359066,
+    "seen": 1795054826.35639,
+    "ast_hash": "75aeee93058507dcd436ef8348eda109",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventoryTransactionPacket.json": {
+    "mtime": 1795050077.5833569,
+    "seen": 1795054826.3563912,
+    "ast_hash": "5b3772dc3d67bf63ff3d80bb53add19f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventoryTransactionPacketPayload.json": {
+    "mtime": 1795069489.7933674,
+    "seen": 1795074819.996244,
+    "ast_hash": "4f9b91730e63c3375f858130c22ccdd2",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemDescriptorType.json": {
+    "mtime": 1795050075.833642,
+    "seen": 1795054826.3563938,
+    "ast_hash": "5f13206fb50809e596dcecaafcef57ca",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemRegistryPacket.json": {
+    "mtime": 1795050077.8443985,
+    "seen": 1795054826.356395,
+    "ast_hash": "d3b6a3e0420906e574ef8371c507ed0f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackLegacyRequestId.json": {
+    "mtime": 1795053946.6521645,
+    "seen": 1795054826.3563962,
+    "ast_hash": "8ba42bde277f1d11aae82d6bde873d30",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackNetId.json": {
+    "mtime": 1795050074.5606005,
+    "seen": 1795054826.3563976,
+    "ast_hash": "7d8129ce64737ea1bb4a1516815d0edb",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackNetIdVariant.json": {
+    "mtime": 1795050074.436742,
+    "seen": 1795054826.3563988,
+    "ast_hash": "36f1641a9a392deb747e1c9c2f4dad3b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackNetResult.json": {
+    "mtime": 1795050074.6852129,
+    "seen": 1795054826.3564,
+    "ast_hash": "e4bd3b1d475f620d9529f1f08692d066",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequest.json": {
+    "mtime": 1795049987.3111055,
+    "seen": 1795054826.3564014,
+    "ast_hash": "502072bad1bd8021352a2cfb64cd93d6",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestActionType.json": {
+    "mtime": 1795050075.9549305,
+    "seen": 1795054826.3564026,
+    "ast_hash": "b7a7f1beb729669dc14e901731d0aa88",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestCreateAction.json": {
+    "mtime": 1795050073.4749157,
+    "seen": 1795054826.356404,
+    "ast_hash": "d232478c061902a41cc82afd9d13a937",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestDestroyAction.json": {
+    "mtime": 1795050073.130396,
+    "seen": 1795054826.3564053,
+    "ast_hash": "b407d156bc6816191ab8140cb7eff4bb",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestDropAction.json": {
+    "mtime": 1795050072.804295,
+    "seen": 1795054826.3564065,
+    "ast_hash": "06507359401c219f936e96ad669607a1",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestId.json": {
+    "mtime": 1795050073.8201115,
+    "seen": 1795054826.356408,
+    "ast_hash": "c7682149f283441c57e14f22a6b2d30f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestPacket.json": {
+    "mtime": 1795050076.489214,
+    "seen": 1795054826.3564093,
+    "ast_hash": "bcf3cfc517a6ac51901f85cf45283f45",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestPacketPayload.json": {
+    "mtime": 1795049986.35907,
+    "seen": 1795054826.3564107,
+    "ast_hash": "cd9e0fd27fa515d7dd799ead9d5f2e88",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestPlaceAction.json": {
+    "mtime": 1795050072.1818273,
+    "seen": 1795054826.3564122,
+    "ast_hash": "91807023c91b1eb1baac7012e80ecfb8",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestSlotInfo.json": {
+    "mtime": 1795049988.2600799,
+    "seen": 1795054826.3564136,
+    "ast_hash": "5afedba58f25a526dbc2fdeff7661676",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestSwapAction.json": {
+    "mtime": 1795050072.4946496,
+    "seen": 1795054826.356415,
+    "ast_hash": "057d4c1e9f09948a6bd4fab69ea1ec48",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackRequestTakeAction.json": {
+    "mtime": 1795050071.8612158,
+    "seen": 1795054826.3564165,
+    "ast_hash": "7a1f6cd23635575c4780114745e87ee5",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackResponseContainerInfo.json": {
+    "mtime": 1795050074.3082824,
+    "seen": 1795054826.3564181,
+    "ast_hash": "274e92cdb5852d47b1b57507f2300037",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackResponseInfo.json": {
+    "mtime": 1795049987.6264632,
+    "seen": 1795054826.3564193,
+    "ast_hash": "5cb38acf1cc06e8aba146288a05f2736",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackResponsePacket.json": {
+    "mtime": 1795050076.6121385,
+    "seen": 1795054826.3564205,
+    "ast_hash": "fc2adb8199137b66e4151b3a66ab4226",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackResponsePacketPayload.json": {
+    "mtime": 1795049987.0113704,
+    "seen": 1795054826.356422,
+    "ast_hash": "5886f8072d3c3332311bcb12fa4b0772",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemStackResponseSlotInfo.json": {
+    "mtime": 1795050073.949428,
+    "seen": 1795054826.3564231,
+    "ast_hash": "16a2fe45e7d20d5fd1c36e88f8b723ba",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/LegacySetSlot.json": {
+    "mtime": 1795050077.7125764,
+    "seen": 1795054826.3564243,
+    "ast_hash": "dd39e7abe8e688c92adbd06e96bb3910",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MobEquipmentPacket.json": {
+    "mtime": 1795050076.7317598,
+    "seen": 1795054826.356426,
+    "ast_hash": "1b182783e48004cdbd57d1d617ea8bee",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MobEquipmentPacketPayload.json": {
+    "mtime": 1795049993.2914333,
+    "seen": 1795054826.3564272,
+    "ast_hash": "136a68f9648c8f6395fed37ec8a670a2",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MoveActorAbsoluteData.json": {
+    "mtime": 1795053946.2439768,
+    "seen": 1795054826.3564289,
+    "ast_hash": "33be0aaa2aaf36046ac290abe634d1ab",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MoveActorAbsolutePacket.json": {
+    "mtime": 1795050077.462159,
+    "seen": 1795054826.35643,
+    "ast_hash": "8919edc900b178a14e6535f5f2c4c452",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MoveActorAbsolutePacketPayload.json": {
+    "mtime": 1795049992.649786,
+    "seen": 1795054826.356432,
+    "ast_hash": "8d3b2b29b33b49b6f9107bdbb0059c76",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MovePlayerPacket.json": {
+    "mtime": 1795053853.2054863,
+    "seen": 1795054826.3564332,
+    "ast_hash": "4aa96c6a6d63a25b6acc35173fd4cbc6",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MovePlayerPacketPayload.json": {
+    "mtime": 1795053853.5233433,
+    "seen": 1795054826.3564343,
+    "ast_hash": "cbc52f11436018bad8dbda330956548f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MovePlayerTeleportData.json": {
+    "mtime": 1795053868.5222898,
+    "seen": 1795054826.356436,
+    "ast_hash": "ed5a6bb07d41c52c4ed1e3907b2c1fd8",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/NetworkItemInstanceDescriptor.json": {
+    "mtime": 1795050075.4424622,
+    "seen": 1795054826.3564374,
+    "ast_hash": "b34c2b14659fa7a23cd90729f8acc4fb",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/NetworkItemInstanceDescriptorData.json": {
+    "mtime": 1795049989.1698458,
+    "seen": 1795054826.356439,
+    "ast_hash": "cacbd741a10a4869efe08e4074b9dff5",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/NetworkItemStackDescriptor.json": {
+    "mtime": 1795049997.0480576,
+    "seen": 1795054826.3564403,
+    "ast_hash": "ce887675f0ca086e1e128b9cf7f1badf",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PassengerOfBlockArguments.json": {
+    "mtime": 1795053949.5256252,
+    "seen": 1795054826.3564415,
+    "ast_hash": "16088cc96bfb57d7f4b9f104acb401e8",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PassengerOfBlockArguments__EmoteType.json": {
+    "mtime": 1795053985.6471386,
+    "seen": 1795054826.356443,
+    "ast_hash": "f01223081cbe52e7e71c747e8eab9566",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerActionPacket.json": {
+    "mtime": 1795050076.9765449,
+    "seen": 1795054826.3564444,
+    "ast_hash": "90bf58e29c679836ad86463969a6482b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerActionPacketPayload.json": {
+    "mtime": 1795049994.5370445,
+    "seen": 1795054826.3564458,
+    "ast_hash": "b39dc195c1de3f5760b9a7230e66fece",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerAuthInputPacket.json": {
+    "mtime": 1795053854.1236503,
+    "seen": 1795054826.3564467,
+    "ast_hash": "0f377db57a13c786e1aa528bd09e1d9a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerInputTick.json": {
+    "mtime": 1795081482.727197,
+    "seen": 1795096442.2172263,
+    "ast_hash": "8288e392cc81c06e7602f6d42358b08c",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerPermissionLevel.json": {
+    "mtime": 1795053985.89037,
+    "seen": 1795054826.3564496,
+    "ast_hash": "e5234e09a51904df48797fc0ae2a5bf8",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PropertySyncData.json": {
+    "mtime": 1795053947.5134013,
+    "seen": 1795054826.3564508,
+    "ast_hash": "ac17e3c92a13748179f82f9bc94c5698",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PropertySyncData__PropertySyncFloatEntry.json": {
+    "mtime": 1795081483.4323194,
+    "seen": 1795096442.2172413,
+    "ast_hash": "332a518cd56e48e717bb8a4509c84492",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PropertySyncData__PropertySyncIntEntry.json": {
+    "mtime": 1795081483.0820396,
+    "seen": 1795096442.217243,
+    "ast_hash": "079330d18001e0965a0e0b973497da96",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/RecipeIngredient.json": {
+    "mtime": 1795050078.1091733,
+    "seen": 1795054826.3564548,
+    "ast_hash": "e7c4f3a436d1971b2dd2fcfe33905bc2",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/RecipeNetId.json": {
+    "mtime": 1795050078.2346253,
+    "seen": 1795054826.3564563,
+    "ast_hash": "7619879c8ea799280de4574f7b751f11",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/RemoveActorPacket.json": {
+    "mtime": 1795050077.3402126,
+    "seen": 1795054826.3564577,
+    "ast_hash": "eb745c6dcb33545566f4c335749662df",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/RemoveActorPacketPayload.json": {
+    "mtime": 1795049991.9971302,
+    "seen": 1795054826.356459,
+    "ast_hash": "6483492103489d1c99e12b08a6f496d5",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SerializedAbilitiesData.json": {
+    "mtime": 1795053948.3576088,
+    "seen": 1795054826.3564603,
+    "ast_hash": "24ddf5b1f4980ac319576cd6f01947bd",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SerializedAbilitiesDataSerializedLayer.json": {
+    "mtime": 1795081482.0960076,
+    "seen": 1795096442.2172587,
+    "ast_hash": "c1d7f28b5c7fa181c5d198b7f9a5d60d",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SyncedAttribute.json": {
+    "mtime": 1795053947.213115,
+    "seen": 1795054826.3564632,
+    "ast_hash": "2cc83295a9832d86da16ed10d3b26c9b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SynchedActorDataList.json": {
+    "mtime": 1795053946.944793,
+    "seen": 1795054826.3564644,
+    "ast_hash": "e1156277a9e413d3f86f2e74095811df",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/Vec2.json": {
+    "mtime": 1795053945.9918435,
+    "seen": 1795054826.3564656,
+    "ast_hash": "9640638f4496538c484ba4193636a7b5",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/Vec3.json": {
+    "mtime": 1795053946.1128206,
+    "seen": 1795054826.356467,
+    "ast_hash": "ecdd7270fc2c85a6c06b99fe9ecad6ae",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/cerealizer_NetworkItemStackDescriptor___SerializedData.json": {
+    "mtime": 1795050071.52979,
+    "seen": 1795054826.3564682,
+    "ast_hash": "ee9be8c9368af9991ff9e5e7ea00a303",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/mce__UUID.json": {
+    "mtime": 1795053950.4018953,
+    "seen": 1795054826.3564694,
+    "ast_hash": "9c2c3ab94e08fa0657e3b2fd777b5a0d",
+    "semantic_hash": ""
+  },
+  "ec_bits.php": {
+    "mtime": 1794991421.4913523,
+    "seen": 1795054826.3564708,
+    "ast_hash": "f237da6248174705cdf78d6a66a08d40",
+    "semantic_hash": ""
+  },
+  "ec_curve.php": {
+    "mtime": 1794991137.3617136,
+    "seen": 1795054826.3564723,
+    "ast_hash": "dc05ae80aa625d91d1b92f974802d2a0",
+    "semantic_hash": ""
+  },
+  "ec_err.php": {
+    "mtime": 1794991287.0000596,
+    "seen": 1795054826.3564737,
+    "ast_hash": "04744a8eb8e12916a37c985d499d955e",
+    "semantic_hash": ""
+  },
+  "ec_err2.php": {
+    "mtime": 1794991324.4396124,
+    "seen": 1795054826.3564749,
+    "ast_hash": "21e35f114dcd5dcb22bfc258b8327d96",
+    "semantic_hash": ""
+  },
+  "ec_err3.php": {
+    "mtime": 1794991361.8730772,
+    "seen": 1795054826.3564768,
+    "ast_hash": "c5f6c488415f3663e38a64730b40f400",
+    "semantic_hash": ""
+  },
+  "ext_dir.php": {
+    "mtime": 1794990767.0809834,
+    "seen": 1795054826.3564782,
+    "ast_hash": "27031ab236e7426b695a725068b6f554",
+    "semantic_hash": ""
+  },
+  "ini_file.php": {
+    "mtime": 1794990666.530577,
+    "seen": 1795054826.3564796,
+    "ast_hash": "b525f5190375a1646561280bf4703171",
+    "semantic_hash": ""
+  },
+  "opencode.json": {
+    "mtime": 1795047382.599906,
+    "seen": 1795054826.356481,
+    "ast_hash": "4c301c9f63d61a6ba6722769e8e39793",
+    "semantic_hash": ""
+  },
+  "rsa_test.php": {
+    "mtime": 1794991177.8329608,
+    "seen": 1795054826.3564854,
+    "ast_hash": "33b227906622fdcb4fef593c0b709fab",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/Entity.php": {
+    "mtime": 1795072768.7564037,
+    "seen": 1795074819.9964497,
+    "ast_hash": "e2e5df7cf0edb4433e5e8e2192f5dbb6",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/SkinData.php": {
+    "mtime": 1795054521.7427063,
+    "seen": 1795054826.3565025,
+    "ast_hash": "186470c7e33ac8c2001207ecafdcb94f",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/SkinDataValidator.php": {
+    "mtime": 1795054521.7427063,
+    "seen": 1795054826.356504,
+    "ast_hash": "653c085589c74ca770aebc7f9d02258f",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/connection/ConnectionPipeline.php": {
+    "mtime": 1795177815.6421387,
+    "seen": 1795179581.973857,
+    "ast_hash": "1478c806e85dea8a4da4dc9b0d87c07b",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/connection/PipelineConnection.php": {
+    "mtime": 1795052347.8209653,
+    "seen": 1795054826.3565392,
+    "ast_hash": "d20a4878a912d884d097fdce817fbf8e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/entity/EntityManager.php": {
+    "mtime": 1795072778.032595,
+    "seen": 1795074819.9965048,
+    "ast_hash": "15a98106f81f81350720ea996a0504ad",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/entity/EntityTracker.php": {
+    "mtime": 1795051998.3190327,
+    "seen": 1795054826.3565416,
+    "ast_hash": "e91e3227588761aa40fd6e0ad6dc5518",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/inventory/Inventory.php": {
+    "mtime": 1795051414.2432654,
+    "seen": 1795054826.3565538,
+    "ast_hash": "58cecaa5bbf21adfa9084cd27cd33efb",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/inventory/InventoryTransaction.php": {
+    "mtime": 1795051483.8817232,
+    "seen": 1795054826.356555,
+    "ast_hash": "502346d7411a01420eed0d9e335c747c",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/item/Item.php": {
+    "mtime": 1795053098.8471525,
+    "seen": 1795054826.356557,
+    "ast_hash": "217847176d9d8d0b937ff763e6907418",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/item/ItemRegistry.php": {
+    "mtime": 1795157788.3645284,
+    "seen": 1795168611.4030325,
+    "ast_hash": "34dd7f4eb468a465dd51289b26cf9573",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/item/ItemStack.php": {
+    "mtime": 1795053098.8491454,
+    "seen": 1795054826.3565595,
+    "ast_hash": "f6f60a4621d1a9f46946b5ad3f53ca82",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/HealthManager.php": {
+    "mtime": 1795160826.8089926,
+    "seen": 1795168611.4031093,
+    "ast_hash": "f968a8d2747821808bc2be0ed82dd1a3",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/MovementManager.php": {
+    "mtime": 1795054351.1233022,
+    "seen": 1795054826.3565903,
+    "ast_hash": "9e777b047fce0fc28e39fc0db93b56ca",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerAuthInput.php": {
+    "mtime": 1795178923.2870657,
+    "seen": 1795179581.9739723,
+    "ast_hash": "5e8d35a67d466507a2ff66db3500a3d1",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerException.php": {
+    "mtime": 1795051045.5694275,
+    "seen": 1795054826.3565943,
+    "ast_hash": "812a9756ab87f97bd5f69de4967d6963",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerInventory.php": {
+    "mtime": 1795052116.1702523,
+    "seen": 1795054826.3565958,
+    "ast_hash": "bc37d4c81386094eeb61c4f586950792",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerJoin.php": {
+    "mtime": 1794967854.1664538,
+    "seen": 1795054826.356597,
+    "ast_hash": "ffb4bd24019da667e7c14e7f35ea6e80",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerJoinService.php": {
+    "mtime": 1795177495.791293,
+    "seen": 1795179581.973979,
+    "ast_hash": "7bbaa932078df046beeab6ea378875ac",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerManager.php": {
+    "mtime": 1795165988.5510478,
+    "seen": 1795168611.4031355,
+    "ast_hash": "85615fadfb75ee23f5605d471e3bf907",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerPositionSync.php": {
+    "mtime": 1795054077.2610013,
+    "seen": 1795054826.356601,
+    "ast_hash": "0655888fe77aca7ca89d5f73703c1cfe",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerState.php": {
+    "mtime": 1795059595.1240616,
+    "seen": 1795061537.1551964,
+    "ast_hash": "f5bca2b7fea9f43e7cc4e733af04e08a",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/MovePlayerPacket.php": {
+    "mtime": 1795054056.2843459,
+    "seen": 1795054826.3566437,
+    "ast_hash": "b9c5310a2ef2c33194ac74d1a15c05b9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/transport/sidecar/IpcChallenge.php": {
+    "mtime": 1794970582.0298789,
+    "seen": 1795054826.356699,
+    "ast_hash": "7734bc42218d77905645213631a3a0b4",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/transport/sidecar/IpcSocketInterface.php": {
+    "mtime": 1794980605.3679545,
+    "seen": 1795054826.3567035,
+    "ast_hash": "f2df812d9b8caecb697e66d71842c13d",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/transport/sidecar/SidecarProcessInterface.php": {
+    "mtime": 1794980605.3679545,
+    "seen": 1795054826.3567097,
+    "ast_hash": "438c5fe6405db23b1e833d3846bfe34e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/transport/sidecar/StreamIpcSocket.php": {
+    "mtime": 1794980633.781937,
+    "seen": 1795054826.356712,
+    "ast_hash": "c7c98c89b3f721b7a51bca7492323413",
+    "semantic_hash": ""
+  },
+  "test_ec.php": {
+    "mtime": 1794990583.3511262,
+    "seen": 1795054826.3567457,
+    "ast_hash": "2f343d3954337bc31b2b75dfba78bc48",
+    "semantic_hash": ""
+  },
+  "test_ec2.php": {
+    "mtime": 1794990905.8129487,
+    "seen": 1795054826.356747,
+    "ast_hash": "2f343d3954337bc31b2b75dfba78bc48",
+    "semantic_hash": ""
+  },
+  "test_ec3.php": {
+    "mtime": 1794990945.9055898,
+    "seen": 1795054826.3567483,
+    "ast_hash": "9a17d6279a9c0f8c131caa8109ba24c3",
+    "semantic_hash": ""
+  },
+  "test_ec4.php": {
+    "mtime": 1794991030.498726,
+    "seen": 1795054826.3567584,
+    "ast_hash": "8d2ea6495d4cc0f74b383d7768670910",
+    "semantic_hash": ""
+  },
+  "test_func.php": {
+    "mtime": 1794990628.3814359,
+    "seen": 1795054826.3567595,
+    "ast_hash": "e2788a20d90f0854a49a3d023f4eca07",
+    "semantic_hash": ""
+  },
+  "test_openssl.php": {
+    "mtime": 1794990142.6615846,
+    "seen": 1795054826.3567607,
+    "ast_hash": "b675940dd82ef5e59230914d89ecd06e",
+    "semantic_hash": ""
+  },
+  "test_openssl_conf.php": {
+    "mtime": 1794990456.507655,
+    "seen": 1795054826.3567622,
+    "ast_hash": "a12aa45a12f597c51f462ff048a4a135",
+    "semantic_hash": ""
+  },
+  "test_openssl_conf2.php": {
+    "mtime": 1794990494.7627132,
+    "seen": 1795054826.3567634,
+    "ast_hash": "dab699ecb7fb5f02f675f4461d6f71da",
+    "semantic_hash": ""
+  },
+  "test_openssl_conf3.php": {
+    "mtime": 1794990555.167471,
+    "seen": 1795054826.3567646,
+    "ast_hash": "260a52e7ffaaeb554cfbb2a23ddca23c",
+    "semantic_hash": ""
+  },
+  "tests/integration/ConnectionPipelineTest.php": {
+    "mtime": 1795179314.6441681,
+    "seen": 1795179581.9743237,
+    "ast_hash": "167c6c595f9d56dc7c0a90f1c9e217a8",
+    "semantic_hash": ""
+  },
+  "tests/integration/PlayerJoinIntegrationTest.php": {
+    "mtime": 1795177663.888809,
+    "seen": 1795179581.9743257,
+    "ast_hash": "884f20e6d47d83cdb5832bf06c68cf7c",
+    "semantic_hash": ""
+  },
+  "tests/support/FakeIpcSocket.php": {
+    "mtime": 1794981186.236404,
+    "seen": 1795054826.3567805,
+    "ast_hash": "b09fa811b6c699271651f80392878a94",
+    "semantic_hash": ""
+  },
+  "tests/support/FakeSidecarProcess.php": {
+    "mtime": 1794981186.236404,
+    "seen": 1795054826.3567836,
+    "ast_hash": "c8c72f1c316af51e7642aa4676cdf784",
+    "semantic_hash": ""
+  },
+  "tests/unit/AtomicTransactionsTest.php": {
+    "mtime": 1795053232.6448536,
+    "seen": 1795054826.3567896,
+    "ast_hash": "9488069b30b21a27bab4523ed1af3b14",
+    "semantic_hash": ""
+  },
+  "tests/unit/EntityTest.php": {
+    "mtime": 1795052801.4594157,
+    "seen": 1795054826.3567958,
+    "ast_hash": "d01359d7eb4124c8b3b1e50e7a263116",
+    "semantic_hash": ""
+  },
+  "tests/unit/IdUniquenessTest.php": {
+    "mtime": 1795053294.1277907,
+    "seen": 1795054826.3567972,
+    "ast_hash": "89d564591b57ec6307e2b51d6b97c2c8",
+    "semantic_hash": ""
+  },
+  "tests/unit/InventoryTest.php": {
+    "mtime": 1795052740.3539712,
+    "seen": 1795054826.3567984,
+    "ast_hash": "9181c39aa98eca5d52932acf7595cae0",
+    "semantic_hash": ""
+  },
+  "tests/unit/IpcChallengeTest.php": {
+    "mtime": 1794970441.9125745,
+    "seen": 1795054826.3567998,
+    "ast_hash": "e83a5f3a9c15638312426af4aae127cb",
+    "semantic_hash": ""
+  },
+  "tests/unit/ItemRegistryTest.php": {
+    "mtime": 1795053102.0757475,
+    "seen": 1795054826.3568025,
+    "ast_hash": "fb8e7682f0b26876c3b34f3a1b5347af",
+    "semantic_hash": ""
+  },
+  "tests/unit/ItemStackTest.php": {
+    "mtime": 1795053232.6428847,
+    "seen": 1795054826.356804,
+    "ast_hash": "4c3e851e42b55c93969f52c738bf70b0",
+    "semantic_hash": ""
+  },
+  "tests/unit/PlayerInventoryPersistenceTest.php": {
+    "mtime": 1795053285.149487,
+    "seen": 1795054826.356807,
+    "ast_hash": "cf3cbcc54412281a1352ed12757e2764",
+    "semantic_hash": ""
+  },
+  "tests/unit/PlayerManagerTest.php": {
+    "mtime": 1794975874.6788218,
+    "seen": 1795054826.3568082,
+    "ast_hash": "14fd6f158443156c4036dfbafdfb32d9",
+    "semantic_hash": ""
+  },
+  "tests/unit/SidecarTransportTest.php": {
+    "mtime": 1794981730.5276325,
+    "seen": 1795054826.356819,
+    "ast_hash": "66230c383f41bc295f7f3a929eb9d341",
+    "semantic_hash": ""
+  },
+  "tests/unit/TrackerVisibilityTest.php": {
+    "mtime": 1795052873.827204,
+    "seen": 1795054826.35682,
+    "ast_hash": "b499c14ec04400890cda7cd84ef67de0",
+    "semantic_hash": ""
+  },
+  "tests/unit/auth/SkinDataValidatorTest.php": {
+    "mtime": 1795054636.4777977,
+    "seen": 1795054826.356833,
+    "ast_hash": "4a08f9376155b3145d443e884c5967a0",
+    "semantic_hash": ""
+  },
+  "tests/unit/connection/HandshakeEncryptionIntegrationTest.php": {
+    "mtime": 1795045330.341576,
+    "seen": 1795054826.3568344,
+    "ast_hash": "75c6e56d4c8ebc86e7057d3a53a1914a",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/InventoryEntityPacketTest.php": {
+    "mtime": 1795177864.4274774,
+    "seen": 1795179581.9744465,
+    "ast_hash": "a6a9ecb142e789772891d303b03f9121",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/MovePlayerPacketTest.php": {
+    "mtime": 1795054120.4824529,
+    "seen": 1795054826.356843,
+    "ast_hash": "dd454858bbf141a9068f759506d0884c",
+    "semantic_hash": ""
+  },
+  "tools/omniroute-team.ps1": {
+    "mtime": 1795048777.106385,
+    "seen": 1795054826.356861,
+    "ast_hash": "52a706ccad2a49af1bf4db1e6accf910",
+    "semantic_hash": ""
+  },
+  ".team/lightning.md": {
+    "mtime": 1795049430.531674,
+    "seen": 1795054826.356882,
+    "ast_hash": "810732f36a9b511b393aa54b6aaa923d",
+    "semantic_hash": ""
+  },
+  ".team/minimax.md": {
+    "mtime": 1795049799.3027022,
+    "seen": 1795054826.3568835,
+    "ast_hash": "2f6485d9ad505266d9fcbc1f85ccf4e0",
+    "semantic_hash": ""
+  },
+  ".team/muse.md": {
+    "mtime": 1795049430.5207024,
+    "seen": 1795054826.3568852,
+    "ast_hash": "7336763b656d02397d58b4ce6e3793c7",
+    "semantic_hash": ""
+  },
+  ".team/security.md": {
+    "mtime": 1795049430.528682,
+    "seen": 1795054826.3568866,
+    "ast_hash": "ba3cc54f7eaa7fff85861fd025e4eca1",
+    "semantic_hash": ""
+  },
+  ".team/trace.txt": {
+    "mtime": 1795046758.5733986,
+    "seen": 1795054826.3568878,
+    "ast_hash": "036d90a87e25ad3e8a3170d56412f6f3",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1795169032.9921567,
+    "seen": 1795179581.974575,
+    "ast_hash": "7e345faa677ddf9b6349ea8082ee0245",
+    "semantic_hash": ""
+  },
+  "CONTRIBUTING.md": {
+    "mtime": 1794910354.0,
+    "seen": 1795054826.3568904,
+    "ast_hash": "3250e2318227afeaa3b322c011c7198e",
+    "semantic_hash": ""
+  },
+  "NOTICE.md": {
+    "mtime": 1794941034.2026274,
+    "seen": 1795054826.3568916,
+    "ast_hash": "7682dffcaab5f6af041aad62a0f8086a",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1795169013.7222679,
+    "seen": 1795179581.97458,
+    "ast_hash": "99ba40cfde357217a7095b15ac00d0f9",
+    "semantic_hash": ""
+  },
+  "docs/DEVELOPMENT_STATE.md": {
+    "mtime": 1795175677.0139573,
+    "seen": 1795179581.9745815,
+    "ast_hash": "3c816a7edb837cea5a8b2304197f33fa",
+    "semantic_hash": ""
+  },
+  "docs/PROJECT_RECOVERY_REPORT.md": {
+    "mtime": 1794997642.7353897,
+    "seen": 1795054826.3568954,
+    "ast_hash": "acbb91435c5bd0abeb35ced6b7efc7e9",
+    "semantic_hash": ""
+  },
+  "docs/README.md": {
+    "mtime": 1794910354.0,
+    "seen": 1795054826.356897,
+    "ast_hash": "7e5d1224d882b0682919671cdf9b2f19",
+    "semantic_hash": ""
+  },
+  "docs/adr/0001-transport-choice.md": {
+    "mtime": 1794941250.0455828,
+    "seen": 1795054826.3568983,
+    "ast_hash": "4433a14091a22acdae4d9ca5403f21a9",
+    "semantic_hash": ""
+  },
+  "docs/adr/0002-php-version.md": {
+    "mtime": 1794932954.2638004,
+    "seen": 1795054826.3568993,
+    "ast_hash": "3d3ff3ec528391ae1ce021c6dbd0aa0a",
+    "semantic_hash": ""
+  },
+  "docs/adr/0003-reload-limits.md": {
+    "mtime": 1794933022.796438,
+    "seen": 1795054826.3569007,
+    "ast_hash": "f2e68f906e8aa6c3dcb9b98779c75a15",
+    "semantic_hash": ""
+  },
+  "docs/protocol/1.26.65.md": {
+    "mtime": 1794947007.09526,
+    "seen": 1795054826.3569021,
+    "ast_hash": "ab7a93304207b90178e5b386cbfc9030",
+    "semantic_hash": ""
+  },
+  "docs/protocol/binary-format.md": {
+    "mtime": 1794947007.09526,
+    "seen": 1795054826.3569033,
+    "ast_hash": "10c0f34f2e59c9b1e75d8c2851b3b5de",
+    "semantic_hash": ""
+  },
+  "docs/protocol/packet-registry.md": {
+    "mtime": 1795168924.727348,
+    "seen": 1795179581.974595,
+    "ast_hash": "dfe0921fb4a97e7dd7764cbdad2edd46",
+    "semantic_hash": ""
+  },
+  "docs/protocol/phase2-audit.md": {
+    "mtime": 1794952308.4658077,
+    "seen": 1795054826.356906,
+    "ast_hash": "a0ea2784b43adc217bc7217f9b9a70dd",
+    "semantic_hash": ""
+  },
+  "docs/runbooks/nethernet-sidecar.md": {
+    "mtime": 1794941034.2056193,
+    "seen": 1795054826.3569074,
+    "ast_hash": "8a13444ca7112c1b4303bbfed3348187",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-encryption-session-world-join.md": {
+    "mtime": 1795055340.5388699,
+    "seen": 1795057860.539752,
+    "ast_hash": "a46d3f51c1d6a086fb6994bab7dc8ab6",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase6-inventory-entity.md": {
+    "mtime": 1795050957.3994508,
+    "seen": 1795054826.35691,
+    "ast_hash": "cbbcc8afe316ef1eabb0a9a7d4e09820",
+    "semantic_hash": ""
+  },
+  "docs/world-engine.md": {
+    "mtime": 1795096673.4800868,
+    "seen": 1795097084.838209,
+    "ast_hash": "d125dd98d04193e45c8b69d74dac8552",
+    "semantic_hash": ""
+  },
+  "itest-err.txt": {
+    "mtime": 1794940620.0711532,
+    "seen": 1795054826.3569124,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "itest-out.txt": {
+    "mtime": 1794940621.1137824,
+    "seen": 1795054826.3569138,
+    "ast_hash": "e007f634ae3ff732ff357f6df8efcd6e",
+    "semantic_hash": ""
+  },
+  "test-output.txt": {
+    "mtime": 1795045233.8358724,
+    "seen": 1795054826.3569162,
+    "ast_hash": "787f062b5260dde0bee604a652144fd8",
+    "semantic_hash": ""
+  },
+  "tools/team-prompt-analysis.txt": {
+    "mtime": 1795045158.8612125,
+    "seen": 1795054826.3569176,
+    "ast_hash": "eb0abc79c77c5d350089798a3a1a9ed7",
+    "semantic_hash": ""
+  },
+  "tools/team-prompt-lightning.txt": {
+    "mtime": 1795045355.6981547,
+    "seen": 1795054826.3569188,
+    "ast_hash": "207b7a0616b09982aea10c166e586112",
+    "semantic_hash": ""
+  },
+  "tools/team-prompt-minimax.txt": {
+    "mtime": 1795045205.5983992,
+    "seen": 1795054826.3569202,
+    "ast_hash": "54cdab2f7c7923e94f08fa811a79896e",
+    "semantic_hash": ""
+  },
+  "tools/team-prompt-muse.txt": {
+    "mtime": 1795045307.8171406,
+    "seen": 1795054826.3569217,
+    "ast_hash": "9ee30eba05878940e69423627984bb20",
+    "semantic_hash": ""
+  },
+  "tools/team-prompt-security.txt": {
+    "mtime": 1795045251.6567037,
+    "seen": 1795054826.3569229,
+    "ast_hash": "2dbc0ee0d7b00230cc16bfb78901753e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/AddActorPacket.php": {
+    "mtime": 1795171365.609241,
+    "seen": 1795179581.9740336,
+    "ast_hash": "885a74180d7332ad4917feaf15304aeb",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/AddPlayerPacket.php": {
+    "mtime": 1795171025.7511184,
+    "seen": 1795179581.9740374,
+    "ast_hash": "5c6822e83926e535f3f71034872e1e43",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/ContainerClosePacket.php": {
+    "mtime": 1795057702.4961004,
+    "seen": 1795057860.5394218,
+    "ast_hash": "fdfcf51fdbe6b0361dd0af67c2a87d8f",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/ContainerOpenPacket.php": {
+    "mtime": 1795057702.4961004,
+    "seen": 1795057860.5394232,
+    "ast_hash": "188d04907d49f472a1157181ade85290",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/InventoryContentPacket.php": {
+    "mtime": 1795057702.4961004,
+    "seen": 1795057860.5394244,
+    "ast_hash": "e6c382d508cbad07121310fbe405e368",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/InventorySlotPacket.php": {
+    "mtime": 1795057702.4961004,
+    "seen": 1795057860.5394258,
+    "ast_hash": "1a97e029b41d2db4e23a1b492dfec201",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/InventoryTransactionPacket.php": {
+    "mtime": 1795059780.3268898,
+    "seen": 1795061537.1553051,
+    "ast_hash": "f3bf0865cddf12b34a05a6b52d73b54d",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/MobEquipmentPacket.php": {
+    "mtime": 1795057702.4698727,
+    "seen": 1795057860.5394323,
+    "ast_hash": "d3b0f4ff4d1f9906410da734ce1fd119",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/MoveActorAbsolutePacket.php": {
+    "mtime": 1795057771.1357708,
+    "seen": 1795057860.5394335,
+    "ast_hash": "a4fbaeee6cccd2089b813ac1aa91f2de",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/RemoveActorPacket.php": {
+    "mtime": 1795057771.132268,
+    "seen": 1795057860.539441,
+    "ast_hash": "2db487c3d9b22fdf6bada12204c17974",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/AbilityLayer.php": {
+    "mtime": 1795057641.8136556,
+    "seen": 1795057860.5394557,
+    "ast_hash": "8f5db67b70f1a330d3b1be3d05a26585",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/BlockPos.php": {
+    "mtime": 1795057473.3604505,
+    "seen": 1795057860.539457,
+    "ast_hash": "d61b2f9d5ae152684fcb60326abede3e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/EntityLink.php": {
+    "mtime": 1795057641.8136556,
+    "seen": 1795057860.5394583,
+    "ast_hash": "630cdaeafa6237b64e428ae75e7ccb93",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/FullContainerName.php": {
+    "mtime": 1795057593.1340935,
+    "seen": 1795057860.5394614,
+    "ast_hash": "dbe761267277c4eab32c35b8cfd6cc58",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/InventoryAction.php": {
+    "mtime": 1795057593.13509,
+    "seen": 1795057860.5394645,
+    "ast_hash": "5bc93242671834a533dbe948c1285bc0",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/InventorySource.php": {
+    "mtime": 1795057593.131129,
+    "seen": 1795057860.539466,
+    "ast_hash": "af4c752922c7eadf63e9e7055258ac7a",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/LegacySetSlot.php": {
+    "mtime": 1795057593.13509,
+    "seen": 1795057860.5394673,
+    "ast_hash": "f007744a79f9976079e42dda6134286c",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/NetworkItemStackDescriptor.php": {
+    "mtime": 1795057593.131129,
+    "seen": 1795057860.5394702,
+    "ast_hash": "74f0642208108b473ea7d7d3abdccb60",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/PassengerOfBlockArguments.php": {
+    "mtime": 1795057641.8136556,
+    "seen": 1795057860.5394764,
+    "ast_hash": "d287ca20b008af2e118981fead97d07d",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/PropertySyncData.php": {
+    "mtime": 1795057641.8136556,
+    "seen": 1795057860.5394826,
+    "ast_hash": "edfe5f1f7ffc22e660fbe7e55892769b",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/SerializedAbilitiesData.php": {
+    "mtime": 1795083147.183619,
+    "seen": 1795096442.217656,
+    "ast_hash": "98201310ca3a9ae3490cbbe7d382adee",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/SyncedAttribute.php": {
+    "mtime": 1795057641.806676,
+    "seen": 1795057860.5394907,
+    "ast_hash": "50c694451ea483622216c28d6248dd37",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/Vec2.php": {
+    "mtime": 1795057473.3575342,
+    "seen": 1795057860.5394921,
+    "ast_hash": "e86db7b5c270440c537acdfa5aa38963",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/Vec3.php": {
+    "mtime": 1795057473.3564608,
+    "seen": 1795057860.5394933,
+    "ast_hash": "a71c0e329eee96b3631455e193ab588c",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ActorEvent.json": {
+    "mtime": 1795058310.5598836,
+    "seen": 1795061537.154713,
+    "ast_hash": "47f30ccbeb706256665554c4fea0032a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ActorEventPacket.json": {
+    "mtime": 1795058309.9545567,
+    "seen": 1795061537.1547155,
+    "ast_hash": "a1edd9271ddf3b2e7535420fec3938e5",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ActorEventPacketPayload.json": {
+    "mtime": 1795058310.2521658,
+    "seen": 1795061537.1547177,
+    "ast_hash": "0efcafba59084c1f199e5ac516db135a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ChunkRadiusUpdatedPacket.json": {
+    "mtime": 1795058309.3409715,
+    "seen": 1795061537.1547375,
+    "ast_hash": "beddb43c1a46f8475ae4c830a677c999",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ChunkRadiusUpdatedPacketPayload.json": {
+    "mtime": 1795058309.6488996,
+    "seen": 1795061537.1547394,
+    "ast_hash": "b6408dfad37aa471355e977df7ad1c55",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemBytePayload.json": {
+    "mtime": 1795058311.8298573,
+    "seen": 1795061537.1547573,
+    "ast_hash": "9a2df6fa6798b123bd067c869ffe4eb2",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemCompoundTagPayload.json": {
+    "mtime": 1795058313.7103226,
+    "seen": 1795061537.1547592,
+    "ast_hash": "e611613866ff777f773fc7486fd7084b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemFloatPayload.json": {
+    "mtime": 1795058312.1654217,
+    "seen": 1795061537.1547625,
+    "ast_hash": "7a2af07851a188d97355181b8d5847e2",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemInt64Payload.json": {
+    "mtime": 1795058312.8056223,
+    "seen": 1795061537.1547637,
+    "ast_hash": "c6929cef318a6ed5e8e483cfbc45c3ce",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemIntPayload.json": {
+    "mtime": 1795058312.4847465,
+    "seen": 1795061537.1547654,
+    "ast_hash": "3596eb3086b7ea7cad789822bd67d3be",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemPosPayload.json": {
+    "mtime": 1795058314.0432234,
+    "seen": 1795061537.1547666,
+    "ast_hash": "8aba91af5260e372e9bb3c0b0ec3be3b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemShortPayload.json": {
+    "mtime": 1795058313.104138,
+    "seen": 1795061537.154768,
+    "ast_hash": "8c4d8eac8d4dea6c0d8ba85a862eea0a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemStringPayload.json": {
+    "mtime": 1795058313.4001448,
+    "seen": 1795061537.1547697,
+    "ast_hash": "aa43eea90ae397b928438aa2b91fd1e1",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemType.json": {
+    "mtime": 1795058311.5261786,
+    "seen": 1795061537.1547716,
+    "ast_hash": "06ab5879b55305d8a7cbbbdcfb85b5ab",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/DataItemVec3Payload.json": {
+    "mtime": 1795058314.3367376,
+    "seen": 1795061537.1547728,
+    "ast_hash": "72c583c34043c8c1a22abe03f07cda49",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InteractPacketPayload_Action.json": {
+    "mtime": 1795058301.6770456,
+    "seen": 1795061537.1547816,
+    "ast_hash": "2a69e457f5cc428de6b9880622cd3cb0",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/InventoryMismatchData.json": {
+    "mtime": 1795058302.2821457,
+    "seen": 1795061537.1547883,
+    "ast_hash": "89d8ffa0e63dbad4b894fae5c5651d7f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemReleaseActionType.json": {
+    "mtime": 1795069489.4687865,
+    "seen": 1795074819.9962485,
+    "ast_hash": "7de5b1b0ec3b60f979f249e4e699587a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemReleaseInventoryTransaction.json": {
+    "mtime": 1795069489.1325445,
+    "seen": 1795074819.9962502,
+    "ast_hash": "d9ecfc6a51e921fa0621ef965af9475f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemUseActionType.json": {
+    "mtime": 1795058303.5722425,
+    "seen": 1795061537.1548514,
+    "ast_hash": "50c6e9116d0917249ef4ca3b3b5012d9",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemUseClientCooldownState.json": {
+    "mtime": 1795058305.2069497,
+    "seen": 1795061537.1548533,
+    "ast_hash": "036ef3aaffe66c1bc7ab8ef25790c88b",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemUseInventoryTransaction.json": {
+    "mtime": 1795058302.59352,
+    "seen": 1795061537.154855,
+    "ast_hash": "daadde0ea6f0185f7b8b1c3fe85bc565",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemUseOnActorActionType.json": {
+    "mtime": 1795058303.9359815,
+    "seen": 1795061537.1548562,
+    "ast_hash": "90cc52494b175e23a6aefaf73edfdfbb",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemUseOnActorInventoryTransaction.json": {
+    "mtime": 1795058302.9230242,
+    "seen": 1795061537.1548574,
+    "ast_hash": "461ca45f57407ae62bdde1299b21a62a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemUsePredictedResult.json": {
+    "mtime": 1795058304.5651646,
+    "seen": 1795061537.1548593,
+    "ast_hash": "f5e141f4eca250d167421a1184e7c6cb",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/ItemUseTriggerType.json": {
+    "mtime": 1795058304.8681889,
+    "seen": 1795061537.1548607,
+    "ast_hash": "ff77ae3aad7c5ec74f1b7995decc989c",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/LevelSoundEvent.json": {
+    "mtime": 1795058307.7704563,
+    "seen": 1795061537.1548653,
+    "ast_hash": "412c16b301a32946d72c1d86935e685e",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/LevelSoundEventPacket.json": {
+    "mtime": 1795058307.1696184,
+    "seen": 1795061537.1548665,
+    "ast_hash": "dfb9b6317ecd57ab10963a427c97fd0f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/LevelSoundEventPacketPayload.json": {
+    "mtime": 1795058307.4675322,
+    "seen": 1795061537.154868,
+    "ast_hash": "8cdf2eb1a9f724f0fc5dde99194faef7",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MoveActorDeltaData.json": {
+    "mtime": 1795058320.2091794,
+    "seen": 1795061537.1548803,
+    "ast_hash": "7c2e30f4cd8fb17a29aed3474999b9a3",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MoveActorDeltaPacket.json": {
+    "mtime": 1795058319.5646493,
+    "seen": 1795061537.1548817,
+    "ast_hash": "b718e2e693e7e622c7df809e937a250a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MoveActorDeltaPacketPayload.json": {
+    "mtime": 1795058319.8775873,
+    "seen": 1795061537.1548839,
+    "ast_hash": "12119e90e04891d3afb653fbb8c63baf",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/NormalTransactionData.json": {
+    "mtime": 1795058301.9571047,
+    "seen": 1795061537.1548984,
+    "ast_hash": "17d4c2d252e12acf81f2394a659aba14",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerActionType.json": {
+    "mtime": 1795058301.3321273,
+    "seen": 1795061537.1549082,
+    "ast_hash": "ef2c00267dfa22f4410625b2c62ef1be",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerListAddEntry.json": {
+    "mtime": 1795058318.6215878,
+    "seen": 1795061537.1549141,
+    "ast_hash": "667e0985fc0a553c36bf9bb21724f4a7",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerListPacket.json": {
+    "mtime": 1795058317.9976735,
+    "seen": 1795061537.1549158,
+    "ast_hash": "7edcee6b8ec64cc58deabe421982ce71",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerListPacketPayload.json": {
+    "mtime": 1795058318.3093927,
+    "seen": 1795061537.154918,
+    "ast_hash": "61c2464e387938cbb666241bfa980078",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerListPacketType.json": {
+    "mtime": 1795058319.248389,
+    "seen": 1795061537.1549196,
+    "ast_hash": "dfca70621017d87e6d44589a7cf0b1da",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerListRemoveEntry.json": {
+    "mtime": 1795058318.950949,
+    "seen": 1795061537.154921,
+    "ast_hash": "f818dd00492f4cadce252a868c5511b9",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/PlayerRespawnState.json": {
+    "mtime": 1795058315.9704225,
+    "seen": 1795061537.1549249,
+    "ast_hash": "1d5e922c7eb27422da74d20e2974bb8f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/RequestChunkRadiusPacket.json": {
+    "mtime": 1795058308.7142785,
+    "seen": 1795061537.1549418,
+    "ast_hash": "73957c2f5a4c87220a1cb04b413e86ce",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/RequestChunkRadiusPacketPayload.json": {
+    "mtime": 1795058309.0174544,
+    "seen": 1795061537.1549435,
+    "ast_hash": "ee85a5b460ccef33ec0a81ff91f4199c",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/RespawnPacket.json": {
+    "mtime": 1795058315.2832208,
+    "seen": 1795061537.1549454,
+    "ast_hash": "9da305b3a72f386e3e1d15a72694f529",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/RespawnPacketPayload.json": {
+    "mtime": 1795058315.6016526,
+    "seen": 1795061537.1549468,
+    "ast_hash": "fec6a445640c54483bbfd863150c7089",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SetActorDataPacket.json": {
+    "mtime": 1795058310.8690848,
+    "seen": 1795061537.154953,
+    "ast_hash": "c4b1f67adf7e537699329d9f9b3bc4b1",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SetActorDataPacketPayload.json": {
+    "mtime": 1795058311.1933248,
+    "seen": 1795061537.154955,
+    "ast_hash": "e84623992ee75e3ee375843c40260a4f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SetHealthPacket.json": {
+    "mtime": 1795058314.6511374,
+    "seen": 1795061537.155002,
+    "ast_hash": "37abc6b951d677c5d7d3551720b167b1",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SetHealthPacketPayload.json": {
+    "mtime": 1795058314.973249,
+    "seen": 1795061537.1550062,
+    "ast_hash": "c38959f702bbc2df499063351f9cb06a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SetLocalPlayerAsInitializedPacket.json": {
+    "mtime": 1795058308.0838153,
+    "seen": 1795061537.155008,
+    "ast_hash": "980358b554f76c5198fc73db5c1d7119",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SetLocalPlayerAsInitializedPacketPayload.json": {
+    "mtime": 1795058308.392635,
+    "seen": 1795061537.1550093,
+    "ast_hash": "dc210fbc0ccef5624f77b01822f8ff61",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SetTimePacket.json": {
+    "mtime": 1795058320.5206766,
+    "seen": 1795061537.1550112,
+    "ast_hash": "c7145ed32a871aaec114b515b0246831",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SetTimePacketPayload.json": {
+    "mtime": 1795058320.8950655,
+    "seen": 1795061537.1550126,
+    "ast_hash": "8c8139e63e0f80e009e5de3c42042759",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SimpleEventPacket.json": {
+    "mtime": 1795058321.1920393,
+    "seen": 1795061537.1550138,
+    "ast_hash": "5e7340c2ed5dc09418d820fe12ef5621",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SimpleEventPacketPayload.json": {
+    "mtime": 1795058321.5116923,
+    "seen": 1795061537.1550155,
+    "ast_hash": "14f23b4aa2ccf30b96a7eb80190885d8",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/TextPacket.json": {
+    "mtime": 1795058317.061659,
+    "seen": 1795061537.1550214,
+    "ast_hash": "ee5cabe964ba350fc7f7b8ee435a31ca",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/TextPacketPayload.json": {
+    "mtime": 1795058317.38473,
+    "seen": 1795061537.1550226,
+    "ast_hash": "109ea88a78140561449eb2a30df46421",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/TextPacketType.json": {
+    "mtime": 1795058317.6936193,
+    "seen": 1795061537.1550238,
+    "ast_hash": "b73902abd1b2fd989517a2a234b40b2f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateBlockPacket.json": {
+    "mtime": 1795058305.536855,
+    "seen": 1795061537.1550252,
+    "ast_hash": "42d284517ad8aad0f0d778936448b2d7",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateBlockPacketPayload.json": {
+    "mtime": 1795058305.883717,
+    "seen": 1795061537.155027,
+    "ast_hash": "0411aa9d4272abfa19f972ef21614dd6",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateBlockSyncedPacket.json": {
+    "mtime": 1795058306.1875553,
+    "seen": 1795061537.1550286,
+    "ast_hash": "a51eb03e0636fb29432c0d627d7674cb",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateBlockSyncedPacketPayload.json": {
+    "mtime": 1795058306.504344,
+    "seen": 1795061537.1550303,
+    "ast_hash": "8af2eb00cc604a13f8ea24f4a7e1bf0f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateType.json": {
+    "mtime": 1795058306.8513691,
+    "seen": 1795061537.155032,
+    "ast_hash": "c519ba1871536975ed30572c86df7c41",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/connection/PacketBroadcaster.php": {
+    "mtime": 1795060018.9529302,
+    "seen": 1795061537.1551166,
+    "ast_hash": "7d92916f4d5d37819863166772790980",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/BlockActionManager.php": {
+    "mtime": 1795172739.1590545,
+    "seen": 1795179581.973941,
+    "ast_hash": "43b848e99b3a71f23a00af43bdbe434d",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/BlockActionResult.php": {
+    "mtime": 1795161887.154951,
+    "seen": 1795168611.4030907,
+    "ast_hash": "2964f768cd5a3e6b36abbb3056dbeb61",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/BlockChange.php": {
+    "mtime": 1795059845.943432,
+    "seen": 1795061537.1551754,
+    "ast_hash": "5e42c3a6800e456a4b0b41b66ad052e0",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerSnapshot.php": {
+    "mtime": 1795170367.9298487,
+    "seen": 1795179581.9739864,
+    "ast_hash": "4574d9228c8194ad444ff5a2850f69df",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/UnsupportedPacketFieldException.php": {
+    "mtime": 1795059595.1210425,
+    "seen": 1795061537.1552134,
+    "ast_hash": "85ac58f440129a9fc4aa37e8376ba15a",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/InteractPacket.php": {
+    "mtime": 1795058902.9612343,
+    "seen": 1795061537.1553,
+    "ast_hash": "997c8dcb837575f9e8be9c4a4d48abe2",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/PlayerActionPacket.php": {
+    "mtime": 1795058903.003588,
+    "seen": 1795061537.1553185,
+    "ast_hash": "88f0392f9a206413c59a1f49dade8b04",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/RespawnPacket.php": {
+    "mtime": 1795058915.5681677,
+    "seen": 1795061537.15533,
+    "ast_hash": "5083a819f0e6cb61742b88a54e327582",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/SetHealthPacket.php": {
+    "mtime": 1795058915.5681677,
+    "seen": 1795061537.1553333,
+    "ast_hash": "b24e7f48437ee02c88df5479cf439c4c",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/UpdateBlockPacket.php": {
+    "mtime": 1795058902.9612343,
+    "seen": 1795061537.1553395,
+    "ast_hash": "55cd1fbf28ae998bd9d080e446e45a28",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/HandSlot.php": {
+    "mtime": 1795059654.5983148,
+    "seen": 1795061537.1553507,
+    "ast_hash": "ac2af4766dcad785ecd694c46577014b",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/InteractAction.php": {
+    "mtime": 1795058870.5870957,
+    "seen": 1795061537.1553524,
+    "ast_hash": "d3b546dfb782b06dd6ed80c001b0e22a",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemUseActionType.php": {
+    "mtime": 1795059654.5983148,
+    "seen": 1795061537.1553571,
+    "ast_hash": "6f5434402eda4450e4010989a15b8f2e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemUseInventoryTransaction.php": {
+    "mtime": 1795059654.605296,
+    "seen": 1795061537.1553588,
+    "ast_hash": "c50a917e14450228553f24ab38c2fac0",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/PlayerActionType.php": {
+    "mtime": 1795058870.5860991,
+    "seen": 1795061537.155374,
+    "ast_hash": "bd8fd4812ab2c1a6bcb5beeccb5e13c9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/RespawnState.php": {
+    "mtime": 1795058870.591086,
+    "seen": 1795061537.1553833,
+    "ast_hash": "099b9c038cb660fa8f202f2e08a02618",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/GameplayLoopTest.php": {
+    "mtime": 1795172887.4972475,
+    "seen": 1795179581.9744213,
+    "ast_hash": "a778299da9264b28ddcaa487731e5c32",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/GameplayPacketTest.php": {
+    "mtime": 1795177638.2483776,
+    "seen": 1795179581.9744434,
+    "ast_hash": "6b3aedf0182df6d7075dad34f3731193",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/InventoryItemUseTest.php": {
+    "mtime": 1795113139.3448424,
+    "seen": 1795114210.137107,
+    "ast_hash": "a5daa989399499b76523beaacbebac78",
+    "semantic_hash": ""
+  },
+  "tests/unit/world/WorldMutationTest.php": {
+    "mtime": 1795059288.396765,
+    "seen": 1795061537.1555877,
+    "ast_hash": "7a84b5bbe236d6a5d1ce5cedc1799056",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase7-gameplay-loop.md": {
+    "mtime": 1795066122.114121,
+    "seen": 1795074819.99702,
+    "ast_hash": "e91e35c62ac3b1d2eb5f6bd8769ba7f3",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/specs/2026-11-19-phase7-gameplay-loop-design.md": {
+    "mtime": 1795066151.8031652,
+    "seen": 1795074819.9970229,
+    "ast_hash": "5a03e746b0b83efa850b935880c048cc",
+    "semantic_hash": ""
+  },
+  ".team/phase7-lightning.json": {
+    "mtime": 1795062126.377886,
+    "seen": 1795065781.8164818,
+    "ast_hash": "1db3a54d046db3aa4711e5f692ef2924",
+    "semantic_hash": ""
+  },
+  ".team/phase7-minimax.json": {
+    "mtime": 1795062223.3490777,
+    "seen": 1795065781.8164842,
+    "ast_hash": "943ae8cdd9b3371847b6f665555de917",
+    "semantic_hash": ""
+  },
+  ".team/phase7-muse.json": {
+    "mtime": 1795062234.0817792,
+    "seen": 1795065781.816486,
+    "ast_hash": "c7ffa04e2bdf68254387fe7acb8a364a",
+    "semantic_hash": ""
+  },
+  ".team/phase7-security.json": {
+    "mtime": 1795062147.6204555,
+    "seen": 1795065781.8164873,
+    "ast_hash": "893b90a41d6c20c62dafa23789615b35",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AnimatedImageData.json": {
+    "mtime": 1795062901.5582862,
+    "seen": 1795065781.8165262,
+    "ast_hash": "7f52aecbf4a3d3731be1d45d21e74f41",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/Color.json": {
+    "mtime": 1795062902.6784792,
+    "seen": 1795065781.8165343,
+    "ast_hash": "5c6fb94037a88496aa2012d4b007ae2d",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/MinEngineVersion.json": {
+    "mtime": 1795081537.9430344,
+    "seen": 1795096442.21719,
+    "ast_hash": "7cdd59e4d355ec81b8ada04bed50e90a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SerializedPersonaPieceHandle.json": {
+    "mtime": 1795062902.4275565,
+    "seen": 1795065781.816724,
+    "ast_hash": "63129dac5a6c6314eeea3b92b3cb1875",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SerializedSkin.json": {
+    "mtime": 1795062901.2849905,
+    "seen": 1795065781.8167255,
+    "ast_hash": "d8e1c44ff35cceb4f730ffcec409639a",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SkinImage.json": {
+    "mtime": 1795062901.6781418,
+    "seen": 1795065781.8167448,
+    "ast_hash": "d5ead4ed36a6f1a277a5e944a7d310fa",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/SoundEventIdentifier.json": {
+    "mtime": 1795062901.4388733,
+    "seen": 1795065781.816746,
+    "ast_hash": "b62c1a5b4aaf9c17230a05e9b66fc6e8",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/TintMapColor.json": {
+    "mtime": 1795062902.5551736,
+    "seen": 1795065781.8167555,
+    "ast_hash": "07cf65cbcbe994522ffc7aa4fdb704b6",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/TrustedSkinFlag.json": {
+    "mtime": 1795062902.8000126,
+    "seen": 1795065781.816757,
+    "ast_hash": "b9dc236af9e5a15f0459b55e6f31cdba",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/persona__AnimatedTextureType.json": {
+    "mtime": 1795062902.1838138,
+    "seen": 1795065781.816774,
+    "ast_hash": "77cb5265be4d6d5e347b25e21d68b671",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/persona__AnimationExpression.json": {
+    "mtime": 1795062902.3067417,
+    "seen": 1795065781.8167753,
+    "ast_hash": "d8f5f80da8086aa9558ca7cde6998c87",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/persona__ArmSize__Type.json": {
+    "mtime": 1795062901.9380548,
+    "seen": 1795065781.816777,
+    "ast_hash": "916b0f0936150d0388325a829d47d7b6",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/persona__PieceType.json": {
+    "mtime": 1795062902.0622969,
+    "seen": 1795065781.8167784,
+    "ast_hash": "92f6ddd774e136792930b4df375a5f43",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/ActorEventPacket.php": {
+    "mtime": 1795064507.2310028,
+    "seen": 1795065781.8169603,
+    "ast_hash": "0fe2d821f7826bc05b23073d20b6142c",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/LevelSoundEventPacket.php": {
+    "mtime": 1795064076.7846446,
+    "seen": 1795065781.8169782,
+    "ast_hash": "5f748afa41abbe86c5db69bcbaddfe97",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/MoveActorDeltaPacket.php": {
+    "mtime": 1795064089.720132,
+    "seen": 1795065781.8169844,
+    "ast_hash": "ff380ce62dd7adb3d622a1689ab45886",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/PlayerListPacket.php": {
+    "mtime": 1795064043.1863093,
+    "seen": 1795065781.8169937,
+    "ast_hash": "242721e8cb462156e31ca011f214e9b5",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ActorEventType.php": {
+    "mtime": 1795063487.0058682,
+    "seen": 1795065781.8170166,
+    "ast_hash": "13f6a9ed6b041dc9be721a2734a4feeb",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/AnimatedImageData.php": {
+    "mtime": 1795063235.1755507,
+    "seen": 1795065781.817018,
+    "ast_hash": "d401657fd9e2cd8d786b1ce8653f866f",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/AnimatedTextureType.php": {
+    "mtime": 1795063199.491721,
+    "seen": 1795065781.8170195,
+    "ast_hash": "6d0053bc613be2fc0169769c7ad86867",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/AnimationExpression.php": {
+    "mtime": 1795063199.4937136,
+    "seen": 1795065781.817021,
+    "ast_hash": "7e531d9299406c3e6be20499db8fdd1e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ArmSize.php": {
+    "mtime": 1795063199.4827433,
+    "seen": 1795065781.8170226,
+    "ast_hash": "aeab0acaf19f5dff2ada1c1780e4925c",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/Color.php": {
+    "mtime": 1795064282.908772,
+    "seen": 1795065781.817026,
+    "ast_hash": "b120a7eaa6c700f46b450afcba1f6b7b",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/MoveActorDeltaData.php": {
+    "mtime": 1795064076.7846446,
+    "seen": 1795065781.8170466,
+    "ast_hash": "4da55ead4308e82f87f921d807cb62b3",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/PieceTintColor.php": {
+    "mtime": 1795063873.8128357,
+    "seen": 1795065781.8170557,
+    "ast_hash": "ae27ddfa0ee5be6c7f166b52310df3b8",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/PieceType.php": {
+    "mtime": 1795063199.4867315,
+    "seen": 1795065781.8170574,
+    "ast_hash": "fcdbc28b321a519989e4c9b046831163",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/PlayerListEntry.php": {
+    "mtime": 1795063984.6211083,
+    "seen": 1795065781.8170652,
+    "ast_hash": "ceec2f9d556a21f681f920c608ab28a2",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/SerializedPersonaPieceHandle.php": {
+    "mtime": 1795063235.1765482,
+    "seen": 1795065781.8170733,
+    "ast_hash": "7d36bec05831128358c8a693c9b113fd",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/SerializedSkin.php": {
+    "mtime": 1795064183.0547905,
+    "seen": 1795065781.8170748,
+    "ast_hash": "b5f074dc95d083d9f3145f8ba83e378e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/SkinImage.php": {
+    "mtime": 1795063159.4551415,
+    "seen": 1795065781.8170762,
+    "ast_hash": "960f7781b573e69457a6460313430993",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/TintMapColor.php": {
+    "mtime": 1795063831.34771,
+    "seen": 1795065781.8170826,
+    "ast_hash": "da6a40418b39eee9e1ba00f364fa461e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/TrustedSkinFlag.php": {
+    "mtime": 1795063945.7278793,
+    "seen": 1795065781.8170838,
+    "ast_hash": "4303a1ea0638bf2ed2974f331a11f6de",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/PlayerListPacketTest.php": {
+    "mtime": 1795177638.2463818,
+    "seen": 1795179581.9744632,
+    "ast_hash": "8edec5e53364b65f9c79f0fe22b2fb93",
+    "semantic_hash": ""
+  },
+  ".team/phase7-prompt.md": {
+    "mtime": 1795061907.9890325,
+    "seen": 1795065781.817306,
+    "ast_hash": "19da5ffea674f04d5fe6256dc42bb021",
+    "semantic_hash": ""
+  },
+  ".team/phase7-review.md": {
+    "mtime": 1795062303.7795203,
+    "seen": 1795065781.8173077,
+    "ast_hash": "183c4e64f57def9b490990002e4c9038",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AddItemActorPacket.json": {
+    "mtime": 1795069395.2048075,
+    "seen": 1795074819.9961662,
+    "ast_hash": "be8d645938e504eb0013fe5a8b931d4f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AddItemActorPacketPayload.json": {
+    "mtime": 1795069395.5849638,
+    "seen": 1795074819.9961681,
+    "ast_hash": "8d46ab7ce5b08be20b2b51e8a6001545",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/TakeItemActorPacket.json": {
+    "mtime": 1795069395.950564,
+    "seen": 1795074819.996399,
+    "ast_hash": "842a5d4ae0f11f822560c8e3d96bcd35",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/TakeItemActorPacketPayload.json": {
+    "mtime": 1795069396.2756782,
+    "seen": 1795074819.9964004,
+    "ast_hash": "f6e8d98774cc18f85b894064ce88ce50",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/entity/ItemActor.php": {
+    "mtime": 1795096190.4408414,
+    "seen": 1795096442.217404,
+    "ast_hash": "5ed07b44d846164d568834e5a11770f9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/entity/ItemActorManager.php": {
+    "mtime": 1795177769.5700698,
+    "seen": 1795179581.9738684,
+    "ast_hash": "cd7e0accfd557b69ffb27f8b34fe6829",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/entity/ItemPickupResult.php": {
+    "mtime": 1795162322.5658205,
+    "seen": 1795168611.4029884,
+    "ast_hash": "5982e23bc10535f55e2bc0d82688bf2f",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/AddItemActorPacket.php": {
+    "mtime": 1795071226.998998,
+    "seen": 1795074819.9966238,
+    "ast_hash": "fdcb63e6234be1f4fd1329e198b90ad8",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/TakeItemActorPacket.php": {
+    "mtime": 1795071226.998998,
+    "seen": 1795074819.9966757,
+    "ast_hash": "0a52ef66ac53210c9c3c045f42aff094",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/SynchedActorData.php": {
+    "mtime": 1795071148.0223975,
+    "seen": 1795074819.996752,
+    "ast_hash": "ba329e2c51a8cc08d8122802ccd52f5e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/SynchedActorDataEntry.php": {
+    "mtime": 1795071047.2302809,
+    "seen": 1795074819.9967537,
+    "ast_hash": "95f0ec8d14faea18577a4a009999fdd7",
+    "semantic_hash": ""
+  },
+  "tests/unit/ItemActorManagerTest.php": {
+    "mtime": 1795096302.1543603,
+    "seen": 1795096442.2178018,
+    "ast_hash": "9193eebeeb0f15a066e7ffde275e97d5",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/ItemActorPacketTest.php": {
+    "mtime": 1795074613.798098,
+    "seen": 1795074819.9969347,
+    "ast_hash": "ebbcefb1857ce8a4de48037472c86727",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase71-playerlist-events.md": {
+    "mtime": 1795066108.5904627,
+    "seen": 1795074819.9970212,
+    "ast_hash": "1a5f7d9721045bdfb167b53814b483d9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/ChunkRadiusUpdatedPacket.php": {
+    "mtime": 1795076647.4066887,
+    "seen": 1795079221.9688275,
+    "ast_hash": "fd0dbfe97d8f0c437dff0ee8fa82e9fc",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/RequestChunkRadiusPacket.php": {
+    "mtime": 1795076707.394261,
+    "seen": 1795079221.9688635,
+    "ast_hash": "55919208f7b8a66df0371ce1338b0b45",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/SetLocalPlayerAsInitializedPacket.php": {
+    "mtime": 1795076647.4116745,
+    "seen": 1795079221.9688792,
+    "ast_hash": "a8d1eb2a8d34c1dab9355503304efa17",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/SetTimePacket.php": {
+    "mtime": 1795076647.401701,
+    "seen": 1795079221.968881,
+    "ast_hash": "cd44103272e8f456ac2e72b32120cca9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/world/ChunkStreamer.php": {
+    "mtime": 1795175287.5707872,
+    "seen": 1795179581.9742732,
+    "ast_hash": "9d9b4aae1b3cdefb59dd0a1de468d32f",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/world/chunk/ChunkSerializer.php": {
+    "mtime": 1795076863.039155,
+    "seen": 1795079221.969034,
+    "ast_hash": "8ef3707f5535e3de3f2c46e55e888a16",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/WorldStreamPacketTest.php": {
+    "mtime": 1795177457.7211046,
+    "seen": 1795179581.9744668,
+    "ast_hash": "87cd4d370abdcbb5e840b7938d414f20",
+    "semantic_hash": ""
+  },
+  "tests/unit/world/ChunkStreamerTest.php": {
+    "mtime": 1795096308.7825823,
+    "seen": 1795096442.2178712,
+    "ast_hash": "b3bf156c2dc3f377246643761e3afafa",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase72-item-actors.md": {
+    "mtime": 1795075892.287787,
+    "seen": 1795079221.9692478,
+    "ast_hash": "a7b8ee5f575012eb93155a2f567c5f9e",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AttributeData.json": {
+    "mtime": 1795081537.2719243,
+    "seen": 1795096442.217055,
+    "ast_hash": "44b51816698600a5eacbf48f502a699f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AttributeModifier.json": {
+    "mtime": 1795081566.5172186,
+    "seen": 1795096442.2170577,
+    "ast_hash": "083b1167a82ec3e3df00f0ea462db7a2",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/AttributeModifierOperation.json": {
+    "mtime": 1795081567.1699977,
+    "seen": 1795096442.2170594,
+    "ast_hash": "a612d048bc5c8f63dd6490a9bfe66c4f",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateAbilitiesPacket.json": {
+    "mtime": 1795081481.4103348,
+    "seen": 1795096442.2172985,
+    "ast_hash": "c3d8108b9691b87dc091be235d01871c",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateAbilitiesPacketPayload.json": {
+    "mtime": 1795081481.7459273,
+    "seen": 1795096442.2173002,
+    "ast_hash": "b29d2fa0b563e2e9b6464baf35104d6e",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateAttributesPacket.json": {
+    "mtime": 1795081480.7491848,
+    "seen": 1795096442.2173016,
+    "ast_hash": "a3ad6f7f37aaee2e9c671ac564ff39f1",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/UpdateAttributesPacketPayload.json": {
+    "mtime": 1795081481.0866685,
+    "seen": 1795096442.2173028,
+    "ast_hash": "8ea8f543ce8e0bf2eb41b3cc2b662982",
+    "semantic_hash": ""
+  },
+  "docs/protocol/schemas/v1.26.65/hashed_string.json": {
+    "mtime": 1795081566.8530726,
+    "seen": 1795096442.2173176,
+    "ast_hash": "354931b9ff02ce6a3d84f9643a1a4986",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/gameplay/GameplayTickResult.php": {
+    "mtime": 1795159671.953586,
+    "seen": 1795168611.4030156,
+    "ast_hash": "f956ea94a51d142ded6a22f37ff52d62",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/gameplay/GameplayTicker.php": {
+    "mtime": 1795159692.2587163,
+    "seen": 1795168611.4030197,
+    "ast_hash": "a89f89f331225b1c4f6ea13e3925d016",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerAbilities.php": {
+    "mtime": 1795167496.6975384,
+    "seen": 1795168611.4031212,
+    "ast_hash": "3deee26528974bc916534fa0faf430e5",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerAttributes.php": {
+    "mtime": 1795083405.3941023,
+    "seen": 1795096442.21747,
+    "ast_hash": "2e5dbe078696f203df10bab9d2cffd95",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/UpdateAbilitiesPacket.php": {
+    "mtime": 1795083074.7209816,
+    "seen": 1795096442.2175882,
+    "ast_hash": "c2f0fbe48fed633394af58caeffb9571",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/UpdateAttributesPacket.php": {
+    "mtime": 1795083074.7209816,
+    "seen": 1795096442.2175899,
+    "ast_hash": "430c3d73618b4b020cb8ff44d3a359f7",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/Attribute.php": {
+    "mtime": 1795083053.0988982,
+    "seen": 1795096442.217603,
+    "ast_hash": "974ddd13b6a0419d50e5f3a5b56e949e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/AttributeModifier.php": {
+    "mtime": 1795083053.0988982,
+    "seen": 1795096442.2176044,
+    "ast_hash": "e57aeeb71b0ff8d3800d56fb997a2f1a",
+    "semantic_hash": ""
+  },
+  "tests/unit/gameplay/GameplayTickerTest.php": {
+    "mtime": 1795159617.3455446,
+    "seen": 1795168611.4036632,
+    "ast_hash": "517ec3a867262ad8ea422c390ba50e41",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/PlayerAttributesTest.php": {
+    "mtime": 1795085018.1643083,
+    "seen": 1795096442.2178426,
+    "ast_hash": "72ee6227ad12eec8e45bd5a9f44fbf77",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/PlayerAttributesPacketTest.php": {
+    "mtime": 1795177638.2433898,
+    "seen": 1795179581.9744618,
+    "ast_hash": "341f0f53a4a352a61dde5844a35f29bd",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase8-chunk-streaming.md": {
+    "mtime": 1795080238.0728896,
+    "seen": 1795096442.217953,
+    "ast_hash": "c08fc55851a83e385e54dd539e58ab31",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerSurvival.php": {
+    "mtime": 1795097271.1255255,
+    "seen": 1795097350.7843237,
+    "ast_hash": "20a45fc0b2aaf1f3bfe502dd53064b17",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/PlayerSurvivalTest.php": {
+    "mtime": 1795097261.6661549,
+    "seen": 1795097350.784689,
+    "ast_hash": "693e8900585c0f46cbf17d3c2a63b910",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase9-player-attributes-tick-loop.md": {
+    "mtime": 1795096592.5945487,
+    "seen": 1795097084.8382058,
+    "ast_hash": "320a54da9518be6d9f54b0c2bd34fa75",
+    "semantic_hash": ""
+  },
+  ".team/phase101-lightning.json": {
+    "mtime": 1795097490.459715,
+    "seen": 1795098437.4669933,
+    "ast_hash": "9ad04ccf09edbb2fb5ea29b7bb4140a8",
+    "semantic_hash": ""
+  },
+  ".team/phase101-minimax.json": {
+    "mtime": 1795097745.955757,
+    "seen": 1795098437.4669957,
+    "ast_hash": "13817643d2005afcd24d535c724b6386",
+    "semantic_hash": ""
+  },
+  ".team/phase101-muse.json": {
+    "mtime": 1795097766.9271328,
+    "seen": 1795098437.4669974,
+    "ast_hash": "a39347d8e5f8f20666010c49ddbf6540",
+    "semantic_hash": ""
+  },
+  ".team/phase101-super.json": {
+    "mtime": 1795097487.1772792,
+    "seen": 1795098437.4669993,
+    "ast_hash": "92ad1cb0c3f814021622012bb85cce9f",
+    "semantic_hash": ""
+  },
+  ".team/phase101-prompt.md": {
+    "mtime": 1795097461.4955814,
+    "seen": 1795098437.4679093,
+    "ast_hash": "6520539ad59d621d4119ae3ed5cf45bc",
+    "semantic_hash": ""
+  },
+  ".team/phase101-review.md": {
+    "mtime": 1795098560.2304664,
+    "seen": 1795102793.0812688,
+    "ast_hash": "8d8d165cc25853c114e3e4ee2871f855",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase101-survival-consequences.md": {
+    "mtime": 1795098560.2469301,
+    "seen": 1795102793.0813038,
+    "ast_hash": "27198579f91db63ce6dfd89459381d25",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/FoodConsumptionManager.php": {
+    "mtime": 1795178644.3294413,
+    "seen": 1795179581.9739482,
+    "ast_hash": "1943820c2a2806832cf3fa56edef1c1c",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/FoodConsumptionResult.php": {
+    "mtime": 1795178470.9008439,
+    "seen": 1795179581.97395,
+    "ast_hash": "9085889e67c0be75c25bdac62e775b42",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/FoodNutrition.php": {
+    "mtime": 1795100619.9387805,
+    "seen": 1795102793.0808065,
+    "ast_hash": "4f1a3ff2d1692c6c85fe16ea2d690bf2",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/FoodTable.php": {
+    "mtime": 1795178719.0980752,
+    "seen": 1795179581.973954,
+    "ast_hash": "bde67cad6941d7919280effe16b2dd51",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/FoodConsumptionManagerTest.php": {
+    "mtime": 1795101474.9033933,
+    "seen": 1795102793.081191,
+    "ast_hash": "703e42df1306dc6f3efdb4a4f8f799d6",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/FoodTableTest.php": {
+    "mtime": 1795099958.9329998,
+    "seen": 1795102793.0811927,
+    "ast_hash": "602e56010c46bfa9007f01f221d5b9ae",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase102-food-consumption.md": {
+    "mtime": 1795106065.3568761,
+    "seen": 1795106299.3033226,
+    "ast_hash": "65bfc528db4148e4b366277eab395d82",
+    "semantic_hash": ""
+  },
+  ".team/phase102-lightning.json": {
+    "mtime": 1795104254.9194553,
+    "seen": 1795106299.3022516,
+    "ast_hash": "ca6a0a3fd7b7a17cf2b60ff9e842fe32",
+    "semantic_hash": ""
+  },
+  ".team/phase102-minimax.json": {
+    "mtime": 1795105318.7209685,
+    "seen": 1795106299.3022537,
+    "ast_hash": "ef5ea40072062a5c02d9610b970952a2",
+    "semantic_hash": ""
+  },
+  ".team/phase102-muse.json": {
+    "mtime": 1795104487.51593,
+    "seen": 1795106299.3022554,
+    "ast_hash": "953f32e291a6223bc6c5de919e8af0e6",
+    "semantic_hash": ""
+  },
+  ".team/phase102-super.json": {
+    "mtime": 1795104264.723042,
+    "seen": 1795106299.3022568,
+    "ast_hash": "7286fc95710a6570fbf697879dfb0f2e",
+    "semantic_hash": ""
+  },
+  ".team/phase102-prompt.md": {
+    "mtime": 1795104187.7873044,
+    "seen": 1795106299.3032758,
+    "ast_hash": "8ac594ea701fd3812ffd31226c788c7a",
+    "semantic_hash": ""
+  },
+  ".team/phase102-review.md": {
+    "mtime": 1795105959.4671729,
+    "seen": 1795106299.3032792,
+    "ast_hash": "79e676b00cf57173630a022a3cea7c75",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/ItemStackRequestFailure.php": {
+    "mtime": 1795111418.3789976,
+    "seen": 1795114210.1361482,
+    "ast_hash": "eb8598354fd4868c8d32b02aa945b74e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/ItemStackRequestManager.php": {
+    "mtime": 1795115786.8213515,
+    "seen": 1795116654.886418,
+    "ast_hash": "6bbbec3856bfa51423938d10abebe948",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/ItemStackRequestPacket.php": {
+    "mtime": 1795110361.4290404,
+    "seen": 1795114210.136389,
+    "ast_hash": "9a40a399d2162791d8b6292666faa7fd",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/ItemStackResponsePacket.php": {
+    "mtime": 1795110361.4290404,
+    "seen": 1795114210.136393,
+    "ast_hash": "9fba096acb8bac735161ff1771df8dfb",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemStackNetResult.php": {
+    "mtime": 1795109875.0110972,
+    "seen": 1795114210.1365743,
+    "ast_hash": "683052e9d424e10f933442e4fa43ce16",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemStackRequest.php": {
+    "mtime": 1795110122.4215372,
+    "seen": 1795114210.1365786,
+    "ast_hash": "1b8a9bce9f98b241c0266e46c8f8c158",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemStackRequestAction.php": {
+    "mtime": 1795110740.1576915,
+    "seen": 1795114210.1365821,
+    "ast_hash": "ef35c01ed361a0150b34e53134d7d2e9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemStackRequestSlotInfo.php": {
+    "mtime": 1795110004.9594748,
+    "seen": 1795114210.1365857,
+    "ast_hash": "ae78dbd5b06f1ad4327cb1455db45c34",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemStackResponseContainerInfo.php": {
+    "mtime": 1795110361.4210873,
+    "seen": 1795114210.1365883,
+    "ast_hash": "5defed079d5a8c839772f514c3e56425",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemStackResponseInfo.php": {
+    "mtime": 1795110361.4210873,
+    "seen": 1795114210.1365917,
+    "ast_hash": "f791c037d178c644ac260c3f252530c8",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemStackResponseSlotInfo.php": {
+    "mtime": 1795110241.9897878,
+    "seen": 1795114210.1365952,
+    "ast_hash": "669c0f71a51c3cb4917ab2a643e01aa3",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/ItemStackRequestManagerTest.php": {
+    "mtime": 1795115662.7695642,
+    "seen": 1795116654.8875105,
+    "ast_hash": "a5f099a8719dbe9fbcc6c4c8fa167d1b",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/ItemStackRequestTest.php": {
+    "mtime": 1795109740.9907072,
+    "seen": 1795114210.1371129,
+    "ast_hash": "6a80f5203bb9f32df03b9b41fcaac1ff",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-11-19-phase103-item-stack-request.md": {
+    "mtime": 1795116531.5217853,
+    "seen": 1795116654.8877897,
+    "ast_hash": "5b22891c57352b93bad6a570bbc86a83",
+    "semantic_hash": ""
+  },
+  ".team/phase103-lightning.json": {
+    "mtime": 1795114758.7498212,
+    "seen": 1795116654.8855944,
+    "ast_hash": "3bef96f6890d2af910a064f1879d69c4",
+    "semantic_hash": ""
+  },
+  ".team/phase103-minimax.json": {
+    "mtime": 1795114900.7974284,
+    "seen": 1795116654.8855972,
+    "ast_hash": "b18557a1674589bdb6c3438e8487fba1",
+    "semantic_hash": ""
+  },
+  ".team/phase103-muse.json": {
+    "mtime": 1795115029.5468013,
+    "seen": 1795116654.8855987,
+    "ast_hash": "cb5c22de5a35114e4432ac942e28679d",
+    "semantic_hash": ""
+  },
+  ".team/phase103-super.json": {
+    "mtime": 1795114756.788098,
+    "seen": 1795116654.8856003,
+    "ast_hash": "4e9280e42961172b7390de7331b7d28f",
+    "semantic_hash": ""
+  },
+  ".team/phase103-lightning.md": {
+    "mtime": 1795114895.2281632,
+    "seen": 1795116654.8876972,
+    "ast_hash": "e074ce6204617e8fd933673c793334f1",
+    "semantic_hash": ""
+  },
+  ".team/phase103-minimax.md": {
+    "mtime": 1795114940.988916,
+    "seen": 1795116654.887701,
+    "ast_hash": "54dc2f46027a583f2792edf8aca8aff2",
+    "semantic_hash": ""
+  },
+  ".team/phase103-muse.md": {
+    "mtime": 1795115398.6811173,
+    "seen": 1795116654.8877032,
+    "ast_hash": "0da82bb75f801c052153a9babbf9e652",
+    "semantic_hash": ""
+  },
+  ".team/phase103-prompt.md": {
+    "mtime": 1795114624.3722155,
+    "seen": 1795116654.8877058,
+    "ast_hash": "707d0a57f7b5a880d8e929c75fab99cb",
+    "semantic_hash": ""
+  },
+  ".team/phase103-review.md": {
+    "mtime": 1795116298.7168748,
+    "seen": 1795116654.8877082,
+    "ast_hash": "4873d7c8048bd9a63ab773c833499e98",
+    "semantic_hash": ""
+  },
+  ".team/phase103-super.md": {
+    "mtime": 1795114895.2391145,
+    "seen": 1795116654.8877108,
+    "ast_hash": "85630c80e149b6222b97e84867249914",
+    "semantic_hash": ""
+  },
+  ".team/ref/ItemTypeIds.php": {
+    "mtime": 1795156812.55932,
+    "seen": 1795168611.4019084,
+    "ast_hash": "eb040215de289dc28b08a0eca80722a7",
+    "semantic_hash": ""
+  },
+  ".team/ref/chk.php": {
+    "mtime": 1795157860.6265378,
+    "seen": 1795168611.4019136,
+    "ast_hash": "badb65d9d0f595d081cd85353c067a02",
+    "semantic_hash": ""
+  },
+  ".team/ref/chk2.php": {
+    "mtime": 1795157879.77628,
+    "seen": 1795168611.4020963,
+    "ast_hash": "9f5b2996e26e69cb53d5aaf943540849",
+    "semantic_hash": ""
+  },
+  ".team/ref/enc.php": {
+    "mtime": 1795160432.941244,
+    "seen": 1795168611.4021106,
+    "ast_hash": "a27a7176c1509dc35fa1f2e4f9140daf",
+    "semantic_hash": ""
+  },
+  ".team/ref/extract.php": {
+    "mtime": 1795121271.8573499,
+    "seen": 1795168611.4021149,
+    "ast_hash": "39b43e2c754982b991a5ecd96b2b52dd",
+    "semantic_hash": ""
+  },
+  ".team/ref/gen_items.php": {
+    "mtime": 1795157240.4985087,
+    "seen": 1795168611.402118,
+    "ast_hash": "afcc8c91f18f1cfaa55dc5e9cedce64b",
+    "semantic_hash": ""
+  },
+  ".team/ref/gopher_item.go": {
+    "mtime": 1795156840.7143636,
+    "seen": 1795168611.4021218,
+    "ast_hash": "4f1253ce52db2c68be94f16e35a51bab",
+    "semantic_hash": ""
+  },
+  ".team/ref/gopher_item_descriptor.go": {
+    "mtime": 1795156841.0696952,
+    "seen": 1795168611.402125,
+    "ast_hash": "72181697c0a44180562c129f3488fbd7",
+    "semantic_hash": ""
+  },
+  ".team/ref/item_registry.go": {
+    "mtime": 1795157032.2037668,
+    "seen": 1795168611.4021275,
+    "ast_hash": "5e69fffc20a9a3f2bbdc6619d3efe179",
+    "semantic_hash": ""
+  },
+  ".team/ref/item_stack.go": {
+    "mtime": 1795156750.3494172,
+    "seen": 1795168611.4021308,
+    "ast_hash": "ed109851e6406d283d6743c3a91ed486",
+    "semantic_hash": ""
+  },
+  ".team/ref/level_sound_event.go": {
+    "mtime": 1795121548.6755176,
+    "seen": 1795168611.4021344,
+    "ast_hash": "04c63680680f117deed4fcb071a5594a",
+    "semantic_hash": ""
+  },
+  ".team/ref/required_item_list.json": {
+    "mtime": 1795121225.1794484,
+    "seen": 1795168611.4021368,
+    "ast_hash": "663f098552e48c4feb10ebec0c190037",
+    "semantic_hash": ""
+  },
+  ".team/ref/s.php": {
+    "mtime": 1795156893.143536,
+    "seen": 1795168611.4021392,
+    "ast_hash": "efba5529d09432f3a785f3eaacfbdfb1",
+    "semantic_hash": ""
+  },
+  ".team/ref/s2.php": {
+    "mtime": 1795156996.1582158,
+    "seen": 1795168611.4021423,
+    "ast_hash": "f4861c4833fa6d306eef0c9f5fb8de59",
+    "semantic_hash": ""
+  },
+  ".team/ref/start_game.go": {
+    "mtime": 1795156945.422883,
+    "seen": 1795168611.402145,
+    "ast_hash": "134da0fa9bc22523f84f0c3efa73ab31",
+    "semantic_hash": ""
+  },
+  ".team/ref/stats.php": {
+    "mtime": 1795157217.2692544,
+    "seen": 1795168611.4021475,
+    "ast_hash": "8651c35433a3355a382ace0773c1a398",
+    "semantic_hash": ""
+  },
+  "resources/item-registry.json": {
+    "mtime": 1795157240.573669,
+    "seen": 1795168611.4028313,
+    "ast_hash": "9ad2d97ac5a270bc197523648e10aac9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/skin/PngDecoder.php": {
+    "mtime": 1795165200.5597582,
+    "seen": 1795168611.402945,
+    "ast_hash": "670d3876dfbf26ed7d19a9c1988f2920",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/skin/PngImage.php": {
+    "mtime": 1795165200.5597582,
+    "seen": 1795168611.402949,
+    "ast_hash": "b5ca7770eb342f95349bb0dc7d59003a",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/skin/SkinException.php": {
+    "mtime": 1795164480.2909498,
+    "seen": 1795168611.4029522,
+    "ast_hash": "95f0c9bead387b3fbd55002472dab705",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/auth/skin/SkinSerializer.php": {
+    "mtime": 1795168465.1567285,
+    "seen": 1795168611.402955,
+    "ast_hash": "2529bbf8f980c38733d9f80d15eef297",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/item/ItemTable.php": {
+    "mtime": 1795158002.799026,
+    "seen": 1795168611.4030385,
+    "ast_hash": "a015aa2839c35329e2c8dba07b24b08c",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/BlockSound.php": {
+    "mtime": 1795161721.7916584,
+    "seen": 1795168611.4030952,
+    "ast_hash": "c791d57c8783a057155883869417ad3f",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/GameMode.php": {
+    "mtime": 1795167553.8036447,
+    "seen": 1795168611.403107,
+    "ast_hash": "0d1a6108196c46579ee8939eba9a9e17",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/ItemRegistryPacket.php": {
+    "mtime": 1795157530.536219,
+    "seen": 1795168611.4032152,
+    "ast_hash": "593eb98afa733f4f0f91cf6651cd6c72",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ItemEntry.php": {
+    "mtime": 1795157508.7802184,
+    "seen": 1795168611.4033449,
+    "ast_hash": "bdcdd31a3e2df2203c6bfcd0bb2a7393",
+    "semantic_hash": ""
+  },
+  "tests/support/PngFixture.php": {
+    "mtime": 1795164205.4548712,
+    "seen": 1795168611.403596,
+    "ast_hash": "eac5968181f93dca023c4679565e0c0b",
+    "semantic_hash": ""
+  },
+  "tests/unit/auth/skin/PngDecoderTest.php": {
+    "mtime": 1795165315.5750952,
+    "seen": 1795168611.403657,
+    "ast_hash": "e9953729b3843a4ab7186c396790192f",
+    "semantic_hash": ""
+  },
+  "tests/unit/auth/skin/SkinSerializerTest.php": {
+    "mtime": 1795168486.9703348,
+    "seen": 1795168611.403659,
+    "ast_hash": "1791f0cc3adb3ae0ebeeed9fae25eb4a",
+    "semantic_hash": ""
+  },
+  "tests/unit/item/ItemTableTest.php": {
+    "mtime": 1795158152.7912905,
+    "seen": 1795168611.4036648,
+    "ast_hash": "220a48b80d165cad1bca7540a92700f0",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/HealthManagerTest.php": {
+    "mtime": 1795161123.5719864,
+    "seen": 1795168611.4036732,
+    "ast_hash": "34c7d3b3b8d058baf11e88e9c8418c3f",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/PlayerAbilitiesTest.php": {
+    "mtime": 1795168163.543414,
+    "seen": 1795168611.403677,
+    "ast_hash": "4f6712a20cee8516b1bd377d04f6e698",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/PlayerSnapshotTest.php": {
+    "mtime": 1795168257.243482,
+    "seen": 1795168611.4036808,
+    "ast_hash": "2a9a5b291a7414e284bad7ed9bc90d5a",
+    "semantic_hash": ""
+  },
+  "tests/unit/protocol/ItemRegistryPacketTest.php": {
+    "mtime": 1795158097.5200462,
+    "seen": 1795168611.4037,
+    "ast_hash": "4ebd99c1c36c6d7e56e32922b00dab8d",
+    "semantic_hash": ""
+  },
+  ".team/phase104-lightning.json": {
+    "mtime": 1795169380.9343736,
+    "seen": 1795179581.9733672,
+    "ast_hash": "b0da2a76869e6f7dfed56e1305737426",
+    "semantic_hash": ""
+  },
+  ".team/phase104-minimax.json": {
+    "mtime": 1795169398.6475048,
+    "seen": 1795179581.9733706,
+    "ast_hash": "33da7df7283bc696689e14cd9427357a",
+    "semantic_hash": ""
+  },
+  ".team/phase104-muse.json": {
+    "mtime": 1795170420.940376,
+    "seen": 1795179581.9733732,
+    "ast_hash": "5c17cf82569eedb7766c90566c2c3d8a",
+    "semantic_hash": ""
+  },
+  ".team/phase104-super.json": {
+    "mtime": 1795169384.2673616,
+    "seen": 1795179581.9733746,
+    "ast_hash": "55200b647a2b8ae5cd3167825f981d95",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/item/ItemDescriptorFactory.php": {
+    "mtime": 1795177747.5669014,
+    "seen": 1795179581.9738958,
+    "ast_hash": "ce4c5d52986ab5736b89f818167af839",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/player/PlayerMetadata.php": {
+    "mtime": 1795178281.9761145,
+    "seen": 1795179581.9739826,
+    "ast_hash": "01bb42a9aa86b6bec19f23783bf8846e",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/NetworkChunkPublisherUpdatePacket.php": {
+    "mtime": 1795174251.8086855,
+    "seen": 1795179581.9740713,
+    "ast_hash": "97cd674b4a5abc226d67be887016f75b",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/packets/SetSpawnPositionPacket.php": {
+    "mtime": 1795176983.7338364,
+    "seen": 1795179581.9741,
+    "ast_hash": "95c542656cf0b47f757117186219e177",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/ChunkPos.php": {
+    "mtime": 1795174251.8086855,
+    "seen": 1795179581.974134,
+    "ast_hash": "3d56466edd4634ce7ed68ce5a0243967",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/protocol/packet/types/SpawnPositionType.php": {
+    "mtime": 1795176931.0676625,
+    "seen": 1795179581.9742095,
+    "ast_hash": "c87aef7fc275efb3c4d0c967fdff3b2c",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/BlockActionManagerTest.php": {
+    "mtime": 1795172201.4570875,
+    "seen": 1795179581.974415,
+    "ast_hash": "9fddfb4fb4dbba3faa1ba5184da3d3ac",
+    "semantic_hash": ""
+  },
+  "tests/unit/player/PlayerMetadataTest.php": {
+    "mtime": 1795170629.4750547,
+    "seen": 1795179581.9744315,
+    "ast_hash": "6c4813b7f40af4ffb624e7d7e1e195d2",
+    "semantic_hash": ""
+  },
+  ".team/phase104-lightning.md": {
+    "mtime": 1795169413.327685,
+    "seen": 1795179581.9745383,
+    "ast_hash": "2187246de6bf8a7266e5dae4d8184d68",
+    "semantic_hash": ""
+  },
+  ".team/phase104-minimax.md": {
+    "mtime": 1795169413.3346677,
+    "seen": 1795179581.9745605,
+    "ast_hash": "6eaa9a0d7f2ed797ae960ff71c28ccb6",
+    "semantic_hash": ""
+  },
+  ".team/phase104-prompt.md": {
+    "mtime": 1795169321.2472494,
+    "seen": 1795179581.9745626,
+    "ast_hash": "696cf12c1addc24c09977b3b758caae3",
+    "semantic_hash": ""
+  },
+  ".team/phase104-review.md": {
+    "mtime": 1795171617.5403821,
+    "seen": 1795179581.974564,
+    "ast_hash": "d6df6a90068288f8bba95572a342acda",
+    "semantic_hash": ""
+  },
+  ".team/phase104-super.md": {
+    "mtime": 1795169413.331676,
+    "seen": 1795179581.9745657,
+    "ast_hash": "c157a1de98c95e8a23af35cedf0a7923",
+    "semantic_hash": ""
+  }
+}

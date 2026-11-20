@@ -24,10 +24,10 @@
     "semantic_hash": ""
   },
   "src/PickaxeMP/Server.php": {
-    "mtime": 1794932774.9452639,
-    "seen": 1794962331.3553326,
-    "ast_hash": "0970c562a7bda45500e2925483f1e56d",
-    "semantic_hash": "0970c562a7bda45500e2925483f1e56d"
+    "mtime": 1795182289.454276,
+    "seen": 1795182505.625421,
+    "ast_hash": "a31d8b6a71effcbcef6f801ef09f420d",
+    "semantic_hash": ""
   },
   "src/PickaxeMP/auth/AuthException.php": {
     "mtime": 1794948280.167257,
@@ -186,10 +186,10 @@
     "semantic_hash": "f7a20f2a4e73b76a4846629176bbae4a"
   },
   "src/PickaxeMP/command/CommandMap.php": {
-    "mtime": 1794910354.0,
-    "seen": 1794962331.3587863,
-    "ast_hash": "6be4861d1b5faadb7425ad059a696a59",
-    "semantic_hash": "6be4861d1b5faadb7425ad059a696a59"
+    "mtime": 1795182191.887113,
+    "seen": 1795182505.6255362,
+    "ast_hash": "8f2c4254696b66c88e4d57bf960d215c",
+    "semantic_hash": ""
   },
   "src/PickaxeMP/event/EventDispatcher.php": {
     "mtime": 1794910354.0,
@@ -840,10 +840,10 @@
     "semantic_hash": "7c54126449403aa81e50c36e56dcef39"
   },
   "start.php": {
-    "mtime": 1794931646.171813,
-    "seen": 1794962331.3736966,
-    "ast_hash": "6a0d15a150994fb1f0b62395ad5893e0",
-    "semantic_hash": "6a0d15a150994fb1f0b62395ad5893e0"
+    "mtime": 1795182351.0728846,
+    "seen": 1795182505.6264427,
+    "ast_hash": "da60d5b54302113d628c07087c600706",
+    "semantic_hash": ""
   },
   "start.sh": {
     "mtime": 1794910354.0,
@@ -864,10 +864,10 @@
     "semantic_hash": "768d8b4a8a947509150414046734b585"
   },
   "tests/integration/ServerBootTest.php": {
-    "mtime": 1794932814.2948508,
-    "seen": 1794962331.374386,
-    "ast_hash": "8619906c97fee6a2606f39075794bb4a",
-    "semantic_hash": "8619906c97fee6a2606f39075794bb4a"
+    "mtime": 1795182470.2734156,
+    "seen": 1795182505.626474,
+    "ast_hash": "7ee7472532eda173292c2ba451bf0a1e",
+    "semantic_hash": ""
   },
   "tests/integration/SessionAuthenticatorTest.php": {
     "mtime": 1794978345.4642081,
@@ -2232,9 +2232,9 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1795181047.990462,
-    "seen": 1795181152.5875146,
-    "ast_hash": "ae831e51d053764cc392469565e94140",
+    "mtime": 1795181294.0180807,
+    "seen": 1795181381.6828783,
+    "ast_hash": "f3bdcb004dcef1201b9a3a290e190e10",
     "semantic_hash": ""
   },
   "CONTRIBUTING.md": {
@@ -2250,9 +2250,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795181134.7091947,
-    "seen": 1795181152.58752,
-    "ast_hash": "b07f9dc7f58f70bd6bf10e04e01f9778",
+    "mtime": 1795181280.132603,
+    "seen": 1795181381.68289,
+    "ast_hash": "6b458c53c54c638e68f52c5992094e92",
     "semantic_hash": ""
   },
   "docs/DEVELOPMENT_STATE.md": {
@@ -4119,6 +4119,120 @@
     "mtime": 1795169413.331676,
     "seen": 1795179581.9745657,
     "ast_hash": "c157a1de98c95e8a23af35cedf0a7923",
+    "semantic_hash": ""
+  },
+  "config.yml": {
+    "mtime": 1795181014.5393271,
+    "seen": 1795181381.680938,
+    "ast_hash": "98a3bc270c505b9960fb933b1acf9790",
+    "semantic_hash": ""
+  },
+  "lint.php": {
+    "mtime": 1794929459.6899226,
+    "seen": 1795181381.68158,
+    "ast_hash": "c51cd1a4b6649ef785003fda088e0214",
+    "semantic_hash": ""
+  },
+  "verify-encryption.php": {
+    "mtime": 1794958615.7035031,
+    "seen": 1795181381.6827908,
+    "ast_hash": "d6691bc1fd8f1e478d07d5b91df65fe9",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/AbstractCommand.php": {
+    "mtime": 1795182219.2560692,
+    "seen": 1795182505.6255288,
+    "ast_hash": "57e7ed36b785eb64a250bbd569f8d6eb",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/CommandInterface.php": {
+    "mtime": 1795182191.8831244,
+    "seen": 1795182505.6255329,
+    "ast_hash": "4f91d3e056debb8b804b0da43884d454",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/HelpCommand.php": {
+    "mtime": 1795182219.2620542,
+    "seen": 1795182505.6255395,
+    "ast_hash": "3c629676b8dd718d96a77040a41fe5e5",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/ListCommand.php": {
+    "mtime": 1795182219.2690363,
+    "seen": 1795182505.6255424,
+    "ast_hash": "20c22271bd504df8394600b7c35187bf",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/PluginsCommand.php": {
+    "mtime": 1795182219.2829976,
+    "seen": 1795182505.6255455,
+    "ast_hash": "f18fffae228a46df463112d471250253",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/ReloadConfigCommand.php": {
+    "mtime": 1795182219.3234022,
+    "seen": 1795182505.625548,
+    "ast_hash": "252ec85355945f1be3e4e785dc448a32",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/SaveAllCommand.php": {
+    "mtime": 1795182219.2690363,
+    "seen": 1795182505.6255505,
+    "ast_hash": "219f58f5adfeae6ac4335dbfd15c5109",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/SayCommand.php": {
+    "mtime": 1795182219.318415,
+    "seen": 1795182505.6255534,
+    "ast_hash": "56833d8cc053b734a5784e259fc17524",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/StatusCommand.php": {
+    "mtime": 1795182219.2690363,
+    "seen": 1795182505.625556,
+    "ast_hash": "2d5bd14906a1268bcd16901ec5a71fec",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/StopCommand.php": {
+    "mtime": 1795182219.3234022,
+    "seen": 1795182505.6255586,
+    "ast_hash": "98b30b4f5f785e58d6e62ee208c879ae",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/command/VersionCommand.php": {
+    "mtime": 1795182219.2680383,
+    "seen": 1795182505.6255612,
+    "ast_hash": "9ad24760b87cd94f95cacfe47bda0be6",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/console/ConsoleCommandDispatcher.php": {
+    "mtime": 1795182191.887113,
+    "seen": 1795182505.6255744,
+    "ast_hash": "61b8f943177e2ed22135bf56ed5f29fc",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/console/ConsoleCommandSender.php": {
+    "mtime": 1795182191.887113,
+    "seen": 1795182505.6255774,
+    "ast_hash": "4d7aa20bb81139cba507ddfe03b3a6ad",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/console/ConsoleManager.php": {
+    "mtime": 1795182191.8891082,
+    "seen": 1795182505.62558,
+    "ast_hash": "ac005fbc9face080ad96c27ee4dd3974",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/console/ConsoleRenderer.php": {
+    "mtime": 1795182191.8881104,
+    "seen": 1795182505.6255827,
+    "ast_hash": "6d00f540da89ee3cabd396678818ac58",
+    "semantic_hash": ""
+  },
+  "src/PickaxeMP/console/StdinConsoleReader.php": {
+    "mtime": 1795182303.4755673,
+    "seen": 1795182505.6255853,
+    "ast_hash": "49b896824221a60e46f50f5e7fa9d592",
     "semantic_hash": ""
   }
 }

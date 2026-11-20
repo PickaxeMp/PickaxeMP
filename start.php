@@ -28,20 +28,11 @@ try {
 $settings = $kernel->getSettings();
 $logger = $kernel->getLogger();
 
-$logger->info('Yapilandirma yuklendi.', [
-    'source' => $kernel->getConfig()->source(),
-    'server' => $settings->serverName,
-    'port' => $settings->port,
-    'max-players' => $settings->maxPlayers,
-]);
-
 if ($checkOnly) {
     $logger->info('Boot kontrolu tamamlandi (--check).');
     $server->shutdown();
     exit(0);
 }
-
-$logger->warning('Phase 0: ag, oyuncu, dunya ve eklenti sistemleri henuz YOK.');
 
 /**
  * CTRL+C / CTRL+BREAK ile nazik kapanış.
@@ -71,7 +62,7 @@ if (function_exists('sapi_windows_set_ctrl_handler')) {
 }
 
 try {
-    $server->run($maxTicks, static fn (): bool => $control->stopRequested);
+    $server->run($maxTicks, static fn (): bool => $control->stopRequested || $server->getConsoleManager()->isStopRequested());
 } finally {
     $server->shutdown();
 }

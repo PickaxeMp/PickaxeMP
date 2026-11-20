@@ -37,7 +37,7 @@ final class ServerBootTest extends TestCase
         [$exitCode, $output] = $this->runPhp(['start.php', '--ticks=2']);
 
         self::assertSame(0, $exitCode, "Beklenmeyen cikis kodu. Cikti:\n{$output}");
-        self::assertStringContainsString('Phase 0', $output);
+        self::assertStringContainsString('PickaxeMP >', $output);
         self::assertStringContainsString('Cekirdek kapatildi', $output);
     }
 
